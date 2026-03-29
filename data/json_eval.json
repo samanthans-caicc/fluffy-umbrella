@@ -1,0 +1,706 @@
+[
+  {
+    "prompt_id": "json_extract_001",
+    "task_type": "json_extraction",
+    "instruction": "Extract all person names and their ages from the following text and return them as a JSON array of objects with 'name' and 'age' fields.",
+    "input": "At the conference, Sarah Johnson (34) presented alongside Mike Chen (28) and Dr. Priya Patel (45).",
+    "output": "[{\"name\": \"Sarah Johnson\", \"age\": 34}, {\"name\": \"Mike Chen\", \"age\": 28}, {\"name\": \"Priya Patel\", \"age\": 45}]"
+  },
+  {
+    "prompt_id": "json_extract_002",
+    "task_type": "json_extraction",
+    "instruction": "Extract the product name, price, and currency from this text. Return as a JSON object.",
+    "input": "The new Galaxy S25 Ultra is now available for $1,299.99 in the US market.",
+    "output": "{\"product_name\": \"Galaxy S25 Ultra\", \"price\": 1299.99, \"currency\": \"USD\"}"
+  },
+  {
+    "prompt_id": "json_extract_003",
+    "task_type": "json_extraction",
+    "instruction": "Extract all dates mentioned in the text and return them as a JSON array with 'event' and 'date' fields in ISO format.",
+    "input": "The project kicked off on January 15, 2025. The first milestone is due by March 30, 2025, and the final delivery is expected on August 1, 2025.",
+    "output": "[{\"event\": \"project kickoff\", \"date\": \"2025-01-15\"}, {\"event\": \"first milestone\", \"date\": \"2025-03-30\"}, {\"event\": \"final delivery\", \"date\": \"2025-08-01\"}]"
+  },
+  {
+    "prompt_id": "json_extract_004",
+    "task_type": "json_extraction",
+    "instruction": "Extract the company name, location, and industry from this paragraph. Return as a JSON object.",
+    "input": "Founded in Austin, Texas, Luminary AI has quickly become one of the leading firms in the artificial intelligence sector, specializing in healthcare applications.",
+    "output": "{\"company_name\": \"Luminary AI\", \"location\": \"Austin, Texas\", \"industry\": \"artificial intelligence\"}"
+  },
+  {
+    "prompt_id": "json_extract_005",
+    "task_type": "json_extraction",
+    "instruction": "Extract the email addresses and associated names from this text. Return as a JSON array of objects with 'name' and 'email' fields.",
+    "input": "Please contact our team: Alice Rivera at alice.rivera@techcorp.com, Bob Tanaka at b.tanaka@techcorp.com, or the general inbox at support@techcorp.com.",
+    "output": "[{\"name\": \"Alice Rivera\", \"email\": \"alice.rivera@techcorp.com\"}, {\"name\": \"Bob Tanaka\", \"email\": \"b.tanaka@techcorp.com\"}, {\"name\": \"general inbox\", \"email\": \"support@techcorp.com\"}]"
+  },
+  {
+    "prompt_id": "json_extract_006",
+    "task_type": "json_extraction",
+    "instruction": "Extract the restaurant name, cuisine type, and rating from the following review. Return as a JSON object.",
+    "input": "We had an amazing dinner at Sakura Garden last night. Their Japanese fusion dishes were outstanding, and I would easily give them a 4.5 out of 5.",
+    "output": "{\"restaurant_name\": \"Sakura Garden\", \"cuisine_type\": \"Japanese fusion\", \"rating\": 4.5}"
+  },
+  {
+    "prompt_id": "json_extract_007",
+    "task_type": "json_extraction",
+    "instruction": "Extract all programming languages mentioned and whether they are described positively or negatively. Return as a JSON array of objects with 'language' and 'sentiment' fields.",
+    "input": "Python remains the most beginner-friendly language, and Rust is praised for its memory safety. However, many developers find C++ overly complex, and PHP continues to receive criticism for its inconsistencies.",
+    "output": "[{\"language\": \"Python\", \"sentiment\": \"positive\"}, {\"language\": \"Rust\", \"sentiment\": \"positive\"}, {\"language\": \"C++\", \"sentiment\": \"negative\"}, {\"language\": \"PHP\", \"sentiment\": \"negative\"}]"
+  },
+  {
+    "prompt_id": "json_extract_008",
+    "task_type": "json_extraction",
+    "instruction": "Extract the flight information from this text: departure city, arrival city, airline, and flight number. Return as a JSON object.",
+    "input": "Your booking is confirmed: United Airlines flight UA 847 departing from San Francisco to Tokyo Narita.",
+    "output": "{\"departure_city\": \"San Francisco\", \"arrival_city\": \"Tokyo Narita\", \"airline\": \"United Airlines\", \"flight_number\": \"UA 847\"}"
+  },
+  {
+    "prompt_id": "json_extract_009",
+    "task_type": "json_extraction",
+    "instruction": "Extract the book title, author, and publication year from this text. Return as a JSON object.",
+    "input": "In her 2022 bestseller 'The Light We Carry', Michelle Obama explores themes of resilience and personal growth drawn from her own life experiences.",
+    "output": "{\"title\": \"The Light We Carry\", \"author\": \"Michelle Obama\", \"publication_year\": 2022}"
+  },
+  {
+    "prompt_id": "json_extract_010",
+    "task_type": "json_extraction",
+    "instruction": "Extract all medications and their dosages from this clinical note. Return as a JSON array of objects with 'medication' and 'dosage' fields.",
+    "input": "Patient is currently taking Metformin 500mg twice daily, Lisinopril 10mg once daily, and Atorvastatin 20mg at bedtime.",
+    "output": "[{\"medication\": \"Metformin\", \"dosage\": \"500mg twice daily\"}, {\"medication\": \"Lisinopril\", \"dosage\": \"10mg once daily\"}, {\"medication\": \"Atorvastatin\", \"dosage\": \"20mg at bedtime\"}]"
+  },
+  {
+    "prompt_id": "json_extract_011",
+    "task_type": "json_extraction",
+    "instruction": "Extract the job title, company, and required years of experience from this job posting. Return as a JSON object.",
+    "input": "We are hiring a Senior Machine Learning Engineer at DataBridge Inc. Candidates must have at least 5 years of experience in ML/AI.",
+    "output": "{\"job_title\": \"Senior Machine Learning Engineer\", \"company\": \"DataBridge Inc.\", \"years_experience\": 5}"
+  },
+  {
+    "prompt_id": "json_extract_012",
+    "task_type": "json_extraction",
+    "instruction": "Extract the stock ticker symbols and their percentage changes from this text. Return as a JSON array of objects with 'ticker' and 'change_percent' fields.",
+    "input": "Today's movers: AAPL rose 2.3%, TSLA dropped 4.1%, and NVDA gained 1.8% in afternoon trading.",
+    "output": "[{\"ticker\": \"AAPL\", \"change_percent\": 2.3}, {\"ticker\": \"TSLA\", \"change_percent\": -4.1}, {\"ticker\": \"NVDA\", \"change_percent\": 1.8}]"
+  },
+  {
+    "prompt_id": "json_extract_013",
+    "task_type": "json_extraction",
+    "instruction": "Extract the ingredients and their quantities from this recipe snippet. Return as a JSON array of objects with 'ingredient' and 'quantity' fields.",
+    "input": "For the sauce you will need 2 cups of crushed tomatoes, 3 cloves of garlic, 1 tablespoon of olive oil, and a pinch of salt.",
+    "output": "[{\"ingredient\": \"crushed tomatoes\", \"quantity\": \"2 cups\"}, {\"ingredient\": \"garlic\", \"quantity\": \"3 cloves\"}, {\"ingredient\": \"olive oil\", \"quantity\": \"1 tablespoon\"}, {\"ingredient\": \"salt\", \"quantity\": \"a pinch\"}]"
+  },
+  {
+    "prompt_id": "json_extract_014",
+    "task_type": "json_extraction",
+    "instruction": "Extract the university name, degree type, and field of study from this text. Return as a JSON object.",
+    "input": "She completed her Master of Science in Computer Engineering at Georgia Institute of Technology in 2023.",
+    "output": "{\"university\": \"Georgia Institute of Technology\", \"degree_type\": \"Master of Science\", \"field_of_study\": \"Computer Engineering\"}"
+  },
+  {
+    "prompt_id": "json_extract_015",
+    "task_type": "json_extraction",
+    "instruction": "Extract the country, capital, and population mentioned in this text. Return as a JSON object.",
+    "input": "Norway, with its capital Oslo, has a population of approximately 5.5 million people and is known for its fjords.",
+    "output": "{\"country\": \"Norway\", \"capital\": \"Oslo\", \"population\": \"5.5 million\"}"
+  },
+  {
+    "prompt_id": "json_extract_016",
+    "task_type": "json_extraction",
+    "instruction": "Extract the error code, error message, and affected service from this log entry. Return as a JSON object.",
+    "input": "[2025-03-15 14:22:01] ERROR 503: Service Unavailable — the authentication-service failed to respond within the 30s timeout window.",
+    "output": "{\"error_code\": 503, \"error_message\": \"Service Unavailable\", \"affected_service\": \"authentication-service\"}"
+  },
+  {
+    "prompt_id": "json_extract_017",
+    "task_type": "json_extraction",
+    "instruction": "Extract the movie title, director, and genre from this text. Return as a JSON object.",
+    "input": "Christopher Nolan's science fiction epic 'Interstellar' continues to captivate audiences a decade after its release.",
+    "output": "{\"movie_title\": \"Interstellar\", \"director\": \"Christopher Nolan\", \"genre\": \"science fiction\"}"
+  },
+  {
+    "prompt_id": "json_extract_018",
+    "task_type": "json_extraction",
+    "instruction": "Extract all physical measurements from this product description. Return as a JSON object with 'width', 'height', 'depth', and 'weight' fields.",
+    "input": "The monitor measures 24.5 inches wide, 14.8 inches tall, and 2.1 inches deep, weighing just 8.4 pounds.",
+    "output": "{\"width\": \"24.5 inches\", \"height\": \"14.8 inches\", \"depth\": \"2.1 inches\", \"weight\": \"8.4 pounds\"}"
+  },
+  {
+    "prompt_id": "json_extract_019",
+    "task_type": "json_extraction",
+    "instruction": "Extract the event name, date, and venue from this announcement. Return as a JSON object.",
+    "input": "Join us for the Annual AI Research Summit on September 12, 2025 at the San Jose Convention Center.",
+    "output": "{\"event_name\": \"Annual AI Research Summit\", \"date\": \"2025-09-12\", \"venue\": \"San Jose Convention Center\"}"
+  },
+  {
+    "prompt_id": "json_extract_020",
+    "task_type": "json_extraction",
+    "instruction": "Extract the athlete name, sport, and achievement from this text. Return as a JSON object.",
+    "input": "Swimmer Katie Ledecky broke the world record in the 1500m freestyle with a time of 15:20.48 at the World Championships.",
+    "output": "{\"athlete_name\": \"Katie Ledecky\", \"sport\": \"swimming\", \"achievement\": \"world record in 1500m freestyle\", \"time\": \"15:20.48\"}"
+  },
+
+  {
+    "prompt_id": "schema_gen_001",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a valid JSON object representing a user profile that conforms to this schema: {name: string, email: string, age: integer, is_active: boolean, roles: array of strings}.",
+    "input": "",
+    "output": "{\"name\": \"Jordan Lee\", \"email\": \"jordan.lee@example.com\", \"age\": 29, \"is_active\": true, \"roles\": [\"developer\", \"reviewer\"]}"
+  },
+  {
+    "prompt_id": "schema_gen_002",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object representing a weather forecast that matches this schema: {city: string, date: string (ISO format), temperature_high: number, temperature_low: number, conditions: string, humidity_percent: integer}.",
+    "input": "",
+    "output": "{\"city\": \"Denver\", \"date\": \"2025-04-10\", \"temperature_high\": 72.5, \"temperature_low\": 48.0, \"conditions\": \"partly cloudy\", \"humidity_percent\": 35}"
+  },
+  {
+    "prompt_id": "schema_gen_003",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a library book record with this schema: {title: string, author: string, isbn: string, published_year: integer, available: boolean, genres: array of strings}.",
+    "input": "",
+    "output": "{\"title\": \"The Midnight Library\", \"author\": \"Matt Haig\", \"isbn\": \"978-0525559474\", \"published_year\": 2020, \"available\": true, \"genres\": [\"fiction\", \"fantasy\"]}"
+  },
+  {
+    "prompt_id": "schema_gen_004",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for an e-commerce order conforming to this schema: {order_id: string, customer_name: string, items: array of {product: string, quantity: integer, price: number}, total: number, status: string}.",
+    "input": "",
+    "output": "{\"order_id\": \"ORD-20250328-001\", \"customer_name\": \"Emily Watson\", \"items\": [{\"product\": \"Wireless Mouse\", \"quantity\": 1, \"price\": 29.99}, {\"product\": \"USB-C Hub\", \"quantity\": 2, \"price\": 45.00}], \"total\": 119.99, \"status\": \"shipped\"}"
+  },
+  {
+    "prompt_id": "schema_gen_005",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a movie entry matching this schema: {title: string, year: integer, director: string, rating: number (0-10), genres: array of strings, runtime_minutes: integer}.",
+    "input": "",
+    "output": "{\"title\": \"Dune: Part Two\", \"year\": 2024, \"director\": \"Denis Villeneuve\", \"rating\": 8.6, \"genres\": [\"sci-fi\", \"adventure\", \"drama\"], \"runtime_minutes\": 166}"
+  },
+  {
+    "prompt_id": "schema_gen_006",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a server health check response with this schema: {server_id: string, status: string (one of: healthy, degraded, down), uptime_hours: number, cpu_usage_percent: number, memory_usage_percent: number, last_checked: string (ISO datetime)}.",
+    "input": "",
+    "output": "{\"server_id\": \"srv-us-east-042\", \"status\": \"healthy\", \"uptime_hours\": 720.5, \"cpu_usage_percent\": 34.2, \"memory_usage_percent\": 61.8, \"last_checked\": \"2025-03-28T14:30:00Z\"}"
+  },
+  {
+    "prompt_id": "schema_gen_007",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a recipe matching this schema: {name: string, servings: integer, prep_time_minutes: integer, cook_time_minutes: integer, ingredients: array of {item: string, amount: string}, difficulty: string}.",
+    "input": "",
+    "output": "{\"name\": \"Garlic Butter Shrimp Pasta\", \"servings\": 4, \"prep_time_minutes\": 15, \"cook_time_minutes\": 20, \"ingredients\": [{\"item\": \"linguine\", \"amount\": \"400g\"}, {\"item\": \"shrimp\", \"amount\": \"500g\"}, {\"item\": \"garlic\", \"amount\": \"6 cloves\"}, {\"item\": \"butter\", \"amount\": \"3 tbsp\"}], \"difficulty\": \"easy\"}"
+  },
+  {
+    "prompt_id": "schema_gen_008",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a student transcript record with this schema: {student_id: string, name: string, gpa: number, courses: array of {course_name: string, grade: string, credits: integer}, total_credits: integer}.",
+    "input": "",
+    "output": "{\"student_id\": \"STU-2025-0483\", \"name\": \"Aisha Patel\", \"gpa\": 3.72, \"courses\": [{\"course_name\": \"Machine Learning\", \"grade\": \"A\", \"credits\": 3}, {\"course_name\": \"Linear Algebra\", \"grade\": \"A-\", \"credits\": 3}, {\"course_name\": \"Data Structures\", \"grade\": \"B+\", \"credits\": 4}], \"total_credits\": 10}"
+  },
+  {
+    "prompt_id": "schema_gen_009",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a conference talk submission matching this schema: {talk_id: string, title: string, speaker: string, abstract: string, duration_minutes: integer, track: string, tags: array of strings}.",
+    "input": "",
+    "output": "{\"talk_id\": \"TALK-2025-117\", \"title\": \"Scaling LLMs for Low-Resource Languages\", \"speaker\": \"Dr. Fatima Al-Rashid\", \"abstract\": \"This talk explores efficient fine-tuning strategies for adapting large language models to underserved language communities.\", \"duration_minutes\": 30, \"track\": \"NLP\", \"tags\": [\"multilingual\", \"fine-tuning\", \"low-resource\"]}"
+  },
+  {
+    "prompt_id": "schema_gen_010",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a vehicle listing matching this schema: {make: string, model: string, year: integer, mileage: integer, price: number, fuel_type: string, features: array of strings}.",
+    "input": "",
+    "output": "{\"make\": \"Toyota\", \"model\": \"Camry\", \"year\": 2023, \"mileage\": 18500, \"price\": 27450.00, \"fuel_type\": \"hybrid\", \"features\": [\"adaptive cruise control\", \"lane assist\", \"heated seats\", \"backup camera\"]}"
+  },
+  {
+    "prompt_id": "schema_gen_011",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for an API error response matching this schema: {error: {code: integer, message: string, type: string}, request_id: string, timestamp: string (ISO datetime)}.",
+    "input": "",
+    "output": "{\"error\": {\"code\": 429, \"message\": \"Rate limit exceeded. Please retry after 60 seconds.\", \"type\": \"rate_limit_error\"}, \"request_id\": \"req_abc123def456\", \"timestamp\": \"2025-03-28T16:45:12Z\"}"
+  },
+  {
+    "prompt_id": "schema_gen_012",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a fitness workout log matching this schema: {date: string, workout_type: string, duration_minutes: integer, exercises: array of {name: string, sets: integer, reps: integer, weight_lbs: number}, calories_burned: integer}.",
+    "input": "",
+    "output": "{\"date\": \"2025-03-28\", \"workout_type\": \"strength\", \"duration_minutes\": 55, \"exercises\": [{\"name\": \"bench press\", \"sets\": 4, \"reps\": 8, \"weight_lbs\": 185}, {\"name\": \"squat\", \"sets\": 4, \"reps\": 6, \"weight_lbs\": 225}, {\"name\": \"deadlift\", \"sets\": 3, \"reps\": 5, \"weight_lbs\": 275}], \"calories_burned\": 420}"
+  },
+  {
+    "prompt_id": "schema_gen_013",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a podcast episode matching this schema: {episode_number: integer, title: string, host: string, guest: string, duration_minutes: integer, topics: array of strings, published_date: string}.",
+    "input": "",
+    "output": "{\"episode_number\": 142, \"title\": \"The Future of Open Source AI\", \"host\": \"Maria Santos\", \"guest\": \"Dr. Kevin Wu\", \"duration_minutes\": 58, \"topics\": [\"open source\", \"model licensing\", \"community governance\"], \"published_date\": \"2025-03-20\"}"
+  },
+  {
+    "prompt_id": "schema_gen_014",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a hotel reservation matching this schema: {reservation_id: string, guest_name: string, check_in: string, check_out: string, room_type: string, nightly_rate: number, total_nights: integer}.",
+    "input": "",
+    "output": "{\"reservation_id\": \"RES-78432\", \"guest_name\": \"Carlos Mendez\", \"check_in\": \"2025-06-15\", \"check_out\": \"2025-06-18\", \"room_type\": \"king suite\", \"nightly_rate\": 189.00, \"total_nights\": 3}"
+  },
+  {
+    "prompt_id": "schema_gen_015",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a GitHub issue matching this schema: {issue_number: integer, title: string, author: string, labels: array of strings, state: string, created_at: string, assignees: array of strings}.",
+    "input": "",
+    "output": "{\"issue_number\": 347, \"title\": \"Fix memory leak in batch inference pipeline\", \"author\": \"devops-sarah\", \"labels\": [\"bug\", \"high-priority\", \"performance\"], \"state\": \"open\", \"created_at\": \"2025-03-25T09:14:00Z\", \"assignees\": [\"ml-engineer-bob\", \"devops-sarah\"]}"
+  },
+  {
+    "prompt_id": "schema_gen_016",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for an employee record matching this schema: {employee_id: string, first_name: string, last_name: string, department: string, title: string, start_date: string, salary: number, is_remote: boolean}.",
+    "input": "",
+    "output": "{\"employee_id\": \"EMP-10234\", \"first_name\": \"Tomoko\", \"last_name\": \"Hayashi\", \"department\": \"Engineering\", \"title\": \"Staff Software Engineer\", \"start_date\": \"2021-08-16\", \"salary\": 165000.00, \"is_remote\": true}"
+  },
+  {
+    "prompt_id": "schema_gen_017",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a music album matching this schema: {title: string, artist: string, release_year: integer, genre: string, tracks: integer, duration_minutes: integer, label: string}.",
+    "input": "",
+    "output": "{\"title\": \"Midnight Frequencies\", \"artist\": \"Luna Park\", \"release_year\": 2025, \"genre\": \"electronic\", \"tracks\": 12, \"duration_minutes\": 48, \"label\": \"Warp Records\"}"
+  },
+  {
+    "prompt_id": "schema_gen_018",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a shipping package matching this schema: {tracking_number: string, carrier: string, origin: string, destination: string, weight_kg: number, status: string, estimated_delivery: string}.",
+    "input": "",
+    "output": "{\"tracking_number\": \"1Z999AA10123456784\", \"carrier\": \"UPS\", \"origin\": \"Los Angeles, CA\", \"destination\": \"New York, NY\", \"weight_kg\": 2.3, \"status\": \"in transit\", \"estimated_delivery\": \"2025-04-01\"}"
+  },
+  {
+    "prompt_id": "schema_gen_019",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a survey response matching this schema: {respondent_id: string, survey_id: string, responses: array of {question_id: string, answer: string}, submitted_at: string, completion_time_seconds: integer}.",
+    "input": "",
+    "output": "{\"respondent_id\": \"R-55891\", \"survey_id\": \"SRV-2025-Q1\", \"responses\": [{\"question_id\": \"Q1\", \"answer\": \"Very satisfied\"}, {\"question_id\": \"Q2\", \"answer\": \"Product quality\"}, {\"question_id\": \"Q3\", \"answer\": \"Yes, I would recommend\"}], \"submitted_at\": \"2025-03-28T11:22:00Z\", \"completion_time_seconds\": 145}"
+  },
+  {
+    "prompt_id": "schema_gen_020",
+    "task_type": "schema_constrained_generation",
+    "instruction": "Generate a JSON object for a cloud VM instance matching this schema: {instance_id: string, region: string, instance_type: string, vcpus: integer, memory_gb: integer, storage_gb: integer, state: string, launched_at: string}.",
+    "input": "",
+    "output": "{\"instance_id\": \"i-0a1b2c3d4e5f60789\", \"region\": \"us-west-2\", \"instance_type\": \"m5.xlarge\", \"vcpus\": 4, \"memory_gb\": 16, \"storage_gb\": 100, \"state\": \"running\", \"launched_at\": \"2025-03-27T08:00:00Z\"}"
+  },
+
+  {
+    "prompt_id": "classify_001",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify the sentiment of this product review as one of: positive, negative, or neutral. Return your answer as a JSON object with a 'label' field.",
+    "input": "This laptop exceeded my expectations. The battery lasts all day and the display is gorgeous.",
+    "output": "{\"label\": \"positive\"}"
+  },
+  {
+    "prompt_id": "classify_002",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify the sentiment of this product review as one of: positive, negative, or neutral. Return your answer as a JSON object with a 'label' field.",
+    "input": "The build quality is terrible. The screen cracked within a week and customer service was unhelpful.",
+    "output": "{\"label\": \"negative\"}"
+  },
+  {
+    "prompt_id": "classify_003",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify the sentiment of this product review as one of: positive, negative, or neutral. Return your answer as a JSON object with a 'label' field.",
+    "input": "It works as described. Nothing special but gets the job done for the price.",
+    "output": "{\"label\": \"neutral\"}"
+  },
+  {
+    "prompt_id": "classify_004",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify this email as one of: spam, promotional, transactional, or personal. Return as a JSON object with a 'category' field.",
+    "input": "Congratulations! You've been selected to win a $1000 gift card! Click here to claim your prize NOW before it expires!!!",
+    "output": "{\"category\": \"spam\"}"
+  },
+  {
+    "prompt_id": "classify_005",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify this email as one of: spam, promotional, transactional, or personal. Return as a JSON object with a 'category' field.",
+    "input": "Your order #4829 has been shipped via FedEx. Tracking number: 7891234567. Estimated delivery: April 2.",
+    "output": "{\"category\": \"transactional\"}"
+  },
+  {
+    "prompt_id": "classify_006",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify the urgency of this support ticket as one of: low, medium, high, or critical. Return as a JSON object with a 'urgency' field.",
+    "input": "Our entire production database is down and no customers can access the platform. We need immediate assistance.",
+    "output": "{\"urgency\": \"critical\"}"
+  },
+  {
+    "prompt_id": "classify_007",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify the urgency of this support ticket as one of: low, medium, high, or critical. Return as a JSON object with a 'urgency' field.",
+    "input": "Would it be possible to change the font size in the dashboard? It's a bit small for my preference.",
+    "output": "{\"urgency\": \"low\"}"
+  },
+  {
+    "prompt_id": "classify_008",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify this news headline into one of: politics, technology, sports, entertainment, science, or business. Return as a JSON object with a 'topic' field.",
+    "input": "Federal Reserve Holds Interest Rates Steady Amid Inflation Concerns",
+    "output": "{\"topic\": \"business\"}"
+  },
+  {
+    "prompt_id": "classify_009",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify this news headline into one of: politics, technology, sports, entertainment, science, or business. Return as a JSON object with a 'topic' field.",
+    "input": "NASA's James Webb Telescope Discovers New Exoplanet With Earth-Like Atmosphere",
+    "output": "{\"topic\": \"science\"}"
+  },
+  {
+    "prompt_id": "classify_010",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify this customer feedback into one of: bug_report, feature_request, praise, or complaint. Return as a JSON object with a 'type' field.",
+    "input": "It would be amazing if you could add dark mode to the mobile app. I use it at night and the white screen is too bright.",
+    "output": "{\"type\": \"feature_request\"}"
+  },
+  {
+    "prompt_id": "classify_011",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify this customer feedback into one of: bug_report, feature_request, praise, or complaint. Return as a JSON object with a 'type' field.",
+    "input": "When I click the export button, the app crashes every time. I'm on version 3.2.1 running iOS 18.",
+    "output": "{\"type\": \"bug_report\"}"
+  },
+  {
+    "prompt_id": "classify_012",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify this text by language: english, spanish, french, german, or other. Return as a JSON object with a 'language' field.",
+    "input": "Bonjour, je voudrais réserver une table pour deux personnes ce soir à vingt heures.",
+    "output": "{\"language\": \"french\"}"
+  },
+  {
+    "prompt_id": "classify_013",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify the intent of this user message as one of: greeting, question, complaint, booking, or farewell. Return as a JSON object with a 'intent' field.",
+    "input": "Hi there, I'd like to book a table for four at 7pm this Saturday please.",
+    "output": "{\"intent\": \"booking\"}"
+  },
+  {
+    "prompt_id": "classify_014",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify this code snippet's primary language as one of: python, javascript, java, rust, or other. Return as a JSON object with a 'language' field.",
+    "input": "fn main() {\n    let mut v = Vec::new();\n    v.push(42);\n    println!(\"{:?}\", v);\n}",
+    "output": "{\"language\": \"rust\"}"
+  },
+  {
+    "prompt_id": "classify_015",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify the difficulty level of this math problem as one of: elementary, middle_school, high_school, undergraduate, or graduate. Return as a JSON object with a 'difficulty' field.",
+    "input": "Prove that the set of all continuous real-valued functions on [0,1] with the sup norm forms a complete metric space.",
+    "output": "{\"difficulty\": \"undergraduate\"}"
+  },
+  {
+    "prompt_id": "classify_016",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify whether this statement is factual or opinion. Return as a JSON object with a 'type' field containing either 'fact' or 'opinion'.",
+    "input": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+    "output": "{\"type\": \"fact\"}"
+  },
+  {
+    "prompt_id": "classify_017",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify whether this statement is factual or opinion. Return as a JSON object with a 'type' field containing either 'fact' or 'opinion'.",
+    "input": "Italian food is the best cuisine in the world.",
+    "output": "{\"type\": \"opinion\"}"
+  },
+  {
+    "prompt_id": "classify_018",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify the toxicity level of this comment as one of: none, mild, moderate, or severe. Return as a JSON object with a 'toxicity' field.",
+    "input": "I respectfully disagree with your analysis. I think there are some data points you may have overlooked.",
+    "output": "{\"toxicity\": \"none\"}"
+  },
+  {
+    "prompt_id": "classify_019",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify this job description's seniority level as one of: intern, junior, mid, senior, or lead. Return as a JSON object with a 'level' field.",
+    "input": "We're looking for a seasoned engineer with 8+ years of experience to lead a team of 5 backend developers and own the architecture of our core platform.",
+    "output": "{\"level\": \"lead\"}"
+  },
+  {
+    "prompt_id": "classify_020",
+    "task_type": "exact_label_classification",
+    "instruction": "Classify this customer review's star rating as one of: 1, 2, 3, 4, or 5. Return as a JSON object with a 'stars' field (integer).",
+    "input": "Absolutely love this product! Works perfectly, arrived early, and the quality is top-notch. Will definitely buy again.",
+    "output": "{\"stars\": 5}"
+  },
+
+  {
+    "prompt_id": "json_repair_001",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{name: \"Alice\", age: 30, city: \"New York\"}",
+    "output": "{\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}"
+  },
+  {
+    "prompt_id": "json_repair_002",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"items\": [\"apple\", \"banana\", \"cherry\",]}",
+    "output": "{\"items\": [\"apple\", \"banana\", \"cherry\"]}"
+  },
+  {
+    "prompt_id": "json_repair_003",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{'temperature': 72.5, 'unit': 'fahrenheit'}",
+    "output": "{\"temperature\": 72.5, \"unit\": \"fahrenheit\"}"
+  },
+  {
+    "prompt_id": "json_repair_004",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"user\": {\"name\": \"Bob\", \"email\": \"bob@test.com\"}",
+    "output": "{\"user\": {\"name\": \"Bob\", \"email\": \"bob@test.com\"}}"
+  },
+  {
+    "prompt_id": "json_repair_005",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "[{\"id\": 1, \"value\": \"hello\"}, {\"id\": 2, \"value\": \"world\"}",
+    "output": "[{\"id\": 1, \"value\": \"hello\"}, {\"id\": 2, \"value\": \"world\"}]"
+  },
+  {
+    "prompt_id": "json_repair_006",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"name\": \"O'Brien\", \"status\": True, \"count\": None}",
+    "output": "{\"name\": \"O'Brien\", \"status\": true, \"count\": null}"
+  },
+  {
+    "prompt_id": "json_repair_007",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"message\": \"She said \"hello\" to me\"}",
+    "output": "{\"message\": \"She said \\\"hello\\\" to me\"}"
+  },
+  {
+    "prompt_id": "json_repair_008",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"scores\": [95, 87, 92,], \"average\": 91.3,}",
+    "output": "{\"scores\": [95, 87, 92], \"average\": 91.3}"
+  },
+  {
+    "prompt_id": "json_repair_009",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"config\": {\"debug\": true, \"verbose\": false, \"max_retries\": 3, \"timeout\": 30,}}",
+    "output": "{\"config\": {\"debug\": true, \"verbose\": false, \"max_retries\": 3, \"timeout\": 30}}"
+  },
+  {
+    "prompt_id": "json_repair_010",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"data\": [{\"x\": 1 \"y\": 2}, {\"x\": 3, \"y\": 4}]}",
+    "output": "{\"data\": [{\"x\": 1, \"y\": 2}, {\"x\": 3, \"y\": 4}]}"
+  },
+  {
+    "prompt_id": "json_repair_011",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"path\": \"C:\\Users\\admin\\docs\"}",
+    "output": "{\"path\": \"C:\\\\Users\\\\admin\\\\docs\"}"
+  },
+  {
+    "prompt_id": "json_repair_012",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"enabled\": TRUE, \"disabled\": FALSE, \"value\": NULL}",
+    "output": "{\"enabled\": true, \"disabled\": false, \"value\": null}"
+  },
+  {
+    "prompt_id": "json_repair_013",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"results\": [\n  {\"id\": 1, \"name\": \"test\"}\n  {\"id\": 2, \"name\": \"prod\"}\n]}",
+    "output": "{\"results\": [{\"id\": 1, \"name\": \"test\"}, {\"id\": 2, \"name\": \"prod\"}]}"
+  },
+  {
+    "prompt_id": "json_repair_014",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"price\": $29.99, \"currency\": \"USD\"}",
+    "output": "{\"price\": 29.99, \"currency\": \"USD\"}"
+  },
+  {
+    "prompt_id": "json_repair_015",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"tags\": [\"ml\" \"ai\" \"nlp\"]}",
+    "output": "{\"tags\": [\"ml\", \"ai\", \"nlp\"]}"
+  },
+  {
+    "prompt_id": "json_repair_016",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"nested\": {\"a\": {\"b\": {\"c\": 1}}}",
+    "output": "{\"nested\": {\"a\": {\"b\": {\"c\": 1}}}}"
+  },
+  {
+    "prompt_id": "json_repair_017",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"name\": \"test\", \"values\": [1, 2, 3] \"extra\": true}",
+    "output": "{\"name\": \"test\", \"values\": [1, 2, 3], \"extra\": true}"
+  },
+  {
+    "prompt_id": "json_repair_018",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"description\": \"Line 1\nLine 2\nLine 3\"}",
+    "output": "{\"description\": \"Line 1\\nLine 2\\nLine 3\"}"
+  },
+  {
+    "prompt_id": "json_repair_019",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"count\": 05, \"label\": \"item\"}",
+    "output": "{\"count\": 5, \"label\": \"item\"}"
+  },
+  {
+    "prompt_id": "json_repair_020",
+    "task_type": "json_repair",
+    "instruction": "Fix the following malformed JSON so it becomes valid. Return only the corrected JSON.",
+    "input": "{\"a\": 1, \"b\": 2, \"a\": 3}",
+    "output": "{\"a\": 3, \"b\": 2}"
+  },
+
+  {
+    "prompt_id": "tool_call_001",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to search for flights. The function is called 'search_flights' and takes parameters: origin (string, IATA code), destination (string, IATA code), departure_date (string, ISO format), passengers (integer), cabin_class (string: economy/business/first).",
+    "input": "I need to fly from San Francisco to London on June 15th, 2025. Two passengers, business class.",
+    "output": "{\"function\": \"search_flights\", \"arguments\": {\"origin\": \"SFO\", \"destination\": \"LHR\", \"departure_date\": \"2025-06-15\", \"passengers\": 2, \"cabin_class\": \"business\"}}"
+  },
+  {
+    "prompt_id": "tool_call_002",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to send an email. The function is called 'send_email' and takes parameters: to (string), subject (string), body (string), cc (array of strings, optional), priority (string: low/normal/high).",
+    "input": "Send an email to john@company.com with subject 'Q1 Report Ready' saying the quarterly report is attached. CC the finance team at finance@company.com. Mark it as high priority.",
+    "output": "{\"function\": \"send_email\", \"arguments\": {\"to\": \"john@company.com\", \"subject\": \"Q1 Report Ready\", \"body\": \"The quarterly report is attached for your review.\", \"cc\": [\"finance@company.com\"], \"priority\": \"high\"}}"
+  },
+  {
+    "prompt_id": "tool_call_003",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to query a database. The function is called 'execute_query' and takes parameters: table (string), columns (array of strings), where (object with field/operator/value), order_by (string), limit (integer).",
+    "input": "Get the name and email of the top 10 users from the users table where status is active, ordered by created_at descending.",
+    "output": "{\"function\": \"execute_query\", \"arguments\": {\"table\": \"users\", \"columns\": [\"name\", \"email\"], \"where\": {\"field\": \"status\", \"operator\": \"=\", \"value\": \"active\"}, \"order_by\": \"created_at DESC\", \"limit\": 10}}"
+  },
+  {
+    "prompt_id": "tool_call_004",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to create a calendar event. The function is called 'create_event' and takes parameters: title (string), start_time (string, ISO datetime), end_time (string, ISO datetime), attendees (array of strings), location (string), reminder_minutes (integer).",
+    "input": "Schedule a team standup called 'Daily Sync' tomorrow at 9am for 30 minutes in Conference Room B. Invite alice@co.com and bob@co.com. Set a 10-minute reminder.",
+    "output": "{\"function\": \"create_event\", \"arguments\": {\"title\": \"Daily Sync\", \"start_time\": \"2025-03-29T09:00:00\", \"end_time\": \"2025-03-29T09:30:00\", \"attendees\": [\"alice@co.com\", \"bob@co.com\"], \"location\": \"Conference Room B\", \"reminder_minutes\": 10}}"
+  },
+  {
+    "prompt_id": "tool_call_005",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to resize an image. The function is called 'resize_image' and takes parameters: file_path (string), width (integer), height (integer), maintain_aspect_ratio (boolean), output_format (string: png/jpg/webp).",
+    "input": "Resize the image at /uploads/photo.jpg to 800x600 pixels. Keep the aspect ratio and save as WebP.",
+    "output": "{\"function\": \"resize_image\", \"arguments\": {\"file_path\": \"/uploads/photo.jpg\", \"width\": 800, \"height\": 600, \"maintain_aspect_ratio\": true, \"output_format\": \"webp\"}}"
+  },
+  {
+    "prompt_id": "tool_call_006",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to translate text. The function is called 'translate_text' and takes parameters: text (string), source_language (string, ISO 639-1 code), target_language (string, ISO 639-1 code), formality (string: formal/informal).",
+    "input": "Translate 'Good morning, how can I help you today?' from English to Japanese using formal tone.",
+    "output": "{\"function\": \"translate_text\", \"arguments\": {\"text\": \"Good morning, how can I help you today?\", \"source_language\": \"en\", \"target_language\": \"ja\", \"formality\": \"formal\"}}"
+  },
+  {
+    "prompt_id": "tool_call_007",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to create a user account. The function is called 'create_user' and takes parameters: username (string), email (string), role (string: admin/editor/viewer), send_welcome_email (boolean), team_id (string).",
+    "input": "Create an editor account for Maria with username 'maria.g' and email maria.garcia@company.com on team TEAM-042. Send her a welcome email.",
+    "output": "{\"function\": \"create_user\", \"arguments\": {\"username\": \"maria.g\", \"email\": \"maria.garcia@company.com\", \"role\": \"editor\", \"send_welcome_email\": true, \"team_id\": \"TEAM-042\"}}"
+  },
+  {
+    "prompt_id": "tool_call_008",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to deploy an application. The function is called 'deploy_app' and takes parameters: app_name (string), environment (string: staging/production), version (string), rollback_on_failure (boolean), notify_channel (string).",
+    "input": "Deploy version 2.4.1 of the payments-service to production. Enable automatic rollback if it fails. Notify the #deployments Slack channel.",
+    "output": "{\"function\": \"deploy_app\", \"arguments\": {\"app_name\": \"payments-service\", \"environment\": \"production\", \"version\": \"2.4.1\", \"rollback_on_failure\": true, \"notify_channel\": \"#deployments\"}}"
+  },
+  {
+    "prompt_id": "tool_call_009",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to search a knowledge base. The function is called 'search_kb' and takes parameters: query (string), max_results (integer), filters (object with optional category and date_range fields), include_snippets (boolean).",
+    "input": "Search our knowledge base for articles about password reset, limited to the 'security' category, from the last 90 days. Return top 5 results with snippets.",
+    "output": "{\"function\": \"search_kb\", \"arguments\": {\"query\": \"password reset\", \"max_results\": 5, \"filters\": {\"category\": \"security\", \"date_range\": \"last_90_days\"}, \"include_snippets\": true}}"
+  },
+  {
+    "prompt_id": "tool_call_010",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to generate a report. The function is called 'generate_report' and takes parameters: report_type (string), date_from (string), date_to (string), format (string: pdf/csv/xlsx), include_charts (boolean), email_to (string, optional).",
+    "input": "Generate a PDF sales report for January 2025 with charts and email it to manager@company.com.",
+    "output": "{\"function\": \"generate_report\", \"arguments\": {\"report_type\": \"sales\", \"date_from\": \"2025-01-01\", \"date_to\": \"2025-01-31\", \"format\": \"pdf\", \"include_charts\": true, \"email_to\": \"manager@company.com\"}}"
+  },
+  {
+    "prompt_id": "tool_call_011",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to book a restaurant reservation. The function is called 'book_reservation' and takes parameters: restaurant_id (string), date (string), time (string, 24h format), party_size (integer), special_requests (string, optional).",
+    "input": "Book a table for 6 at restaurant RST-1234 on April 5th at 7:30 PM. We need a high chair for a toddler.",
+    "output": "{\"function\": \"book_reservation\", \"arguments\": {\"restaurant_id\": \"RST-1234\", \"date\": \"2025-04-05\", \"time\": \"19:30\", \"party_size\": 6, \"special_requests\": \"Need a high chair for a toddler\"}}"
+  },
+  {
+    "prompt_id": "tool_call_012",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to set a reminder. The function is called 'set_reminder' and takes parameters: message (string), remind_at (string, ISO datetime), recurring (boolean), recurrence_pattern (string: daily/weekly/monthly, optional), priority (string: low/medium/high).",
+    "input": "Remind me every Monday at 9am to submit my weekly status report. High priority.",
+    "output": "{\"function\": \"set_reminder\", \"arguments\": {\"message\": \"Submit weekly status report\", \"remind_at\": \"2025-03-31T09:00:00\", \"recurring\": true, \"recurrence_pattern\": \"weekly\", \"priority\": \"high\"}}"
+  },
+  {
+    "prompt_id": "tool_call_013",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to analyze text sentiment. The function is called 'analyze_sentiment' and takes parameters: text (string), language (string), granularity (string: document/sentence), include_entities (boolean).",
+    "input": "Analyze the sentiment of this Spanish customer review at the sentence level and extract entities: 'El producto es excelente pero el envío fue muy lento.'",
+    "output": "{\"function\": \"analyze_sentiment\", \"arguments\": {\"text\": \"El producto es excelente pero el envío fue muy lento.\", \"language\": \"es\", \"granularity\": \"sentence\", \"include_entities\": true}}"
+  },
+  {
+    "prompt_id": "tool_call_014",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to create a GitHub issue. The function is called 'create_issue' and takes parameters: repo (string, format: owner/repo), title (string), body (string), labels (array of strings), assignees (array of strings), milestone (string, optional).",
+    "input": "Create an issue on acme/backend-api titled 'Fix timeout on /users endpoint'. Describe that the endpoint times out after 5s under load. Label it 'bug' and 'performance'. Assign to devteam-alice. Add to milestone v3.1.",
+    "output": "{\"function\": \"create_issue\", \"arguments\": {\"repo\": \"acme/backend-api\", \"title\": \"Fix timeout on /users endpoint\", \"body\": \"The /users endpoint times out after 5 seconds under load. Needs investigation and optimization.\", \"labels\": [\"bug\", \"performance\"], \"assignees\": [\"devteam-alice\"], \"milestone\": \"v3.1\"}}"
+  },
+  {
+    "prompt_id": "tool_call_015",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to convert currency. The function is called 'convert_currency' and takes parameters: amount (number), from_currency (string, ISO 4217), to_currency (string, ISO 4217), date (string, optional for historical rate).",
+    "input": "Convert 5000 US dollars to Japanese yen using today's rate.",
+    "output": "{\"function\": \"convert_currency\", \"arguments\": {\"amount\": 5000, \"from_currency\": \"USD\", \"to_currency\": \"JPY\"}}"
+  },
+  {
+    "prompt_id": "tool_call_016",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to schedule a batch job. The function is called 'schedule_batch_job' and takes parameters: job_name (string), cron_expression (string), script_path (string), timeout_seconds (integer), retries (integer), environment_vars (object).",
+    "input": "Schedule a nightly data sync job called 'sync-orders' at 2am UTC. It runs /scripts/sync.py with a 1-hour timeout and 3 retries. Set DB_HOST to prod-db.internal.",
+    "output": "{\"function\": \"schedule_batch_job\", \"arguments\": {\"job_name\": \"sync-orders\", \"cron_expression\": \"0 2 * * *\", \"script_path\": \"/scripts/sync.py\", \"timeout_seconds\": 3600, \"retries\": 3, \"environment_vars\": {\"DB_HOST\": \"prod-db.internal\"}}}"
+  },
+  {
+    "prompt_id": "tool_call_017",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to search for nearby places. The function is called 'search_places' and takes parameters: query (string), latitude (number), longitude (number), radius_meters (integer), type (string: restaurant/hotel/gas_station/hospital), max_results (integer).",
+    "input": "Find the 5 closest hospitals within 10km of downtown Austin (latitude 30.2672, longitude -97.7431).",
+    "output": "{\"function\": \"search_places\", \"arguments\": {\"query\": \"hospital\", \"latitude\": 30.2672, \"longitude\": -97.7431, \"radius_meters\": 10000, \"type\": \"hospital\", \"max_results\": 5}}"
+  },
+  {
+    "prompt_id": "tool_call_018",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to upload a file to cloud storage. The function is called 'upload_file' and takes parameters: local_path (string), bucket (string), destination_key (string), content_type (string), make_public (boolean), metadata (object, optional).",
+    "input": "Upload /tmp/report.pdf to the 'company-docs' S3 bucket at reports/2025/q1-report.pdf. Set content type to application/pdf. Keep it private. Add metadata tag department=finance.",
+    "output": "{\"function\": \"upload_file\", \"arguments\": {\"local_path\": \"/tmp/report.pdf\", \"bucket\": \"company-docs\", \"destination_key\": \"reports/2025/q1-report.pdf\", \"content_type\": \"application/pdf\", \"make_public\": false, \"metadata\": {\"department\": \"finance\"}}}"
+  },
+  {
+    "prompt_id": "tool_call_019",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to send a Slack notification. The function is called 'send_slack_message' and takes parameters: channel (string), message (string), blocks (array, optional), thread_ts (string, optional), unfurl_links (boolean).",
+    "input": "Post a message to #engineering saying 'Deployment v2.5 is live in production. Please monitor dashboards.' Don't unfurl any links.",
+    "output": "{\"function\": \"send_slack_message\", \"arguments\": {\"channel\": \"#engineering\", \"message\": \"Deployment v2.5 is live in production. Please monitor dashboards.\", \"unfurl_links\": false}}"
+  },
+  {
+    "prompt_id": "tool_call_020",
+    "task_type": "tool_call_argument_generation",
+    "instruction": "Generate a JSON function call to run a machine learning prediction. The function is called 'predict' and takes parameters: model_id (string), input_data (object), return_probabilities (boolean), explain (boolean), timeout_ms (integer).",
+    "input": "Run prediction using model 'churn-predictor-v3' with input features: tenure_months=24, monthly_charges=79.99, contract_type='month-to-month', total_charges=1920. Return probabilities and explanations. 5 second timeout.",
+    "output": "{\"function\": \"predict\", \"arguments\": {\"model_id\": \"churn-predictor-v3\", \"input_data\": {\"tenure_months\": 24, \"monthly_charges\": 79.99, \"contract_type\": \"month-to-month\", \"total_charges\": 1920}, \"return_probabilities\": true, \"explain\": true, \"timeout_ms\": 5000}}"
+  }
+]
