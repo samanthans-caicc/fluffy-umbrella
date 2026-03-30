@@ -1,5 +1,5 @@
 # Ignore PDF files
-*.pdf
+Assignment3_LLM_Agentic_Systems_Finetuning.pdf
 
 # Ignore temporary .md files
 CONTEXT_TRANSFER.md
