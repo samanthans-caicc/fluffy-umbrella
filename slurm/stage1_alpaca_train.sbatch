@@ -1,11 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=stage1-alpaca
-#SBATCH --partition=gpu1a100
+#SBATCH --partition=REPLACE_WITH_H100_PARTITION
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --mem=64G
 #SBATCH --time=06:00:00
 #SBATCH --output=logs/stage1_alpaca_%j.out
 #SBATCH --error=logs/stage1_alpaca_%j.err
@@ -51,7 +50,7 @@ echo ""
 # 3. Navigate to project directory
 # ---------------------------------------------------------------------------
 # IMPORTANT: Update this path to your actual project location on Arc
-cd $WORK/fluffy-umbrella || { echo "Project directory not found!"; exit 1; }
+cd /home/xso947/fluffy-umbrella || { echo "Project directory not found!"; exit 1; }
 
 # Create logs directory if it doesn't exist
 mkdir -p logs checkpoints/stage1 data
@@ -79,12 +78,7 @@ echo ">>> Checkpoint saved to: checkpoints/stage1/"
 # ---------------------------------------------------------------------------
 # 6. Step C — Run Checkpoint 1 inference on both eval sets
 # ---------------------------------------------------------------------------
-echo ">>> Running Checkpoint 0 (baseline) inference..."
-python modular-code/inference.py \
-    --checkpoints 0 \
-    --alpaca-eval data/alpaca_eval.json \
-    --json-eval data/json_eval.json \
-    --output-dir outputs
+# Checkpoint 0 inference already completed in a separate job.
 
 echo ">>> Running Checkpoint 1 (Alpaca-tuned) inference..."
 python modular-code/inference.py \
