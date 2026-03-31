@@ -34,10 +34,10 @@ class LoRAConfig:
 class Stage1Config:
     # Data
     dataset_name: str       = "tatsu-lab/alpaca"
-    max_samples: int        = 52000          # use full Alpaca dataset
+    max_samples: int        = 5000           # subset sufficient to demonstrate pipeline
 
     # Tokenisation
-    max_seq_length: int     = 512            # Alpaca examples are typically <300 tokens; 512 saves ~2x training time
+    max_seq_length: int     = 1024           # as suggested in assignment spec
 
     # Optimiser
     learning_rate: float    = 2e-5
