@@ -5,7 +5,7 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --time=06:00:00
+#SBATCH --time=24:00:00
 #SBATCH --output=logs/stage1_alpaca_%j.out
 #SBATCH --error=logs/stage1_alpaca_%j.err
 

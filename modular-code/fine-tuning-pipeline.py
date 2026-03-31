@@ -149,9 +149,11 @@ def build_training_args(stage_cfg, output_dir: str, bf16: bool, fp16: bool):
         bf16=bf16,
         fp16=fp16,
         save_strategy=stage_cfg.save_strategy,
+        save_steps=getattr(stage_cfg, "save_steps", 500),
         save_total_limit=stage_cfg.save_total_limit,
         # Evaluation during training
         eval_strategy=stage_cfg.eval_strategy,
+        eval_steps=getattr(stage_cfg, "eval_steps", 500),
         # load_best_model_at_end=True is unreliable with PEFT — disabled
         load_best_model_at_end=False,
         logging_steps=25,
@@ -228,7 +230,17 @@ def train(stage: int, output_dir: str, data_dir: str, resume_from: str | None):
     )
     log.info(f"Total training steps: {len(trainer.get_train_dataloader()) * stage_cfg.num_epochs}")
 
-    trainer.train()
+    # Auto-resume from the latest step checkpoint if one exists
+    import glob
+    step_checkpoints = sorted(
+        glob.glob(os.path.join(output_dir, "checkpoint-*")),
+        key=lambda p: int(p.rsplit("-", 1)[-1]),
+    )
+    resume_checkpoint = step_checkpoints[-1] if step_checkpoints else None
+    if resume_checkpoint:
+        log.info(f"Resuming from checkpoint: {resume_checkpoint}")
+
+    trainer.train(resume_from_checkpoint=resume_checkpoint)
 
     log.info(f"Saving adapter checkpoint to '{output_dir}'...")
     trainer.save_model(output_dir)

@@ -55,13 +55,15 @@ class Stage1Config:
     bf16: bool = True
     fp16: bool = False
 
-    # Checkpointing
+    # Checkpointing — step-based so jobs can resume within a 24-hour wall time
     output_dir: str              = "checkpoints/stage1"
-    save_strategy: str           = "epoch"
-    save_total_limit: int        = 2
+    save_strategy: str           = "steps"
+    save_steps: int              = 500      # ~1 hour on V100
+    save_total_limit: int        = 3
 
     # Evaluation
-    eval_strategy: str           = "epoch"
+    eval_strategy: str           = "steps"
+    eval_steps: int              = 500
     eval_split: float            = 0.05      # 5 % of stage-1 data held out
     load_best_model_at_end: bool = True
     metric_for_best_model: str   = "eval_loss"
