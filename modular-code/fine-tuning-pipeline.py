@@ -211,6 +211,10 @@ def train(stage: int, output_dir: str, data_dir: str, resume_from: str | None):
     training_args = build_training_args(stage_cfg, output_dir, bf16, fp16)
 
     # --- Build SFTTrainer ---
+    # Enforce max sequence length via the tokenizer directly; newer trl versions
+    # removed max_seq_length from both SFTConfig and SFTTrainer constructors.
+    tokenizer.model_max_length = stage_cfg.max_seq_length
+
     trainer_kwargs = dict(
         model=model,
         args=training_args,
@@ -218,8 +222,6 @@ def train(stage: int, output_dir: str, data_dir: str, resume_from: str | None):
         eval_dataset=eval_ds,
         formatting_func=formatting_func,
         processing_class=tokenizer,
-        max_seq_length=stage_cfg.max_seq_length,
-        packing=False,
     )
 
     trainer = SFTTrainer(**trainer_kwargs)
