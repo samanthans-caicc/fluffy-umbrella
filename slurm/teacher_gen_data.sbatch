@@ -1,11 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=teacher-gen
-#SBATCH --partition=gpu1a100
+#SBATCH --partition=gpu4v100
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --mem=64G
 #SBATCH --time=08:00:00
 #SBATCH --output=logs/teacher_gen_%j.out
 #SBATCH --error=logs/teacher_gen_%j.err
@@ -52,7 +51,7 @@ echo "--- GPU Info ---"
 nvidia-smi
 echo ""
 
-cd $WORK/fluffy-umbrella || { echo "Project directory not found!"; exit 1; }
+cd /home/xso947/fluffy-umbrella || { echo "Project directory not found!"; exit 1; }
 
 mkdir -p logs data
 

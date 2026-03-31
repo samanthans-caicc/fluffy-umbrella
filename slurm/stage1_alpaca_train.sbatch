@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=stage1-alpaca
-#SBATCH --partition=REPLACE_WITH_H100_PARTITION
+#SBATCH --partition=gpu4v100
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8

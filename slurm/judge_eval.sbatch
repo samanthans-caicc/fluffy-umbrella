@@ -1,11 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=judge-eval
-#SBATCH --partition=gpu1a100
+#SBATCH --partition=gpu4v100
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --mem=64G
 #SBATCH --time=06:00:00
 #SBATCH --output=logs/judge_eval_%j.out
 #SBATCH --error=logs/judge_eval_%j.err
@@ -50,7 +49,7 @@ echo "--- GPU Info ---"
 nvidia-smi
 echo ""
 
-cd $WORK/fluffy-umbrella || { echo "Project directory not found!"; exit 1; }
+cd /home/xso947/fluffy-umbrella || { echo "Project directory not found!"; exit 1; }
 
 # Check that inference outputs exist
 for ckpt in checkpoint_0_base checkpoint_1_alpaca checkpoint_2_json; do

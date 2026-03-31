@@ -1,11 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=ablation-lr
-#SBATCH --partition=gpu1a100
+#SBATCH --partition=gpu4v100
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --mem=64G
 #SBATCH --time=06:00:00
 #SBATCH --output=logs/ablation_lr_%j.out
 #SBATCH --error=logs/ablation_lr_%j.err
@@ -41,7 +40,7 @@ conda activate llm
 # 2. Verify GPU and Stage 1 checkpoint
 # ---------------------------------------------------------------------------
 nvidia-smi
-cd $WORK/fluffy-umbrella || { echo "Project directory not found!"; exit 1; }
+cd /home/xso947/fluffy-umbrella || { echo "Project directory not found!"; exit 1; }
 
 if [ ! -d "checkpoints/stage1" ]; then
     echo "ERROR: Stage 1 checkpoint not found. Run stage1 first."

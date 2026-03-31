@@ -1,11 +1,10 @@
 #!/bin/bash
 #SBATCH --job-name=stage2-json
-#SBATCH --partition=gpu1a100
+#SBATCH --partition=gpu4v100
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --gres=gpu:1
-#SBATCH --mem=64G
 #SBATCH --time=03:00:00
 #SBATCH --output=logs/stage2_json_%j.out
 #SBATCH --error=logs/stage2_json_%j.err
@@ -42,7 +41,7 @@ nvidia-smi
 python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}, Device: {torch.cuda.get_device_name(0)}')"
 echo ""
 
-cd $WORK/fluffy-umbrella || { echo "Project directory not found!"; exit 1; }
+cd /home/xso947/fluffy-umbrella || { echo "Project directory not found!"; exit 1; }
 
 # Check that Stage 1 checkpoint exists
 if [ ! -d "checkpoints/stage1" ]; then
