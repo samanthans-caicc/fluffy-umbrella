@@ -127,17 +127,21 @@ def call_judge(
         {"role": "system", "content": system_prompt},
         {"role": "user",   "content": user_message},
     ]
-    input_ids = tokenizer.apply_chat_template(
+    chat_inputs = tokenizer.apply_chat_template(
         messages,
         add_generation_prompt=True,
         return_tensors="pt",
-    ).to(model.device)
+    )
+    # Newer transformers returns a BatchEncoding; older returns a raw tensor
+    if hasattr(chat_inputs, "input_ids"):
+        input_ids = chat_inputs.input_ids.to(model.device)
+    else:
+        input_ids = chat_inputs.to(model.device)
 
     output_ids = model.generate(
-        input_ids,
+        input_ids=input_ids,
         max_new_tokens=max_new_tokens,
         do_sample=False,
-        temperature=1.0,
         pad_token_id=tokenizer.pad_token_id,
     )
     prompt_len = input_ids.shape[1]
