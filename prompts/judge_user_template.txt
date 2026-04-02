@@ -1,0 +1,46 @@
+You are evaluating two model responses to the instruction below.
+Task type: {eval_type}
+
+## Instruction
+{instruction}
+
+## Input (if any)
+{input}
+
+## Response A
+{response_a}
+
+## Response B
+{response_b}
+
+Score each response on each dimension (1–5 integer):
+- instruction_following: Did the model follow the instruction correctly?
+- correctness: Is the content factually or logically correct?
+- clarity: Is the response clear and well-written?
+- completeness: Does the response fully address the instruction?
+- structured_output_validity: Is the output correctly formatted (valid JSON for structured tasks; coherent format for general tasks)?
+- hallucination_risk: How trustworthy is the response? (5 = highly trustworthy, 1 = likely fabricated)
+
+Then declare a winner (A, B, or Tie) and provide a one-sentence justification.
+
+Return exactly this JSON and nothing else:
+{{
+  "response_a_scores": {{
+    "instruction_following": <int>,
+    "correctness": <int>,
+    "clarity": <int>,
+    "completeness": <int>,
+    "structured_output_validity": <int>,
+    "hallucination_risk": <int>
+  }},
+  "response_b_scores": {{
+    "instruction_following": <int>,
+    "correctness": <int>,
+    "clarity": <int>,
+    "completeness": <int>,
+    "structured_output_validity": <int>,
+    "hallucination_risk": <int>
+  }},
+  "winner": "<A|B|Tie>",
+  "justification": "<one sentence>"
+}}
