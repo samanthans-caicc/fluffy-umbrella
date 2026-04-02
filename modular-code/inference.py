@@ -76,6 +76,28 @@ CHECKPOINTS = {
 # Model loading helpers
 # ---------------------------------------------------------------------------
 
+def resolve_adapter_path(adapter_path: str) -> str:
+    """Return the path that contains adapter_config.json.
+
+    If the root output_dir doesn't have it (e.g. save_model didn't write it),
+    fall back to the latest checkpoint-N subdirectory.
+    """
+    if os.path.exists(os.path.join(adapter_path, "adapter_config.json")):
+        return adapter_path
+    import glob
+    subdirs = sorted(
+        glob.glob(os.path.join(adapter_path, "checkpoint-*")),
+        key=lambda p: int(p.rsplit("-", 1)[-1]),
+    )
+    if subdirs:
+        resolved = subdirs[-1]
+        log.info(f"adapter_config.json not found at '{adapter_path}'; using '{resolved}'")
+        return resolved
+    raise FileNotFoundError(
+        f"No adapter_config.json found in '{adapter_path}' or its checkpoint subdirs."
+    )
+
+
 def load_model_for_checkpoint(checkpoint_id: str):
     """
     Load the appropriate model + tokenizer for a given checkpoint.
@@ -98,6 +120,7 @@ def load_model_for_checkpoint(checkpoint_id: str):
                 f"Adapter checkpoint not found at '{adapter_path}'. "
                 f"Have you completed training for this stage?"
             )
+        adapter_path = resolve_adapter_path(adapter_path)
         log.info(f"Loading model with adapter from {adapter_path} ...")
         model, tokenizer = student_model.load_student_from_checkpoint(adapter_path)
 
