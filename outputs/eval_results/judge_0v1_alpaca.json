@@ -1,0 +1,127 @@
+[
+  {
+    "prompt_id": "alpaca_eval_0000",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_1_alpaca",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 1,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response A accurately and thoroughly addressed the instruction, providing a clear and well-supported explanation of the adjective type, while Response B failed to address the instruction and provided unrelated information.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0001",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_1_alpaca",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A correctly followed the instruction and provided a relevant analogy, while Response B failed to address the task and instead provided a classification of a text sample.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0002",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_1_alpaca",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A accurately and completely addressed the instruction, providing a correct and clear answer, while Response B failed to follow the instruction and provided unrelated information.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0003",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_1_alpaca",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A directly addressed the instruction and provided a correct and clear answer, while Response B failed to follow the instruction and provided unrelated information.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0004",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_1_alpaca",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 1,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response A accurately and fully addressed the instruction, providing a clear and correct reference to the given sentence.",
+    "parse_error": false
+  }
+]

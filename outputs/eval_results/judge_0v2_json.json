@@ -1,0 +1,127 @@
+[
+  {
+    "prompt_id": "json_extract_001",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 5,
+      "clarity": 2,
+      "completeness": 2,
+      "structured_output_validity": 2,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B correctly followed the instruction, produced a clear and well-formatted output, and had a low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "json_extract_002",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B provided a perfectly formatted JSON object with accurate and complete information, while Response A had minor formatting issues and an incorrect currency symbol.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "json_extract_003",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A perfectly followed the instruction and provided a clear, complete, and correct output in a valid JSON format.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "json_extract_004",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A perfectly followed the instruction and provided a more straightforward output.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "json_extract_005",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses perfectly followed the instruction, produced accurate and clear output, and had a very low risk of hallucination.",
+    "parse_error": false
+  }
+]

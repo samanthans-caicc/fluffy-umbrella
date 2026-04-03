@@ -1,0 +1,6252 @@
+[
+  {
+    "prompt_id": "alpaca_eval_0000",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate answer to the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0001",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear analogies, but Response A's clarity and completeness were slightly higher.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0002",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear information, but Response B provided a more comprehensive answer.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0003",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and accurate explanation of the probable cause of severe chest pain.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0004",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate formal versions of the input sentence.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0005",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 2,
+      "clarity": 2,
+      "completeness": 2,
+      "structured_output_validity": 2,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a clear, complete, and correct list of present continuous verbs without any irrelevant or fabricated information.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0006",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear classifications of the tweet topic, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0007",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B is more concise and directly addresses the task with a clear and well-written output.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0008",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear information about local events, but Response A provided a more comprehensive list of websites.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0009",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses perfectly followed the instruction and produced well-structured haiku poems with no factual errors.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0010",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear explanations of machine learning to a child, with minimal risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0011",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate information about the three main mountain ranges in the United States.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0012",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and accurate list of options to reduce pollution in the city.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0013",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provides a more vivid and detailed description of the sound of a train passing by.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0014",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 3,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A more comprehensively addressed the instruction, including details about market cap and unique features.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0015",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more precise and concise answer, correctly identifying the independent and dependent variables without unnecessary punctuation.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0016",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear information about the nearest airport to the given coordinates, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0017",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B is slightly more precise in its wording and clarity.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0018",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and accurate review of the film 'Iron Man'.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0019",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate rewording of the input sentence as a question.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0020",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear titles that fully addressed the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0021",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and complete lists of items needed for a family with a pet dog, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0022",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate summary of the Declaration of Independence's promises.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0023",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear descriptions of the benefits of having a mentor, with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0024",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear definitions of the word Zenith, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0025",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and accurate summary of the article.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0026",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B correctly replaced the pronouns with nouns and provided a factually correct and well-written response.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0027",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and accurate explanation of the role of a computer scientist in the modern world.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0028",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 3,
+      "clarity": 4,
+      "completeness": 3,
+      "structured_output_validity": 4,
+      "hallucination_risk": 4
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and structured report, with relevant statistics and examples, while also being highly trustworthy.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0029",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate information, with no discernible differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0030",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided comprehensive and accurate safety plans for schools in the event of an armed intruder, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0031",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate, clear, and complete descriptions of a blockchain application scenario, with no discernible differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0032",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 3
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate description of the history and current applications of genetic engineering.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0033",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided excellent examples of metaphors for courage, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0034",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate, clear, and comprehensive information about the advantages of a plant-based diet for athletes, with no apparent fabrication or hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0035",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more complete and clear answer, including the type of sentence in the phrase.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0036",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear descriptions of the smell of a summer evening, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0037",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A is more consistent in its formatting and clarity.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0038",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and accurate summary of the research paper.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0039",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A demonstrates slightly better clarity and no notable differences in other dimensions.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0040",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear summaries of the input facts, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0041",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 4,
+      "clarity": 3,
+      "completeness": 2,
+      "structured_output_validity": 2,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B fully addressed the instruction and provided a clear, well-structured, and factually correct outline.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0042",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 1,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A correctly followed the instruction, provided accurate information, and was well-written, while Response B failed to address the task and provided unrelated information.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0043",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and accurate explanation of hydropower, including its benefits and downsides.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0044",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate, clear, and comprehensive descriptions of a successful entrepreneur, with no discernible differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0045",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and detailed description of the main character, accurately capturing her complexities and nuances.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0046",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 3,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more coherent and factually correct conclusion to the story.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0047",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A more accurately followed the instruction by placing the bear in the forest at the beginning of the sentence.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0048",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "winner": "Tie",
+    "justification": "Both responses failed to follow the instruction and provided incorrect information, but Response A and Response B differ only in capitalization.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0049",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate synonyms for the word 'beautiful'.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0050",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "winner": "A",
+    "justification": "Response A provided a more concise and accurate description of the painting without any additional information that may be considered fabricated.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0051",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear information about the weather in London, but lacked specific details about the current weather conditions.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0052",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 3,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided a more comprehensive answer that fully addressed the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0053",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided a more comprehensive and accurate timeline of the events leading up to the American Revolution.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0054",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive list of animals found in the rainforest.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0055",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided well-structured and factually correct descriptions of fictional creatures, with low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0056",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate explanation of design thinking, with a clearer and more structured output.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0057",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses accurately and clearly summarized the news article in one sentence, with no apparent factual errors or hallucinations.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0058",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B is more concise and directly addresses the task requirements with a clearer description of the bar chart.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0059",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear explanations of the differences between synthetic and natural fabrics, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0060",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B provided a more comprehensive and detailed answer that fully addressed the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0061",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear headlines, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0062",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "winner": "A",
+    "justification": "Response A provided a more cohesive and complete story that fully addressed the instruction, with a lower risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0063",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate rephrased sentences.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0064",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses accurately transcribed the recording into text with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0065",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 1,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 2,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided a clear, complete, and correct algorithm description, with low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0066",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear descriptions of a successful entrepreneur, with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0067",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 2,
+      "clarity": 4,
+      "completeness": 2,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided a well-structured and factually correct pun, addressing the instruction fully and with high clarity.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0068",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate task instructions with no risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0069",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical output, perfectly following the instruction and demonstrating high trustworthiness.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0070",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B more fully addresses the instruction and is more clear and complete.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0071",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B provided a more comprehensive and accurate explanation of linear regression, including its application and the type of data it can handle.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0072",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B provides a more comprehensive list of benefits of meditation.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0073",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear synonyms for the word 'Determined', but Response B's output was slightly less clear due to the lengthy list.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0074",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A accurately followed the instruction and provided a factually correct, clear, and complete response with low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0075",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 2,
+      "clarity": 1,
+      "completeness": 2,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 1,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response A, although incomplete, shows a slightly lower hallucination risk and a more coherent format compared to Response B's repetitive and fabricated content.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0076",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more detailed and comprehensive outline that fully addressed the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0077",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses correctly identified the mistake and provided accurate information, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0078",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 1,
+      "clarity": 4,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response B provided a correct and complete answer to the instruction, whereas Response A's answer was incorrect and incomplete.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0079",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear answers, but Response B's response was slightly less polished.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0080",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided excellent metaphors that accurately captured the relationship between the snake and the river, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0081",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear information on the benefits of recycling plastics, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0082",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided comprehensive and accurate advice for exam preparation, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0083",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B provided a more comprehensive and accurate explanation of the classicist view of the world.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0084",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and correct code to print 'Hello World' 10 times.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0085",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a clear and well-formatted list of the five oceans from largest to smallest, with no apparent errors or fabrications.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0086",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a detailed and well-structured recipe, fully addressing the instruction and demonstrating high trustworthiness.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0087",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and accurate summary of the author's attitude, with a clearer and more well-written response.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0088",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate advice, with no risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0089",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear rewording of the input paragraph with a suitable tone, without any noticeable issues.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0090",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided thorough and accurate information on the impact of the digital revolution, with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0091",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate, clear, and complete explanations of decision trees, with no signs of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0092",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more accurate and detailed paraphrased sentence.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0093",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and accurate description of the ocean floor structure.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0094",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B more accurately followed the instruction by not adding extra items and providing a clear subtitle.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0095",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses accurately and clearly explained the main differences between AI and ML, with no apparent fabrication or hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0096",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A more fully addresses the instruction by including a label with the phrase, making it a more complete response.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0097",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided comprehensive and accurate information about the key factors for a successful business, with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0098",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 1,
+      "clarity": 1,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response B provided a correct calculation of the area of the right triangle, while Response A failed to do so.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0099",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses effectively diffused the situation with the customer, demonstrating excellent instruction following, correctness, clarity, completeness, structured output validity, and low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0100",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 3,
+      "clarity": 4,
+      "completeness": 2,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A fully addressed the instruction and provided a clear, comprehensive, and trustworthy description of a positive restaurant experience.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0101",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A more accurately and comprehensively listed the common items found in a school auditorium.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0102",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B provided a more comprehensive and well-structured set of questions that fully addressed the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0103",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive and accurate summary of the main actors' roles in The Godfather.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0104",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear interpretations of the statement, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0105",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive explanation of Einstein's theory of relativity, covering both special and general relativity.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0106",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A more accurately and fully addressed the instruction, with a clearer and more structured output.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0107",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and comprehensive outlines of a successful team leader's characteristics, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0108",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear ratings, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0109",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided well-structured and factually correct lists of creative usernames, with no apparent risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0110",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical outputs, thus making them equally effective in addressing the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0111",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear conversions of the given temperature from Fahrenheit to Celsius.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0112",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear explanations of Darwinism, with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0113",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided the correct data normalization result, but failed to address the instruction of doing data normalization on the given data set.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0114",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more accurate and comprehensive answer, including specific features and export options of the tool.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0115",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 3,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate categorization of the product description.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0116",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate, clear, and comprehensive answers to the instruction, with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0117",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A is slightly clearer and more concise than Response B.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0118",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear definitions of 'algae' with no apparent fabrication.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0119",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate information, with no discernible differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0120",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 3,
+      "correctness": 2,
+      "clarity": 3,
+      "completeness": 2,
+      "structured_output_validity": 3,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 3,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A correctly updated the contact list with the new address and phone number, while Response B incorrectly duplicated the new phone number and failed to remove the old information.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0121",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear information about the job requirements, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0122",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear information on optimizing a website for search engine rankings, but Response A covered a slightly broader range of topics.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0123",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B is more detailed and provides a clearer picture of a software engineer's day-to-day activities.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0124",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided the same incorrect information about the fifth planet from the Sun.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0125",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a clearer and more comprehensive list of potential side effects with a lower hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0126",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate rewrites of the input sentence.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0127",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A fully addressed the instruction and provided a clear, well-structured explanation of the different types of taxes.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0128",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear quizzes, but Response B lacked some details and clarity in its description.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0129",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 3,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "winner": "A",
+    "justification": "Response A accurately and comprehensively addressed the instruction with high factual correctness and clarity.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0130",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate, clear, and comprehensive information about the importance of first aid kits, with no apparent fabrication or deviation from the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0131",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided well-structured and factually correct three-line poems using the phrase 'the night sky'.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0132",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate description of the novel's content.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0133",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "winner": "A",
+    "justification": "Response A provided a more complex and coherent sentence that fully addressed the instruction with high factual and logical correctness.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0134",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A correctly identified the error and provided a clear explanation, while Response B provided a slightly incorrect explanation.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0135",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and comprehensive lists of methods for preventing cyber attacks, with minor differences in clarity.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0136",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear suggestions for design changes, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0137",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 1,
+      "clarity": 2,
+      "completeness": 2,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A accurately identified the sentence as incorrect and provided a clear explanation, while Response B made a baseless claim of correctness.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0138",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and complete lists of prime numbers between 1 and 50, with no signs of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0139",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and well-structured list of questions, fully addressing the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0140",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate answers, with no discernible differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0141",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 3
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 2,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A more accurately and creatively followed the instruction, while also being clear and well-written, despite some minor factual inaccuracies.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0142",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B provided a more comprehensive and accurate list of steps for starting a new business.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0143",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided a more comprehensive list of strategies, addressing all aspects of the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0144",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate answer to the question.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0145",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical scores across all dimensions, indicating equivalent performance.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0146",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear tips for learning a new language, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0147",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more accurate classification of the activity as it is generally considered to be more commonly associated with the evening, while Response B's classification is still plausible but less common.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0148",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "winner": "A",
+    "justification": "Response A provided a more accurate and comprehensive answer to the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0149",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 2,
+      "clarity": 3,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a clear and accurate description of primary colors without any inaccuracies or unnecessary information.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0150",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a clear and structured categorization of the input items, while Response B failed to explicitly categorize each item.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0151",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided a more engaging and well-structured parable about friendship, fully addressing the instruction and demonstrating a high level of trustworthiness.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0152",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses are well-written, clear, and fully address the instruction, but Response A's use of a more casual tone and Response B's use of a more poetic tone make them equally effective pick-up lines.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0153",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided detailed and accurate descriptions of a dream house, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0154",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided accurate counts for all characters in the input string, while Response B contained a minor error in character count.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0155",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more detailed and realistic 3D model of a house, fully addressing the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0156",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 3,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "winner": "A",
+    "justification": "Response A provided a more accurate and comprehensive comparison between blockchain and distributed ledger, with a lower risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0157",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 1,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A correctly classified the phrases and provided a clear, well-written, and complete response with low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0158",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear information, but Response B was slightly less comprehensive.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0159",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear topic sentences, with no discernible differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0160",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a clear and complete answer to the instruction, with no risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0161",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses effectively adapted the given slogan for a cat food brand, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0162",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided valid and well-structured usernames, with no apparent issues or risks of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0163",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B more accurately conveys the intended meaning of the instruction, using 'oppress' in a context that aligns with the instruction's requirement.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0164",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses accurately and clearly described the algorithm to find the maximum profit of a stock buy and sell, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0165",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and comprehensive information about primary producers in an ecosystem, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0166",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided the correct answer, 'Metaphor', without any errors or inconsistencies.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0167",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses accurately and clearly identified the main idea of the text with no apparent flaws.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0168",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses correctly changed the sentence to use the correct pronoun form and provided well-written, factually correct, and complete outputs with low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0169",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided a more accurate and comprehensive description of the two events.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0170",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 2,
+      "clarity": 3,
+      "completeness": 2,
+      "structured_output_validity": 3,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A accurately and fully addressed the instruction with high-quality output, while Response B failed to meet the requirements and contained inaccuracies.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0171",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 2,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B fully addressed the instruction and provided a clear, correct, and well-structured response with low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0172",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided the correct answer, but Response A and Response B were identical, making the tie unavoidable.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0173",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate explanation of substitutable technology.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0174",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B is slightly clearer and more concise in its explanation of the LCM calculation.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0175",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear paraphrased sentences with no apparent fabrication risks.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0176",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A more fully addresses the instruction and is more factually and logically correct.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0177",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 2,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A accurately and completely followed the instruction, produced factually correct content, and had a low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0178",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 2,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A accurately identified the theme and provided a clear, well-supported explanation, while Response B made unsubstantiated claims about the poem's meaning.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0179",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided well-structured and factually correct explanations for animal migration, but Response A offered slightly more clarity and completeness.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0180",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses accurately and clearly summarized the input paragraph, with no apparent factual errors or hallucinations.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0181",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A fully addressed the instruction and provided a clear, coherent sentence that is factually correct.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0182",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 3,
+      "clarity": 3,
+      "completeness": 2,
+      "structured_output_validity": 2,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a clear, comprehensive, and factually correct description of the Smart Speaker, with a low risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0183",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear descriptions of the book's theme, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0184",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate, clear, and comprehensive descriptions of the benefits of AI in banking, with no apparent fabrication or hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0185",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided thorough and accurate analyses of the theme of loyalty in 'To Kill a Mockingbird', with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0186",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical clarity and correctness, with minor differences in sentence structure.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0187",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided excellent metaphors that correctly compared speed and sound, with minimal differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0188",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided more accurate and detailed information about the Tour de France, with no apparent fabrication.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0189",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear analyses of the poem's theme, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0190",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate explanation of the Battle of Gettysburg.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0191",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B is slightly clearer and more concise than Response A.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0192",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear calculations for the center of mass, with no discernible differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0193",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more accurate and detailed description of the painting, with a stronger sense of realism and attention to detail.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0194",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear examples of everyday objects that use electricity, with no apparent fabrication or formatting issues.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0195",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate corrections to the input text.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0196",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided well-structured and factually correct suggestions for persuasive essay topics, with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0197",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 3,
+      "clarity": 3,
+      "completeness": 3,
+      "structured_output_validity": 4,
+      "hallucination_risk": 2
+    },
+    "winner": "A",
+    "justification": "Response A more accurately followed the instruction and produced a more coherent output with lower hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0198",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and comprehensive summaries of the effects of deforestation, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0199",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response A provided the correct binary representation of the decimal number 62.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0200",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear summaries, but Response A provided a slightly more comprehensive overview of the article's content.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0201",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear explanations of the mixed impact of virtual learning on student performance, with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0202",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B is clearer and more conventionally formatted than Response A.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0203",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 2,
+      "completeness": 1,
+      "structured_output_validity": 2,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided two new recipes in a clear and well-structured format, with low hallucination risk, while Response B failed to follow the instruction and provided irrelevant information.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0204",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate filling for the ravioli dish recipe.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0205",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a clearer and more concise summary while maintaining high factual accuracy.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0206",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 2,
+      "clarity": 3,
+      "completeness": 2,
+      "structured_output_validity": 2,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A correctly identified the grammatical error and provided two possible improvements, while Response B incorrectly identified the issue and suggested an unrelated change.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0207",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 3,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more accurate population figure for the tenth largest city, despite not being entirely correct.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0208",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear examples of AI applications, with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0209",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses failed to address the instruction by not making any changes to the input sentence.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0210",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "winner": "A",
+    "justification": "Response A provided a more accurate and concise description of the banana's flavor profile with lower hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0211",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 2
+    },
+    "winner": "A",
+    "justification": "Response A provided a more accurate and trustworthy description of the Julia programming language, with a lower risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0212",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B provided a more comprehensive and accurate summary of Leonard Nimoy's career.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0213",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear rhyming couplets that reflect the theme of nature, with no apparent fabrication or deviation from the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0214",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "winner": "A",
+    "justification": "Response A provided a more general and accurate definition of the phrase, without introducing any specific time constraints.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0215",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more accurate and complete example of alliteration, including the specific words involved.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0216",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate overview of the similarities between Hinduism and Buddhism.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0217",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and comprehensive information on the consequences of deforestation, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0218",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate, clear, and complete instructions for making scrambled eggs, with no apparent risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0219",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided a more comprehensive and accurate analysis of the poem's symbolism.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0220",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate, clear, and comprehensive explanations of machine learning, with no discernible differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0221",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided a more accurate and comprehensive answer, directly addressing the instruction with no apparent fabrication.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0222",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive explanation of the risk factors contributing to the predicted probability.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0223",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate answers to the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0224",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provides a more coherent and well-structured analysis of the poem's mood shifts.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0225",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear summaries of the passage, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0226",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate outputs with no risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0227",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and comprehensive lists of causes of hunger in developing countries, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0228",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A demonstrates slightly better clarity and completeness in its expression of gratitude and appreciation.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0229",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided a more comprehensive comparison of the two campaigns and clearly stated its conclusion.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0230",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear examples of miscommunication, with no apparent fabrication or deviation from the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0231",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and accurate transformations of the input sentence.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0232",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more comprehensive comparison of the benefits of solar energy and fossil fuels, including both initial and long-term costs, as well as the environmental impact of each.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0233",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided identical and correct active voice rewrites of the input sentence.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0234",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B provided the complete and accurate lyrics for the song titled 'Yesterday'.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0235",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and comprehensive lists of ways to improve memory, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0236",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear descriptions of photosynthesis, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0237",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear descriptions of the temperate forest biome's seasons, with no significant differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0238",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response A provided a more detailed and accurate description of a drugstore.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0239",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B more fully addresses the instruction and is more clear and complete in its response.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0240",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 2,
+      "correctness": 2,
+      "clarity": 2,
+      "completeness": 2,
+      "structured_output_validity": 2,
+      "hallucination_risk": 2
+    },
+    "winner": "A",
+    "justification": "Response A provided a detailed and accurate description of sushi, while Response B failed to classify the food item and provided a vague output.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0241",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and well-supported explanations for the high number of snake species in Australia, with minor differences in clarity and detail.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0242",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "winner": "Tie",
+    "justification": "Both responses failed to list the correct elements in group two of the periodic table, but their clarity and structured output validity are excellent.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0243",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 2,
+      "clarity": 3,
+      "completeness": 2,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A correctly followed the instruction and provided a clear, factually correct, and well-written response with low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0244",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided accurate and clear explanations of sustainable development, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0245",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 2,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 2,
+      "structured_output_validity": 5,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response B provided a clear, complete, and well-structured list of popular podcast topics, with a low risk of hallucination.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0246",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a more comprehensive and accurate definition of fascism.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0247",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 4,
+      "correctness": 5,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B fully addresses the instruction and provides a clear, well-written, and factually correct explanation.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0248",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "A",
+    "justification": "Response B provided a more accurate and complete list of mountain types, while also being well-written and trustworthy.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0249",
+    "checkpoint_a": "ablation_epoch4",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses provided well-structured, factually correct, and clear app ideas with low hallucination risk.",
+    "parse_error": false
+  }
+]

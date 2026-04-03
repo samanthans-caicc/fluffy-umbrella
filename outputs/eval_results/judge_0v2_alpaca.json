@@ -1,0 +1,127 @@
+[
+  {
+    "prompt_id": "alpaca_eval_0000",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 1,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response A correctly identified the type of adjective and provided a clear explanation, while Response B failed to address the instruction and provided unrelated information.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0001",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 2,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 4,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided a clear and relevant analogy for the legal system, while Response B failed to address the instruction and contained unrelated content.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0002",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 5,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response A accurately and thoroughly answered the question, providing a list of African countries and acknowledging the potential for geopolitical changes, while Response B was completely unrelated and failed to address the instruction.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0003",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 1,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "winner": "A",
+    "justification": "Response A correctly followed the instruction, provided accurate information, and offered a clear and well-structured response, while Response B was completely unrelated to the task.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "alpaca_eval_0004",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_2_json",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 1,
+      "correctness": 1,
+      "clarity": 1,
+      "completeness": 1,
+      "structured_output_validity": 1,
+      "hallucination_risk": 1
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A accurately and formally edited the input sentence, while Response B provided unrelated information.",
+    "parse_error": false
+  }
+]

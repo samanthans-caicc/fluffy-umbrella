@@ -1,0 +1,127 @@
+[
+  {
+    "prompt_id": "json_extract_001",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_1_alpaca",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 2,
+      "correctness": 5,
+      "clarity": 2,
+      "completeness": 2,
+      "structured_output_validity": 2,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response B correctly followed the instruction, produced a clear and well-formatted output, and had a low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "json_extract_002",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_1_alpaca",
+    "order_swapped": false,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 4,
+      "correctness": 4,
+      "clarity": 4,
+      "completeness": 4,
+      "structured_output_validity": 4,
+      "hallucination_risk": 4
+    },
+    "winner": "A",
+    "justification": "Response A correctly extracted the product name, price, and currency, and provided a valid JSON object, while Response B failed to correctly format the price and currency.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "json_extract_003",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_1_alpaca",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses accurately extracted the dates from the text and provided them in the correct format, with no notable differences in quality.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "json_extract_004",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_1_alpaca",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "Tie",
+    "justification": "Both responses accurately extracted the required information and provided a valid JSON output with low hallucination risk.",
+    "parse_error": false
+  },
+  {
+    "prompt_id": "json_extract_005",
+    "checkpoint_a": "checkpoint_0_base",
+    "checkpoint_b": "checkpoint_1_alpaca",
+    "order_swapped": true,
+    "response_a_scores": {
+      "instruction_following": 5,
+      "correctness": 4,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 4
+    },
+    "response_b_scores": {
+      "instruction_following": 5,
+      "correctness": 5,
+      "clarity": 5,
+      "completeness": 5,
+      "structured_output_validity": 5,
+      "hallucination_risk": 5
+    },
+    "winner": "B",
+    "justification": "Response A provided more accurate names, with 'General Inbox' being a more accurate representation of the original text's 'general inbox' rather than 'Support'.",
+    "parse_error": false
+  }
+]

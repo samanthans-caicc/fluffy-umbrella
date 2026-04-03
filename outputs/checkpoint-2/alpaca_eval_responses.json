@@ -1,0 +1,2252 @@
+[
+  {
+    "prompt_id": "alpaca_eval_0000",
+    "instruction": "Give three ways to increase website traffic.",
+    "input": "",
+    "reference": "Three ways to increase website traffic are: 1. Implementing search engine optimization techniques to increase visibility in search engine results. 2. Using social media platforms to engage with potential customers and build brand awareness. 3. Creating content that is useful, interesting, and shareable to attract more viewers.",
+    "response": "1. Optimize on-page SEO to improve rankings. 2. Use analytics to track user behavior and identify optimization opportunities. 3. Invest in content marketing to drive organic traffic.",
+    "generation_time_s": 3.87,
+    "response_token_count": 47
+  },
+  {
+    "prompt_id": "alpaca_eval_0001",
+    "instruction": "Create an analogy that shows how the legal system works",
+    "input": "",
+    "reference": "The legal system is like a complex machine; each part must work together for the machine to function properly. The laws act as the components of the machine, ensuring that all the pieces come together to create a functioning system. Courts represent the engine of the machine, which is fueled by the evidence, arguments, and outcomes of individual cases. Judges then function as the conductor, ensuring that the various components of the machine move in harmony for the best outcome.",
+    "response": "The legal system is like a puzzle \u2013 each piece must fit perfectly for the whole picture to be revealed. Just as a jigsaw puzzle requires patience and attention to detail, the legal system requires careful examination of evidence and understanding of the law.",
+    "generation_time_s": 2.82,
+    "response_token_count": 53
+  },
+  {
+    "prompt_id": "alpaca_eval_0002",
+    "instruction": "Find out what the average temperature in Canada is?",
+    "input": "",
+    "reference": "The average temperature in Canada is 9.8 \u00b0C (49.6 \u00b0F). In the summertime, the average temperature in the country ranges from 16 to 28 \u00b0C (61 to 82 \u00b0F). In the wintertime, the average temperature ranges from -15 to 5 \u00b0C (5 to 41 \u00b0F).",
+    "response": "The average temperature in Canada is around 4.5\u00b0C (40\u00b0F).",
+    "generation_time_s": 1.1,
+    "response_token_count": 19
+  },
+  {
+    "prompt_id": "alpaca_eval_0003",
+    "instruction": "What is the probable cause of this symptom",
+    "input": "Severe chest pain",
+    "reference": "The probable cause of this symptom could be a heart attack, pulmonary embolism, pneumonia, or pleurisy.",
+    "response": "The probable cause of severe chest pain is a heart attack or heart-related condition.",
+    "generation_time_s": 1.06,
+    "response_token_count": 18
+  },
+  {
+    "prompt_id": "alpaca_eval_0004",
+    "instruction": "Edit the sentence to make formal.",
+    "input": "It looks altogether like the situation will be getting worse.",
+    "reference": "It appears that the situation will likely be deteriorating further.",
+    "response": "It appears that the situation is likely to worsen.",
+    "generation_time_s": 0.75,
+    "response_token_count": 12
+  },
+  {
+    "prompt_id": "alpaca_eval_0005",
+    "instruction": "Generate a list of present continuous verbs.",
+    "input": "",
+    "reference": "Running, eating, sleeping, calling, texting, working, reading, watching, writing, listening, playing, cooking, shopping, dancing, studying, walking, driving, flying, jumping, laughing.",
+    "response": "Returning, checking, adjusting, recalculating, monitoring, tracking, deploying, debugging, testing, analyzing.",
+    "generation_time_s": 1.64,
+    "response_token_count": 26
+  },
+  {
+    "prompt_id": "alpaca_eval_0006",
+    "instruction": "Classify the following tweet topic",
+    "input": "\"I'm so excited to visit my family in India!\"",
+    "reference": "Family",
+    "response": "Travel and family news.",
+    "generation_time_s": 0.45,
+    "response_token_count": 6
+  },
+  {
+    "prompt_id": "alpaca_eval_0007",
+    "instruction": "Write a script that asks the user to enter their name.",
+    "input": "",
+    "reference": "name = input(\"What is your name? \") print(\"Hello \" + name + \", nice to meet you!\")",
+    "response": "Use the `prompt` function to display a message asking for the user's name. Then use the `readline` function to read the user's input and store it in a variable called `name`. Finally, print a greeting using string interpolation.",
+    "generation_time_s": 2.86,
+    "response_token_count": 54
+  },
+  {
+    "prompt_id": "alpaca_eval_0008",
+    "instruction": "List two examples of websites where you can find information about local events",
+    "input": "",
+    "reference": "Examples of websites where you can find information about local events include EventBrite and Meetup.com.",
+    "response": "1. MyCityEvents.com: A curated list of local events and activities. 2. LocalEventsHub.org: A community-driven platform for sharing information about local events, meetups, and more.",
+    "generation_time_s": 2.52,
+    "response_token_count": 47
+  },
+  {
+    "prompt_id": "alpaca_eval_0009",
+    "instruction": "From the given lyrics, create a haiku poem.",
+    "input": "Lyrics: \"As the sun sets in the sky, my love for you grows more high\"",
+    "reference": "My heart soars with love As the sun sets in the sky Love will never die",
+    "response": "Sun sets in the sky / Love grows high as night falls near / My heart is full of you.",
+    "generation_time_s": 1.21,
+    "response_token_count": 21
+  },
+  {
+    "prompt_id": "alpaca_eval_0010",
+    "instruction": "How would you explain a machine learning algorithm to a child?",
+    "input": "",
+    "reference": "A machine learning algorithm is like an instructor that helps a computer learn. Just like how a kid learns how to count, a computer can also learn how to do it - except it is much faster than humans. The instructions are in the form of a set of rules that the computer follows to learn a new skill or find patterns in data.",
+    "response": "Machine learning is like teaching a robot to learn on its own, just like how you learn to recognize animals by looking at pictures and hearing their sounds. It uses examples to figure out patterns and make predictions.",
+    "generation_time_s": 2.21,
+    "response_token_count": 41
+  },
+  {
+    "prompt_id": "alpaca_eval_0011",
+    "instruction": "Name the three main mountain ranges in the United States.",
+    "input": "",
+    "reference": "The three main mountain ranges in the United States are the Rocky Mountains, the Appalachian Mountains, and the Sierra Nevada Mountains.",
+    "response": "The three main mountain ranges in the United States are the Rocky Mountains, the Sierra Nevada Mountains, and the Appalachian Mountains.",
+    "generation_time_s": 1.61,
+    "response_token_count": 29
+  },
+  {
+    "prompt_id": "alpaca_eval_0012",
+    "instruction": "Brainstorm 4 possible options to reduce pollution in the city.",
+    "input": "",
+    "reference": "1. Increase usage of public transportation and reduce private vehicle emissions. 2. Ban or enforce stricter emissions standards for factories and construction sites. 3. Create incentives for citizens and businesses to adopt green energy or environmentally friendly practices. 4. Build green spaces such as parks and gardens to absorb carbon dioxide from the atmosphere.",
+    "response": "1. Implement a congestion pricing system to discourage driving during peak hours. 2. Expand public transportation networks and provide incentives for riders. 3. Encourage green building and retrofitting of existing buildings. 4. Introduce a program to monitor and reduce industrial emissions.",
+    "generation_time_s": 3.71,
+    "response_token_count": 71
+  },
+  {
+    "prompt_id": "alpaca_eval_0013",
+    "instruction": "Describe the sound of a train passing by.",
+    "input": "",
+    "reference": "The sound of a train passing by is a low, rumbling sound that gradually grows in intensity as it approaches and fades away slowly as it moves further away. It is often accompanied by a sharp whistle that cuts through the air like a blade.",
+    "response": "The sound of a train passing by is a deep, rumbling roar that gradually builds in volume and then fades away. It is accompanied by a low, continuous whistle and the occasional clanking of metal on metal.",
+    "generation_time_s": 2.66,
+    "response_token_count": 50
+  },
+  {
+    "prompt_id": "alpaca_eval_0014",
+    "instruction": "Generate a description of a new cryptocurrency.",
+    "input": "",
+    "reference": "Introducing ZEUS, the revolutionary new cryptocurrency that is secure and transparent. ZEUS utilizes advanced blockchain technology to ensure that all transactions are recorded securely and immutably, allowing users to trust that their funds are safe. ZEUS is also designed to be highly efficient, with low transaction fees and fast transaction speeds, allowing users to confidently make transactions without having to wait or worry about incurring high fees. With ZEUS, users can instantly transact value with each other in a secure, reliable environment.",
+    "response": "The description should detail the name of the cryptocurrency, its unique features (e.g. block size, consensus mechanism), its target use case (e.g. micropayments, cross-border transactions), and its current status (e.g. alpha, beta).",
+    "generation_time_s": 3.11,
+    "response_token_count": 59
+  },
+  {
+    "prompt_id": "alpaca_eval_0015",
+    "instruction": "Identify the dependent and independent variables in the following equation:",
+    "input": "y=x+3",
+    "reference": "Independent variable: x Dependent variable: y",
+    "response": "Independent variable: x, Dependent variable: y",
+    "generation_time_s": 0.65,
+    "response_token_count": 10
+  },
+  {
+    "prompt_id": "alpaca_eval_0016",
+    "instruction": "Identify the nearest airport based on the given coordinates.",
+    "input": "40.728157, -73.794853",
+    "reference": "The nearest airport to the given coordinates is the LaGuardia Airport (LGA) in New York City.",
+    "response": "LaGuardia Airport (LGA) in Queens, New York, USA",
+    "generation_time_s": 0.95,
+    "response_token_count": 16
+  },
+  {
+    "prompt_id": "alpaca_eval_0017",
+    "instruction": "Determine the speed of a car that traveled 45 miles in 45 minutes",
+    "input": "",
+    "reference": "The car was traveling at a speed of 45 mph.",
+    "response": "The car traveled at an average speed of 60 miles per hour.",
+    "generation_time_s": 1.0,
+    "response_token_count": 17
+  },
+  {
+    "prompt_id": "alpaca_eval_0018",
+    "instruction": "Generate a movie review for the film \"Iron Man\".",
+    "input": "",
+    "reference": "Iron Man is a great action-adventure movie that can also be enjoyed by both adults and children alike. Robert Downey Jr. really shines in the role of Tony Stark, the billionaire industrialist and genius inventor. His performance is full of humour and charisma. The action sequences are intense and the special effects are top-notch. The storyline of Iron Man is gripping and its characters are both likable and compelling. Overall, Iron Man is an entertaining movie that is sure to please audiences of all ages.",
+    "response": "An electrifying sci-fi adventure that takes viewers on a thrilling ride through the cosmos. Marvelous visual effects and a stellar cast bring Tony Stark's superhero story to life. A must-see for any Iron Man fan.",
+    "generation_time_s": 2.91,
+    "response_token_count": 55
+  },
+  {
+    "prompt_id": "alpaca_eval_0019",
+    "instruction": "rewrite this sentence as a question",
+    "input": "My mom made me a delicious dinner.",
+    "reference": "Did your mom make you a delicious dinner?",
+    "response": "Did my mom make me a delicious dinner?",
+    "generation_time_s": 0.65,
+    "response_token_count": 10
+  },
+  {
+    "prompt_id": "alpaca_eval_0020",
+    "instruction": "Propose a suitable title for the below article",
+    "input": "This article discusses the current state of the music industry and how technology has had an impact on its evolution.",
+    "reference": "The Impact of Technology on the Music Industry: A Comprehensive Overview",
+    "response": "The Digital Music Revolution: How Technology Has Transformed the Music Industry.",
+    "generation_time_s": 0.9,
+    "response_token_count": 15
+  },
+  {
+    "prompt_id": "alpaca_eval_0021",
+    "instruction": "Create a list of items needed if a family has a pet dog.",
+    "input": "",
+    "reference": "1. Dog food 2. Dog treats 3. Grooming tools 4. Dog bed 5. Dog toys 6. Training accessories 7. Collar and leash 8. Waste bags 9. Grooming shampoo and conditioner 10. Nail clippers 11. Veterinary appointments 12. Crate 13. Water bowl 14. Food bowl 15. Dog bowl mat 16. Pet identification tags 17. Pet insurance 18. Flea and tick treatments 19. Pet waste scoop",
+    "response": "Include food and supplies for the dog, such as a collar, leash, toys, and a crate or bed.",
+    "generation_time_s": 1.56,
+    "response_token_count": 28
+  },
+  {
+    "prompt_id": "alpaca_eval_0022",
+    "instruction": "What values were promised in the United States Declaration of Independence?",
+    "input": "",
+    "reference": "The United States Declaration of Independence promised life, liberty, and the pursuit of happiness.",
+    "response": "The Declaration of Independence promised the unalienable rights of life, liberty, and the pursuit of happiness to all people. It also promised that governments are instituted among men to secure these rights, and that when any government becomes destructive of these ends, it is the right of the people to alter or abolish it.",
+    "generation_time_s": 3.67,
+    "response_token_count": 70
+  },
+  {
+    "prompt_id": "alpaca_eval_0023",
+    "instruction": "Describe the benefits of having a mentor.",
+    "input": "",
+    "reference": "Having a mentor can provide tremendous benefits, including guidance, advice, support and connection to a network of contacts. Mentors can offer valuable feedback, help to create goals and strategies, and provide the accountability necessary to carry out the desired goals. They can also provide a fresh perspective which can help to create new ideas and solutions.",
+    "response": "having a mentor provides invaluable guidance, accelerates professional growth, fosters networking opportunities, and boosts confidence and motivation.",
+    "generation_time_s": 1.6,
+    "response_token_count": 29
+  },
+  {
+    "prompt_id": "alpaca_eval_0024",
+    "instruction": "Given a word, define it in detail.",
+    "input": "Zenith",
+    "reference": "Zenith is defined as the highest point of something or the time of greatest success or prosperity. It is the point in the sky or the point on the celestial sphere located directly above an observer, synonymous with the term \"apex\". In astronomy, the zenith is the point of the celestial sphere directly above an observer. It is also used in a figurative sense to refer to the peak of a person's career or a period of high productivity.",
+    "response": "The word Zenith refers to the highest point or level reached by someone or something. It can be used to describe the peak of success, performance, or achievement, whether in a personal, professional, or abstract sense.",
+    "generation_time_s": 2.46,
+    "response_token_count": 46
+  },
+  {
+    "prompt_id": "alpaca_eval_0025",
+    "instruction": "Summarize the given article in 1-2 sentences.",
+    "input": "The recent Arctic temperature increase highlights the effects of climate change on the sensitive Arctic environment.",
+    "reference": "The Arctic region is experiencing unprecedented higher temperatures, which is an indication of the effects of climate change on the sensitive polar environment.",
+    "response": "Arctic temperatures are rising at an alarming rate, indicating the severe impact of climate change on the Arctic environment. This trend is expected to have far-re0aching consequences for the region's ecosystems and communities.",
+    "generation_time_s": 2.66,
+    "response_token_count": 50
+  },
+  {
+    "prompt_id": "alpaca_eval_0026",
+    "instruction": "Replace all pronouns with the appropriate nouns.",
+    "input": "She gave her a present",
+    "reference": "Mary gave Jane a present.",
+    "response": "She gave Jane a present.",
+    "generation_time_s": 0.45,
+    "response_token_count": 6
+  },
+  {
+    "prompt_id": "alpaca_eval_0027",
+    "instruction": "Explain the role of a computer scientist in the modern world.",
+    "input": "",
+    "reference": "The role of a computer scientist in the modern world is to create, maintain, and improve the technology that powers our lives. Computer scientists are at the forefront of developing new software, hardware, and networks to make our lives easier and more efficient. They create innovative algorithms and architectures to solve complex tasks and problems, optimize existing systems, and develop new systems and technologies. Computer scientists collaborate with other professionals in different fields such as life sciences, engineering, and economics to find solutions to the most challenging problems. They also develop information and communication systems to supplement and improve existing systems. By using their creativity, technical skills, and knowledge, computer scientists are making a huge impact on the world and making our lives safer and easier.",
+    "response": "Computer scientists play a crucial role in the modern world, where they develop new technologies, improve existing systems, and solve complex problems. They also design algorithms, create software applications, and analyze data to improve the efficiency and effectiveness of business processes.",
+    "generation_time_s": 2.76,
+    "response_token_count": 52
+  },
+  {
+    "prompt_id": "alpaca_eval_0028",
+    "instruction": "Analyze the effects of climate change on food production.",
+    "input": "",
+    "reference": "Climate change has had a profound effect on food production. Rising temperatures and changing weather patterns have led to droughts and heat waves, both of which can decrease crop yields. Additionally, changing precipitation patterns can lead to water shortages or flooding, which can make it difficult to grow crops in certain areas. These effects result in reduced crop yields, decreased crop quality, and increased risk of disease and pests, further diminishing food production.",
+    "response": "Identify three major impacts and provide examples of how they are affecting specific crops or regions. Produce a JSON object with 'impacts' (array of strings), 'examples' (array of objects with 'crop' or 'region' and 'affected_by' string), and 'severity' (string matching one of 'minor' | 'moderate' | 'severe' | 'critical').",
+    "generation_time_s": 4.83,
+    "response_token_count": 93
+  },
+  {
+    "prompt_id": "alpaca_eval_0029",
+    "instruction": "Determine which statement is true.",
+    "input": "America is the third largest country in the world Australia is the second largest country in the world",
+    "reference": "Australia is the second largest country in the world.",
+    "response": "America is the 3rd largest country in the world.",
+    "generation_time_s": 0.75,
+    "response_token_count": 12
+  },
+  {
+    "prompt_id": "alpaca_eval_0030",
+    "instruction": "Design a safety plan for schools in the event of an armed intruder.",
+    "input": "",
+    "reference": "A safety plan for schools in the event of an armed intruder should include steps for staff and students to take before, during, and after an intruder enters the premises. Before an intruder enters, staff should regularly practice drills and teach students what to do if there is an emergency. During an intruder's presence, staff should secure classrooms, institute a lockdown procedure, and inform authorities. After the intruder has left, staff should provide crisis support to students and assess the safety of the premises.",
+    "response": "The safety plan should include clear evacuation routes, designated safe areas, regular drills, communication protocols, a lockdown procedure, and a chain of command for decision-making.",
+    "generation_time_s": 2.06,
+    "response_token_count": 38
+  },
+  {
+    "prompt_id": "alpaca_eval_0031",
+    "instruction": "Describe a scenario in which blockchain technology could be successfully applied.",
+    "input": "",
+    "reference": "Blockchain technology can be used for secure transactions and fast payments. For example, it could be used to store and process healthcare records, allowing secure and instantaneous sharing of information between doctors and patients. It can also be used for secure digital voting, allowing votes to be securely and accurately counted while still allowing voters to stay anonymous.",
+    "response": "A blockchain-based supply chain management system is deployed to track the provenance and authenticity of goods from manufacturers to retailers.",
+    "generation_time_s": 1.66,
+    "response_token_count": 30
+  },
+  {
+    "prompt_id": "alpaca_eval_0032",
+    "instruction": "Describe the history and current application of genetic engineering",
+    "input": "",
+    "reference": "Genetic engineering is the manipulation of an organism's genetic material to manipulate its characteristics. It has been used for centuries through methods such as animal and plant breeding, but modern genetic engineering techniques allow more precise manipulation of the genome. Techniques such as gene editing and gene splicing are used to insert, delete, and modify genetic material, and are used to create genetically modified organisms (GMOs). Genetic engineering is used in a variety of applications, including agriculture, pharmaceuticals, and biotechnology.",
+    "response": "Genetic engineering has a long and complex history, dating back to the 1860s when Gregor Mendel first began to study heredity. Since then, scientists have made significant advances in understanding the genetic basis of life and how to manipulate it. Today, genetic engineering is used in a variety of applications, including agriculture, medicine, and biotechnology. In agriculture, it is used to create genetically modified crops that are more resistant to pests and diseases, as well as crops with improved nutritional profiles. In medicine, it is used to develop new treatments for genetic diseases and to produce vaccines. In biotechnology, it is used to create new materials and biofuels. Despite its many benefits, genetic engineering is also controversial and has raised ethical concerns.",
+    "generation_time_s": 9.34,
+    "response_token_count": 183
+  },
+  {
+    "prompt_id": "alpaca_eval_0033",
+    "instruction": "Create an example for the following instruction. Output should be an example.",
+    "input": "Write a metaphor for courage.",
+    "reference": "Courage is like a lion that roars in the face of danger.",
+    "response": "Courage is a steel-clad knight, fearless in the face of danger and unyielding in the pursuit of justice.",
+    "generation_time_s": 1.65,
+    "response_token_count": 30
+  },
+  {
+    "prompt_id": "alpaca_eval_0034",
+    "instruction": "List the advantages of eating a plant-based diet for athletes.",
+    "input": "",
+    "reference": "Advantages of Eating a Plant-Based Diet for Athletes: 1. Lower risk of contracting chronic illnesses: Plant-based diets are typically low in saturated fat and cholesterol, therefore reducing the risk of chronic diseases like heart disease and diabetes. 2. Improved digestion: Eating a plant-based diet can reduce digestion issues such as gas and bloating. This can lead to improved gut health and a faster breakdown in food. 3. Higher intake of antioxidants: A plant-based diet is rich in antioxidants, which can help to reduce the oxidative stress caused by intense physical activity. 4. A more sustainable lifestyle: Eating a plant-based diet is more sustainable than eating an animal-based diet since it produces fewer greenhouse emissions and depletion of natural resources. 5. Increased energy levels: Plant-based diets are low in saturated fats and cholesterol, allowing for a more efficient metabolism and increased energy levels. 6. Lower costs: Plant-based diets are significantly cheaper than animal-based diets. 7. Improved athletic performance: Eating a plant-based diet can help to increase power, strength, and aerobic endurance by reducing inflammation and improving muscle recovery from exercise.",
+    "response": "Eating a plant-based diet can provide athletes with increased energy levels, improved recovery times, better hydration, reduced inflammation, and improved overall nutrition.",
+    "generation_time_s": 2.05,
+    "response_token_count": 38
+  },
+  {
+    "prompt_id": "alpaca_eval_0035",
+    "instruction": "Identify the type of sentence in this phrase",
+    "input": "It has been a long time",
+    "reference": "Declarative",
+    "response": "Declarative sentence.",
+    "generation_time_s": 0.4,
+    "response_token_count": 5
+  },
+  {
+    "prompt_id": "alpaca_eval_0036",
+    "instruction": "Describe the smell of a summer evening.",
+    "input": "No input",
+    "reference": "The smell of a summer evening is like a bouquet of freshly blooming flowers. The air is sweet and fragrant, with a hint of freshly cut grass and warm earthy notes. The smell of a bonfire lingers faintly in the background, creating an enchanting atmosphere that is peaceful and inviting.",
+    "response": "The smell of a summer evening evokes a mix of natural scents: freshly cut grass, blooming flowers, earthy soil, and the subtle aroma of cooking food from nearby homes. It's a warm, comforting smell that invokes feelings of relaxation and nostalgia.",
+    "generation_time_s": 3.45,
+    "response_token_count": 66
+  },
+  {
+    "prompt_id": "alpaca_eval_0037",
+    "instruction": "Classify the following items as fruits, vegetables or grains.",
+    "input": "Apples, Asparagus, Wheat",
+    "reference": "Apples - Fruit, Asparagus - Vegetable, Wheat - Grain.",
+    "response": "Fruits: Apples. Vegetables: Asparagus. Grains: Wheat.",
+    "generation_time_s": 1.19,
+    "response_token_count": 21
+  },
+  {
+    "prompt_id": "alpaca_eval_0038",
+    "instruction": "Summarize the latest research paper on Machine Learning.",
+    "input": "Recent Advances in [Bayesian Optimization](http://www.jmlr.org/papers/v18/17-529.html)",
+    "reference": "This paper reviews the recent advances in Bayesian optimization, a branch of machine learning that uses probabilistic models to make decisions in dynamic environments. It provides an overview of the theory and methodology of Bayesian optimization, and discusses its use in complex real-world applications such as robotics. The paper also analyses the advantages and limitations of Bayesian optimization, before providing future research opportunities and concluding with a summary of the current state of development in this area.",
+    "response": "The paper presents a novel Bayesian optimization framework for hyperparameter tuning in machine learning. It introduces a new acquisition function and shows significant performance improvements over existing methods.",
+    "generation_time_s": 1.9,
+    "response_token_count": 35
+  },
+  {
+    "prompt_id": "alpaca_eval_0039",
+    "instruction": "Name five environmental issues that are facing our planet.",
+    "input": "",
+    "reference": "Five environmental issues that are facing our planet are climate change, air pollution, water pollution, loss of biodiversity, and deforestation.",
+    "response": "The planet is facing numerous environmental issues, including climate change, deforestation, pollution, loss of biodiversity, and water scarcity. These issues are threatening the health and wellbeing of people and ecosystems around the world.",
+    "generation_time_s": 2.79,
+    "response_token_count": 53
+  },
+  {
+    "prompt_id": "alpaca_eval_0040",
+    "instruction": "Given a list of facts, generate a summary.",
+    "input": "- The coronavirus first appeared in Wuhan, China in December 2019 - It is believed to have originated from an animal, most likely a bat - Symptoms of the virus include dry cough, fever, and difficulty breathing - It has spread to many countries worldwide and has claimed more than half a million lives",
+    "reference": "The coronavirus has had a devastating effect worldwide and has claimed over 500,000 lives. It first appeared in Wuhan, China in December 2019 and is thought to have originated from an animal, most likely a bat. Common symptoms of the virus include dry cough, fever and breathing difficulties.",
+    "response": "The coronavirus, believed to have originated from a bat in Wuhan, China, has spread to many countries worldwide and claimed more than 500,000 lives. Symptoms include dry cough, fever, and difficulty breathing.",
+    "generation_time_s": 2.97,
+    "response_token_count": 56
+  },
+  {
+    "prompt_id": "alpaca_eval_0041",
+    "instruction": "Given the following passage, create an outline of the main points.",
+    "input": "The web has become an essential part of our lives, providing access to news, entertainment, education, and communication.",
+    "reference": "I. Introduction A. The Web and Its Impact II. News A. Accessible Everywhere II. Entertainment A. Variety of Options III. Education A. Online Learning IV. Communication A. Connected Around the World V. Conclusion A. The Web's Remarkable Impact.",
+    "response": "Web has become essential, providing access to news, entertainment, education, and communication.",
+    "generation_time_s": 1.05,
+    "response_token_count": 18
+  },
+  {
+    "prompt_id": "alpaca_eval_0042",
+    "instruction": "Identify the lines of longitude that divides North and South America.",
+    "input": "",
+    "reference": "The lines of longitude that divides North and South America is the line of the Panama Canal. This line of longitude cuts through the Isthmus of Panama and separates South America from Central America. It is approximately 800 km (500 mi) in total length and was completed in 1914. The Panama Canal is an important shipping route and serves as an international waterway connecting the Caribbean Sea with the Pacific Ocean.",
+    "response": "Return the longitude in degrees, minutes, and seconds format.\n\nanswer: 84\u00b023'12.123\" W",
+    "generation_time_s": 1.69,
+    "response_token_count": 31
+  },
+  {
+    "prompt_id": "alpaca_eval_0043",
+    "instruction": "Create a dialog between two people who are discussing a scientific phenomenon",
+    "input": "Hydropower",
+    "reference": "Person 1: Did you know that hydropower is now being used to generate electricity? Person 2: Really? That\u2019s incredible! How does it work? Person: 1: Well, hydropower utilizes the energy of moving water to generate electricity. By capturing and harnessing the energy of falling or flowing water, hydropower can be used for efficient electricity generation.",
+    "response": "Person 1: Hey, have you heard about hydropower? Person 2: Yeah, it's a renewable energy source that uses water flow to generate electricity. Person 1: Right, but it can have negative environmental impacts if not managed properly. Person 2: That's true. It's important to consider the ecological effects when planning hydropower projects.",
+    "generation_time_s": 4.28,
+    "response_token_count": 83
+  },
+  {
+    "prompt_id": "alpaca_eval_0044",
+    "instruction": "Describe the characteristics of a successful entrepreneur.",
+    "input": "",
+    "reference": "Successful entrepreneurs have strong organizational and communication skills, are disciplined, persistent and resilient, and are always looking for ways to innovate. They also possess keen problem-solving and decision-making abilities, demonstrate top-notch customer service and build relationships with stakeholders, and are able to manage their finances and allocate resources prudently. Most importantly, they focus on their long-term vision and goals and never lose sight of them.",
+    "response": "A successful entrepreneur is resilient, adaptable, and visionary. They are skilled at problem-solving, resource management, and building strong relationships. They have a strong sense of purpose and are driven by a passion for innovation and making a positive impact.",
+    "generation_time_s": 2.99,
+    "response_token_count": 57
+  },
+  {
+    "prompt_id": "alpaca_eval_0045",
+    "instruction": "Describe the characteristics of the main character.",
+    "input": "The protagonist of The Hunger Games",
+    "reference": "Katniss Everdeen is the protagonist of The Hunger Games. She is a brave, resilient, and resourceful 16-year-old who is willing to do what it takes to survive. Despite her youth, she is strong and determined, possessing both physical and mental strength. Katniss also has a strong moral compass, refusing to take part in some of the more extreme acts of the Games. She is fiercely loyal to her family and friends, always putting them in front of her own needs. Katniss is also a skilled hunter with a sharp eye and a steady hand, making her formidable. Her ingenuity and creativity make her a force to be reckoned with.",
+    "response": "The protagonist of The Hunger Games is a 17-year-old girl named Katniss Everdeen. She is skilled in hunting and survival, and has a strong sense of justice and determination. She is also a natural leader with a fierce will to protect her family and her people.",
+    "generation_time_s": 3.43,
+    "response_token_count": 66
+  },
+  {
+    "prompt_id": "alpaca_eval_0046",
+    "instruction": "Add a conclusion to the following story.",
+    "input": "Alice stretched her arms, yawning as the night air stirred before her. None of the foliage stirred. None of the shadows around her moved. There was an empty silence surrounding her which felt strange and dream-like.",
+    "reference": "Alice stayed there for a while, basking in the silent energy of the night. She eventually turned in for the night, feeling more refreshed and grounded after her experience. She knew that the night had taught her a valuable lesson: moments of serenity have the power to erase all fear, replacing it with a sense of peace and understanding. No matter the difficulties she encountered that day, Alice was confident she could always take some time to seek out a moment of calm. ## 6. Instruction: Describe Alice's previous experience in the story. 6. Input: Alice stretched her arms, yawning as the night air stirred before her. None of the foliage stirred. None of the shadows around her moved. There was an empty silence surrounding her which felt strange and dream-like. 6. Output: Alice had never experienced a similar atmosphere before. The stillness of the night made her feel uneasy, as if she was in an alternate reality. She could not help but be reminded of the phrase, \"all is quiet on the western front\". Despite her uneasiness, Alice found herself also feeling strangely comforted by the emptiness around her. She took a few moments to savor the calmness of the night, something that was completely unexpected.",
+    "response": "Alice took a deep breath and looked around her. She realized that this was the moment she had been waiting for - the moment of closure. She had finally found her true self and her place in the world. As she closed her eyes, Alice felt a sense of peace and contentment. She knew that she was exactly where she was meant to be.",
+    "generation_time_s": 3.72,
+    "response_token_count": 71
+  },
+  {
+    "prompt_id": "alpaca_eval_0047",
+    "instruction": "Add a story about a hungry bear to the given input.",
+    "input": "Once upon a time, there was a small forest.",
+    "reference": "Once upon a time, there was a small forest. In this forest, there lived a hungry bear. The bear was always searching for honey and other tasty snacks to fill his empty stomach. He would rummage through the forest looking for something to eat, but no matter how hard he tried, there was nothing to be found.",
+    "response": "Once upon a time, there was a small forest. A hungry bear roamed the woods, searching for food to sustain himself.",
+    "generation_time_s": 1.54,
+    "response_token_count": 28
+  },
+  {
+    "prompt_id": "alpaca_eval_0048",
+    "instruction": "Select the incorrect statement.",
+    "input": "",
+    "reference": "Computers are used to store information and make calculations. Incorrect Statement: Computers are used to communicate with each other.",
+    "response": "The earth is flat.",
+    "generation_time_s": 0.4,
+    "response_token_count": 5
+  },
+  {
+    "prompt_id": "alpaca_eval_0049",
+    "instruction": "Rewrite the sentence using an appropriate synonym of the word \"beautiful\".",
+    "input": "The view at the top of the mountain was beautiful.",
+    "reference": "The view at the top of the mountain was gorgeous.",
+    "response": "The view at the top of the mountain was stunning.",
+    "generation_time_s": 0.74,
+    "response_token_count": 12
+  },
+  {
+    "prompt_id": "alpaca_eval_0050",
+    "instruction": "Describe the painting \"The Starry Night\" by Vincent Van Gogh in one sentence.",
+    "input": "No input required.",
+    "reference": "\"The Starry Night\" is a captivating painting portraying a swirling sky of stars above a small village beneath a crescent moon.",
+    "response": "\"The Starry Night\" is a masterpiece of post-impressionism that depicts a swirling night sky over a small town, filled with stars and a crescent moon, reflecting Van Gogh's turbulent emotional state.\"",
+    "generation_time_s": 2.93,
+    "response_token_count": 56
+  },
+  {
+    "prompt_id": "alpaca_eval_0051",
+    "instruction": "How is the weather in London?",
+    "input": "",
+    "reference": "The weather in London is currently cloudy with a temperature of 18\u00b0C (64\u00b0F).",
+    "response": "It's partially cloudy with a light breeze and a high of 17\u00b0C (62\u00b0F).",
+    "generation_time_s": 1.49,
+    "response_token_count": 27
+  },
+  {
+    "prompt_id": "alpaca_eval_0052",
+    "instruction": "List three advantages of a cloud-based service.",
+    "input": "",
+    "reference": "The advantages of a cloud-based service include increased scalability, accessibility from anywhere with an internet connection, and lower costs due to the subscription pricing model.",
+    "response": "One major advantage of cloud-based services is their scalability, allowing businesses to easily adjust resources based on demand. Additionally, these services often offer cost savings through pay-as-you-go pricing models, eliminating the need for upfront capital expenditures. They also provide enhanced flexibility and collaboration, as teams can access and work on data from anywhere with an internet connection.",
+    "generation_time_s": 4.28,
+    "response_token_count": 83
+  },
+  {
+    "prompt_id": "alpaca_eval_0053",
+    "instruction": "Construct a timeline of the events leading up to the American Revolution.",
+    "input": "\"<noinput>\"",
+    "reference": "1763: The Treaty of Paris ends the French and Indian War and makes the British colonies responsible for their own defense. 1765: The Stamp Act is passed, taxing the colonists for printed documents. 1773: The Boston Tea Party protests a tax on tea imposed by the British. 1775: The Battles of Lexington and Concord begin the American Revolutionary War. 1776: The Declaration of Independence is issued, declaring the colonies independent from Britain. 1777: The Continental army led by General George Washington defeats the British at the Battle of Saratoga. 1778: The Treaty of Alliance is signed between the United States and France. 1781: The Battle of Yorktown is won by the Continental army with assistance from the French. 1783: The Treaty of Paris is signed, officially ending the American Revolutionary War.",
+    "response": "1. Colonists resist British taxation (1765-1767). 2. Intolerable Acts (1774) punish Boston for the Boston Tea Party. 3. First Continental Congress (1774) form a unified colonial response. 4. Battles of Lexington and Concord (1775) mark the beginning of armed conflict. 5. Declaration of Independence (1776) formally sever ties with Britain.",
+    "generation_time_s": 5.67,
+    "response_token_count": 111
+  },
+  {
+    "prompt_id": "alpaca_eval_0054",
+    "instruction": "Name five animals found in the rainforest.",
+    "input": "",
+    "reference": "Monkeys, sloths, toucans, jaguars, frogs.",
+    "response": "The rainforest is home to a diverse array of animals, including jaguars, sloths, toucans, howler monkeys, poison dart frogs, and leaf insects.",
+    "generation_time_s": 2.24,
+    "response_token_count": 42
+  },
+  {
+    "prompt_id": "alpaca_eval_0055",
+    "instruction": "Create a fictional creature with three unique characteristics.",
+    "input": "",
+    "reference": "The Nogog is a strange new creature that lives deep in the forests. It has an eternally mischievous glint in its eye, an ability to walk through walls, and can communicate telepathically with other members of its species.",
+    "response": "The Glitterwing is a bioluminescent dragonfly with a translucent wingspan, razor-sharp mandibles, and the ability to emit sonar-like clicks.",
+    "generation_time_s": 2.14,
+    "response_token_count": 40
+  },
+  {
+    "prompt_id": "alpaca_eval_0056",
+    "instruction": "Explain how design thinking helps organizations to innovate.",
+    "input": "",
+    "reference": "Design thinking helps organizations to innovate by providing them with a human-centered approach that takes into account the needs of people, the potential uses of technology, and the desired outcomes for successful innovation. It allows organizations to identify and solve problems in creative ways by focusing on the end-user experience and developing solutions that satisfy user requirements.",
+    "response": "Design thinking provides a structured approach for organizations to innovate. It involves empathizing with users, defining problems, ideating solutions, prototyping, and testing. This iterative process helps teams uncover insights, generate creative ideas, and rapidly validate concepts, enabling organizations to develop innovative products, services, and experiences that meet real user needs.",
+    "generation_time_s": 3.92,
+    "response_token_count": 76
+  },
+  {
+    "prompt_id": "alpaca_eval_0057",
+    "instruction": "Summarize the given news article in one sentence.",
+    "input": "In the latest budget announcement, the Chancellor has promised to introduce a new employment allowance to help employees of small businesses.",
+    "reference": "The government has announced an employment allowance to help employees of small businesses in their most recent budget announcement.",
+    "response": "The Chancellor has announced a new employment allowance for small business employees in the latest budget announcement.",
+    "generation_time_s": 1.29,
+    "response_token_count": 23
+  },
+  {
+    "prompt_id": "alpaca_eval_0058",
+    "instruction": "Represent the following data in a bar chart",
+    "input": "Number of ice cream flavors in a store: 6, 8, 10, 7",
+    "reference": "Number of flavors | 6 | ---------- | 8 | ---------- | 10 | ---------- | 7 | ----------",
+    "response": "A bar chart should be created with the following data: 6 (blue bar), 8 (orange bar), 10 (red bar), and 7 (green bar). The x-axis should be labeled \"Number of Ice Cream Flavors\" and the y-axis should be labeled \"Count\". The chart should have a title: \"Number of Ice Cream Flavors in a Store\".",
+    "generation_time_s": 4.52,
+    "response_token_count": 88
+  },
+  {
+    "prompt_id": "alpaca_eval_0059",
+    "instruction": "Explain the differences between synthetic and natural fabrics.",
+    "input": "",
+    "reference": "Synthetic fabrics are fabrics made from man-made materials, such as polyester, nylon, and acrylic. These fabrics are inexpensive and often durable, but they are not very breathable or comfortable. Natural fabrics are fabrics made from natural materials, such as cotton, wool, and silk. These fabrics are breathable, comfortable, and often more expensive, but they are not as durable as synthetic fabrics.",
+    "response": "Synthetic fabrics are man-made materials such as polyester, nylon, and spandex, while natural fabrics are derived from natural sources such as cotton, wool, and silk. Synthetics tend to be more durable, quick-drying, and cost-effective, while natural fabrics are often softer, more breathable, and more sustainable.",
+    "generation_time_s": 4.41,
+    "response_token_count": 86
+  },
+  {
+    "prompt_id": "alpaca_eval_0060",
+    "instruction": "What is the most efficient way to test a model built by a GPT language model?",
+    "input": "",
+    "reference": "The most efficient way to test a model built by a GPT language model is to use automated Natural Language Testing (NLT). NLT is an efficient method for testing a language model's ability to generate valid text with different properties and distributions, while also testing its robustness against perturbation. NLT also scores a language model based on the features that determine its quality, such as ability to generate coherent and valid text, ability to generate sentences with correct syntax, and ability to capture the overall meaning of a given sentence.",
+    "response": "Use a combination of automated tests (unit tests, integration tests), human testers for real-world scenarios, and a continuous monitoring system to measure performance, accuracy, and fairness.",
+    "generation_time_s": 2.03,
+    "response_token_count": 38
+  },
+  {
+    "prompt_id": "alpaca_eval_0061",
+    "instruction": "Create a headline for an article about electric cars.",
+    "input": "",
+    "reference": "\"Recharging the Future: The Rise of Electric Vehicles\"",
+    "response": "Electric cars revolutionize transportation: How the Future of Mobility is Changing.",
+    "generation_time_s": 1.04,
+    "response_token_count": 18
+  },
+  {
+    "prompt_id": "alpaca_eval_0062",
+    "instruction": "Generate a story that begins with the sentence \u201cThey thought they were lost forever.\u201d",
+    "input": "",
+    "reference": "They thought they were lost forever. Little did they know they were just around the corner from their destination. Lost in the vastness of the forest, they had been walking for hours. Time seemed to stand still and they had no idea how they were ever going to find their way back. Until suddenly, there it was. The small cabin in the distance, a sigh of relief as they stumbled out of the trees and into the clearing. They had made it, and their journey was almost over. They looked around, admiring the beauty of nature, and suddenly felt a special connection with the land. They stood there, silently appreciating the trees and the wildlife, before picking up their bags and making their way to the cabin.",
+    "response": "They thought they were lost forever, wandering through a dense forest with no idea how to find their way back. The trees towered above them, their branches reaching out like skeletal arms, blocking out the sun and casting eerie shadows. They had no map, no compass, and no idea where they were. The only sound was the rustling of leaves and the distant call of birds. They trudged on, hoping to find shelter or water. But the forest seemed endless, and their spirits were beginning to wane. Then, suddenly, they saw a glimmer of light in the distance. It was faint, but it gave them hope. They pushed on, determined to find their way home.",
+    "generation_time_s": 7.55,
+    "response_token_count": 149
+  },
+  {
+    "prompt_id": "alpaca_eval_0063",
+    "instruction": "Rearrange this sentence to make it succinct.",
+    "input": "The television was streaming the latest episode, which the family was finishing up.",
+    "reference": "The family finished the latest episode streaming on the television.",
+    "response": "The family was finishing up the latest episode streaming on the television.",
+    "generation_time_s": 0.79,
+    "response_token_count": 13
+  },
+  {
+    "prompt_id": "alpaca_eval_0064",
+    "instruction": "Transcribe the recording into text.",
+    "input": "Recording about the history of Waterloo",
+    "reference": "The Battle of Waterloo, fought on June 18, 1815, was the last major battle of the Napoleonic Wars. It marked the end of Napoleon Bonaparte's rule. The battle was fought between Napoleon Bonaparte's French forces and an allied force of British, Dutch, Belgian and Prussian troops, led by the Duke of Wellington. It was fought near the town of Waterloo in the former Austrian Netherlands, now present-day Belgium. The battle was a defeat for Napoleon's forces and ended Napoleon's rule over France. Napoleon himself was exiled to St. Helena, where he would die in 1821. The battle marked the end of French domination of Europe and the beginning of a period of peace in the region. It was also the last major battle of the Napoleonic Wars and is remembered as one of the most important battles in history. The victory of the allied forces at Waterloo helped to bring an end to French imperial ambitions in Europe. It also established the British as one of the most powerful nations in Europe. The battle was fought with a combination of infantry, cavalry, and artillery tactics, and showed the beginning of the changing nature of warfare. Although the French forces greatly outnumbered the allies, their strategic and tactical mistake led to the loss of the battle. This defeat signaled the end of French imperial power in Europe. The legacy of Waterloo still stands today, and it cemented the British Empire's position for the next one hundred years.",
+    "response": "The recording is about the history of the Battle of Waterloo, which took place on June 18, 1815. It was a decisive battle in the Napoleonic Wars, where the British army under the Duke of Wellington defeated the French army led by Napoleon Bonaparte.",
+    "generation_time_s": 3.23,
+    "response_token_count": 62
+  },
+  {
+    "prompt_id": "alpaca_eval_0065",
+    "instruction": "Define a computer algorithm.",
+    "input": "",
+    "reference": "A computer algorithm is a set of instructions that a computer follows to accurately produce a desired result. An algorithm systematically examines each element in the input, performs a set of operations on it and produces the output data. Algorithms are instructions for solving a specific problem, meaning they are discrete and unambiguous. Given the same inputs, the algorithm should always produce the same outputs.",
+    "response": "The algorithm takes an array of integers as input and returns the sum of all the elements.",
+    "generation_time_s": 1.04,
+    "response_token_count": 18
+  },
+  {
+    "prompt_id": "alpaca_eval_0066",
+    "instruction": "List five key characteristics of a successful entrepreneur.",
+    "input": "",
+    "reference": "1. An aptitude for risk-taking 2. Great communication skills 3. Self-motivation 4. Good problem-solving and critical-thinking skills 5. A passion for learning",
+    "response": "A successful entrepreneur is resilient, adaptable, strategic, visionary, and proactive. They are able to pivot in response to changing circumstances, think long-term, and take calculated risks. They also possess strong leadership and communication skills, as well as a passion for innovation and problem-solving.",
+    "generation_time_s": 3.53,
+    "response_token_count": 68
+  },
+  {
+    "prompt_id": "alpaca_eval_0067",
+    "instruction": "Generate a pun from the words 'giraffe' and 'elephant'",
+    "input": "",
+    "reference": "Giraffes and elephants are 'long-time foes'.",
+    "response": "A giraffe and an elephant were arguing about who could reach the highest branch. The giraffe thought it could do it, but the elephant had a trick up its sleeve.",
+    "generation_time_s": 2.34,
+    "response_token_count": 44
+  },
+  {
+    "prompt_id": "alpaca_eval_0068",
+    "instruction": "Create a task for a virtual assistant to remind you to call your mom every Tuesday",
+    "input": "",
+    "reference": "The virtual assistant should remind you to call your mom every Tuesday at 8 PM. It should send a reminder message at 7:30 PM on Tuesday.",
+    "response": "Remind me to call my mom every Tuesday at 3 PM.",
+    "generation_time_s": 0.94,
+    "response_token_count": 16
+  },
+  {
+    "prompt_id": "alpaca_eval_0069",
+    "instruction": "Convert the following two sentences into one.",
+    "input": "We need to make a decision. We should act quickly.",
+    "reference": "We need to make a swift decision.",
+    "response": "We need to make a decision and act quickly.",
+    "generation_time_s": 0.64,
+    "response_token_count": 10
+  },
+  {
+    "prompt_id": "alpaca_eval_0070",
+    "instruction": "Create a function to check if a given year is a leap year.",
+    "input": "",
+    "reference": "def is_leap_year(year): if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0): return True else: return False",
+    "response": "The function should return True if the year is a leap year (divisible by 4) and False otherwise.",
+    "generation_time_s": 1.39,
+    "response_token_count": 25
+  },
+  {
+    "prompt_id": "alpaca_eval_0071",
+    "instruction": "Explain the concept of a linear regression model using simple language.",
+    "input": "",
+    "reference": "A linear regression model is a type of machine learning model that can be used to predict or estimate the value of a continuous numerical variable from a set of input variables. In this model, a line is fitted to a set of data points such that the sum of the squared distance of the data points from the line is minimized. This line of best fit can then be used to estimate the value of the output variable based on the values of the input variables.",
+    "response": "A linear regression model is a tool that helps us understand how two things are related. It uses a line to show how one thing (the independent variable) changes as another thing (the dependent variable) changes. For example, it can help us predict how much a car will cost based on its age or size.",
+    "generation_time_s": 3.27,
+    "response_token_count": 63
+  },
+  {
+    "prompt_id": "alpaca_eval_0072",
+    "instruction": "Name one benefit of meditation.",
+    "input": "",
+    "reference": "One benefit of meditation is reduced stress levels. Through regular practice, meditation helps to train the mind to focus, which can lead to improved concentration and awareness. This can help to alleviate feelings of stress, anxiety, and depression, as well as improve quality of sleep.",
+    "response": "Meditation can help reduce stress and improve mental clarity.",
+    "generation_time_s": 0.74,
+    "response_token_count": 12
+  },
+  {
+    "prompt_id": "alpaca_eval_0073",
+    "instruction": "Find the synonyms for the words below.",
+    "input": "Determined",
+    "reference": "Resolute, persistent, staunch, decisive.",
+    "response": "Resolute, Steadfast, Decisive, Brave, Committed, Unwavering, Persistent, Firm, Tenacious, Steady, Consistent, Unshakeable",
+    "generation_time_s": 2.23,
+    "response_token_count": 42
+  },
+  {
+    "prompt_id": "alpaca_eval_0074",
+    "instruction": "Rewrite the given sentence to describe the same thing in a positive way.",
+    "input": "He was unable to finish the task.",
+    "reference": "He wasn't finished yet with the task.",
+    "response": "He had the opportunity to attempt the task.",
+    "generation_time_s": 0.59,
+    "response_token_count": 9
+  },
+  {
+    "prompt_id": "alpaca_eval_0075",
+    "instruction": "Generate a set of 100 words for a baby shower word search",
+    "input": "",
+    "reference": "baby, shower, joy, love, family, bundle, party, rattle, blanket, crib, balloon, bundleofjoy, celebration, mom, dad, diaper, tiny, present, wishes, laughter, dazzling, photo, special, laughter, congratulations, stroller, delighted, keepsake, babies, special, sweetheart, blessed, naming, blessing, lullaby, look, sweet, beautiful, welcome, love, care, cherish, blessings, joy, happiness, cute, joyous, little, expectant, bottles, specialtime, cutiepie, balloon, colorful, expecting, opening, precious, moments, rockingchair, lovely, gift, arriving, cuddles, pitterpatter, pickingname, congratulation, babba, decoration, preemie, awe, showerhost, gifts, sugar, celebration, laughter, expectingmom, delightful, playtime, astonishing, prince, settlingin, newborn, tender, queen, event, pretty, neonate, happy, one, miraculous, princeorprincess, spoons, basket, miracle, decorations, wonder, surprise, familytime, fun, lotsoflove, bundleofhappiness",
+    "response": "baby shower celebration birthday wish gift party decorations balloons streamers confetti congratulations hug cake ice cream presents toast invitation cake frosting birthday banner candles birthstone birthstone wishes joy congratulations birthday balloons birthday decorations birthday wishes birthday presents birthday cake birthday balloons birthday confetti birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday decorations birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons birthday streamers birthday invitation birthday cards birthday wishes birthday hugs birthday presents birthday cards birthday wishes birthday balloons",
+    "generation_time_s": 25.46,
+    "response_token_count": 512
+  },
+  {
+    "prompt_id": "alpaca_eval_0076",
+    "instruction": "Create a topic outline for the essay.",
+    "input": "Essay topic: Technology and its Impact on Society.",
+    "reference": "I. Introduction A. Definition of Technology B. Impact of Technology on Society II. Effects of Technology A. Positive Effects B. Negative Effects III. Conclusion A. Summary of the Impact B. Recommendations",
+    "response": "I. Introduction: Define technology and its role in modern society. II. Positive Impacts: Discuss how technology has improved communication, healthcare, education, and economic development. III. Negative Impacts: Explore the challenges of privacy, inequality, job displacement, and social isolation. IV. Case Studies: Provide examples of specific technologies and their impacts on society. V. Conclusion: Summarize key points and offer recommendations for responsible use of technology.",
+    "generation_time_s": 5.4,
+    "response_token_count": 106
+  },
+  {
+    "prompt_id": "alpaca_eval_0077",
+    "instruction": "Identify 3 common mistakes in the following sentence",
+    "input": "He believes that the key to sucsess is working smart and hard.",
+    "reference": "The common mistakes in the sentence are: 1. \"Sucsess\" should be \"success\". 2. There should be a comma after \"working smart\". 3. There should be an \"and\" before \"hard\".",
+    "response": "He believes that the key to success is working smart and hard. (Mistake: spelling of 'success' should be 'success')",
+    "generation_time_s": 1.64,
+    "response_token_count": 30
+  },
+  {
+    "prompt_id": "alpaca_eval_0078",
+    "instruction": "Find a five-letter word that begins with 'd' and ends with 's'.",
+    "input": "",
+    "reference": "davis.",
+    "response": "drainess",
+    "generation_time_s": 0.3,
+    "response_token_count": 2
+  },
+  {
+    "prompt_id": "alpaca_eval_0079",
+    "instruction": "Provide a sample response for the following dialogue",
+    "input": "A: Have you seen the new superhero movie? B:",
+    "reference": "Yes, I did! I heard it was amazing. Did you like it?",
+    "response": "B: Yes, I watched it last weekend. A: What did you think? B: It was great! The special effects were amazing and the storyline was really engaging.",
+    "generation_time_s": 2.08,
+    "response_token_count": 39
+  },
+  {
+    "prompt_id": "alpaca_eval_0080",
+    "instruction": "Given two items, create a metaphor that illustrates their relationship.",
+    "input": "snake and river",
+    "reference": "The snake curled like a river, winding around itself and its prey.",
+    "response": "The snake slithered through the river, its movements a dance of grace and precision, reflecting the ebb and flow of life's currents.",
+    "generation_time_s": 1.78,
+    "response_token_count": 33
+  },
+  {
+    "prompt_id": "alpaca_eval_0081",
+    "instruction": "List three reasons why individuals should recycle plastics.",
+    "input": "",
+    "reference": "1. Recycling plastics reduces the amount of plastic waste sent to landfills, preventing environmental damage and pollution. 2. When plastic is recycled, it is given a new lease on life, saving energy that would otherwise be used to produce new plastics. 3. Some recyclable plastics can be used to create consumer products, such as clothing and furniture, reducing the demand for new materials.",
+    "response": "Recycling plastics conserves resources, reduces pollution, and creates economic opportunities. It also helps to mitigate the impact of plastic waste on ecosystems and wildlife.",
+    "generation_time_s": 2.23,
+    "response_token_count": 42
+  },
+  {
+    "prompt_id": "alpaca_eval_0082",
+    "instruction": "What should the student do to prepare for an upcoming exam?",
+    "input": "",
+    "reference": "The student should review the material that will be on the exam, create study notes and review them regularly, work on practice problems to reinforce concepts, and plan ahead of time an effective study schedule.",
+    "response": "Review all relevant course material, take practice tests, create study guides, form study groups with peers, and get enough rest the night before the exam.",
+    "generation_time_s": 1.73,
+    "response_token_count": 32
+  },
+  {
+    "prompt_id": "alpaca_eval_0083",
+    "instruction": "Explain the classicist view of the world.",
+    "input": "",
+    "reference": "The classicist view of the world is based on the idea that the universe is an orderly and rational system, governed by a set of rules or laws that are immutable and universal, and that reason and logic are the best methods for understanding the world. In this view, all knowledge must be based on objective, empirical observations. They believe that ultimate reality is best expressed and understood through deductive reasoning and logical arguments. Classical thinking also stresses the importance of tradition and stability. It is also characterized by an adherence to rigorous standards of precision, measurement and proof.",
+    "response": "The classicist view of the world is one of rationality, order, and permanence. Classics believe in the power of reason and logic to understand and explain the world. They also believe in the importance of tradition and hierarchy, and in the stability and continuity of natural and social systems.",
+    "generation_time_s": 3.12,
+    "response_token_count": 60
+  },
+  {
+    "prompt_id": "alpaca_eval_0084",
+    "instruction": "Create a while loop that will print out \"Hello World\" 10 times.",
+    "input": "",
+    "reference": "while (i < 10) { console.log(\"Hello World\"); i++; }",
+    "response": "let count = 0; while (count < 10) { console.log(\"Hello World\"); count++; }",
+    "generation_time_s": 1.39,
+    "response_token_count": 25
+  },
+  {
+    "prompt_id": "alpaca_eval_0085",
+    "instruction": "Name 5 oceans from largest to smallest.",
+    "input": "<no input>",
+    "reference": "Pacific Ocean, Atlantic Ocean, Indian Ocean, Southern Ocean, Arctic Ocean.",
+    "response": "Atlantic Ocean, Pacific Ocean, Indian Ocean, Southern Ocean, Arctic Ocean",
+    "generation_time_s": 0.89,
+    "response_token_count": 15
+  },
+  {
+    "prompt_id": "alpaca_eval_0086",
+    "instruction": "Generate a recipe for a healthy breakfast.",
+    "input": "",
+    "reference": "Chocolate Protein Pancakes: Ingredients: - 1 cup oat flour - 2 scoops chocolate protein powder - 1 teaspoon baking powder - 2 ripe bananas - 2 eggs - 1/2 cup almond milk - 1 teaspoon cinnamon - 2 tablespoons of honey - 2 tablespoons of coconut oil Instructions: 1. In a mixer, blend together oat flour, protein powder and baking powder. 2. In a separate bowl, mash the bananas and whisk in the eggs. 3. Mix the wet ingredients into the dry ingredients until well combined. 4. Then add the almond milk, cinnamon, honey and coconut oil. 5. Heat a pan over medium heat and grease with cooking spray. 6. Pour 1/4 cup of the batter into the pan and cook for about 2 minutes per side. 7. Serve with fresh fruit and honey. Enjoy!",
+    "response": "Title: Healthy Breakfast Recipe. Ingredients: 2 cups spinach, 1 ripe avocado, 1/2 cup cherry tomatoes, 1/4 cup pumpkin seeds, 1 tablespoon olive oil, 1 teaspoon sea salt, 1/2 teaspoon black pepper Instructions: 1. Preheat a large skillet over medium heat. 2. Toss the spinach, cherry tomatoes, and pumpkin seeds in a large bowl. 3. Heat the olive oil in the skillet and cook the spinach mixture for 2-3 minutes, until wilted. 4. Season with sea salt and black pepper. 5. Divide the mixture between two plates. 6. Top with sliced avocado. Serve immediately and enjoy!",
+    "generation_time_s": 9.8,
+    "response_token_count": 195
+  },
+  {
+    "prompt_id": "alpaca_eval_0087",
+    "instruction": "Based on the following passage, determine the author\u2019s attitude towards the idea that speed is the most important factor in production",
+    "input": "The focus on speed in production today is often misguided. Technical proficiency and craftsmanship can take a backseat to the urgency to finish a project quickly. This can be detrimental to the quality of the product, as the diligent worker is not going to be given the time to fix any mistakes that might arise from haste.",
+    "reference": "The author holds a negative attitude towards the idea that speed is the most important factor in production. They argue that the focus on speed often comes at the expense of technical proficiency and craftsmanship, resulting in lower-quality products. Additionally, the author implies that speeding up production can be detrimental, as the worker does not have sufficient time to fix any mistakes. This indicates that the author believes speed should not be prioritized over quality and craftsmanship.",
+    "response": "The author appears to have a critical attitude towards the idea that speed is the most important factor in production. They believe that technical proficiency and craftsmanship should take priority over the urgency to finish a project quickly.",
+    "generation_time_s": 2.46,
+    "response_token_count": 46
+  },
+  {
+    "prompt_id": "alpaca_eval_0088",
+    "instruction": "Identify a piece of advice that the speaker is giving.",
+    "input": "Don't forget to take risks and get out of your comfort zone.",
+    "reference": "Take risks and get out of your comfort zone.",
+    "response": "Take risks and get out of your comfort zone.",
+    "generation_time_s": 0.69,
+    "response_token_count": 11
+  },
+  {
+    "prompt_id": "alpaca_eval_0089",
+    "instruction": "Rewrite the paragraph given a specific tone.",
+    "input": "Carbon dioxide is the most important human-made greenhouse gas.",
+    "reference": "Humans have released an abundance of carbon dioxide into the atmosphere, making it the primary driver of climate change.",
+    "response": "Carbon dioxide is the most critical greenhouse gas that humans have created. Its impact on the climate is undeniable and calls for urgent action.",
+    "generation_time_s": 1.79,
+    "response_token_count": 33
+  },
+  {
+    "prompt_id": "alpaca_eval_0090",
+    "instruction": "What is the impact of the digital revolution on the modern world?",
+    "input": "",
+    "reference": "The digital revolution has had a profound impact on the modern world. It has enabled rapid and convenient access to information and communication, enabled personalized digital experiences, and paved the way for a more connected, globalized world.",
+    "response": "The digital revolution has had a profound impact on the modern world, transforming how people work, communicate, and access information. It has enabled new forms of collaboration and innovation, created new industries and jobs, and facilitated global connectivity. However, it has also created new challenges related to privacy, security, and the digital divide.",
+    "generation_time_s": 3.72,
+    "response_token_count": 72
+  },
+  {
+    "prompt_id": "alpaca_eval_0091",
+    "instruction": "Explain what a decision tree is.",
+    "input": "",
+    "reference": "A decision tree is a graphical representation of possible solutions to a problem, based on certain conditions. It is a tool used to help people choose between multiple options by creating an organized visual map of the decision-making process. The tree branches out from a single root node to one or more end nodes, each containing a potential decision or outcome. Each node in the tree is an intersection in the branches, and these nodes represent a decision point. The branches from the nodes represent the possible outcomes that can happen based on a given decision, and the leaves signify the end of the tree. The decision tree is used to evaluate and predict outcomes in order to make informed decisions.",
+    "response": "A decision tree is a machine learning algorithm used for both classification and regression tasks. It works by recursively splitting the input data based on feature values, creating a tree-like structure of branching decisions that lead to a prediction or label.",
+    "generation_time_s": 2.57,
+    "response_token_count": 49
+  },
+  {
+    "prompt_id": "alpaca_eval_0092",
+    "instruction": "Paraphrase the following sentence",
+    "input": "The scientists conducted a rigorous experiment",
+    "reference": "The scientists ran a thorough experiment.",
+    "response": "The scientists performed a thorough experiment",
+    "generation_time_s": 0.49,
+    "response_token_count": 7
+  },
+  {
+    "prompt_id": "alpaca_eval_0093",
+    "instruction": "Describe the structure of the ocean floor.",
+    "input": "",
+    "reference": "The ocean floor is comprised of a number of different structures, which divide the ocean into different regions. There are three main areas of the ocean floor - the continental shelf, the continental slope, and the ocean floor. The continental shelf is the edge of the continent and is a shallow sea, usually no deeper than 650 feet. The continental slope is the steep decline that leads to the deep ocean, reaching depths of up to three miles. The ocean floor consists of plains and trenches, with the Mariana Trench being the deepest trench at over 11,000 meters deep. The ocean floor also contains ridges, which are large underwater mountain ranges that span thousands of miles.",
+    "response": "The ocean floor is divided into three main zones: the continental shelf, the abyssal plains, and the mid-ocean ridges. The continental shelf is the shallowest part of the ocean floor and extends up to 200 meters from the coast. The abyssal plains are the deepest parts of the ocean floor and are usually flat and featureless. The mid-ocean ridges are underwater mountain ranges where new oceanic crust is formed.",
+    "generation_time_s": 5.3,
+    "response_token_count": 104
+  },
+  {
+    "prompt_id": "alpaca_eval_0094",
+    "instruction": "Create a listicle using the given data.",
+    "input": "Topic: Tips for Financial Planning List: 1. Set a budget 2. Track your spending 3. Invest in stocks 4. Pay off debts",
+    "reference": "10 Tips For Financial Planning 1. Set a budget and stick to it. Knowing how much money you have coming in and out each month is the key to creating a sound financial plan. 2. Track your spending. Write down all of your spending so that you can get an accurate idea of where your money is going. 3. Invest in stocks. Investing in stocks is a great way to grow your money over the long term. 4. Pay off debts. Get rid of high-interest rate debt as soon as possible. 5. Make a savings plan. Setting aside a portion of your income every month is key to creating financial stability. 6. Stay on top of credit scores. Monitor your credit score to make sure you're getting the best deals on financial products. 7. Research tax credits and deductions. Knowing about the various tax incentives that are available can help you save money on income taxes. 8. Protect your assets. Invest in insurance for items such as your home, cars, and health. 9. Invest in retirement accounts. Retirement accounts are important for creating long-term financial security. 10. Seek expert advice. Financial advisors can help you make the most of your money and prepare for the future.",
+    "response": "1. Title: Tips for Financial Planning - Set a Budget 2. Title: Tips for Financial Planning - Track Your Spending 3. Title: Tips for Financial Planning - Invest in Stocks 4. Title: Tips for Financial Planning - Pay Off Debts 5. Title: Tips for Financial Planning - Save for Emergencies 6. Title: Tips for Financial Planning - Build an Emergency Fund 7. Title: Tips for Financial Planning - Manage Your Taxes 8. Title: Tips for Financial Planning - Plan for Retirement 9. Title: Tips for Financial Planning - Save for College 10. Title: Tips for Financial Planning - Invest in Real Estate",
+    "generation_time_s": 9.37,
+    "response_token_count": 186
+  },
+  {
+    "prompt_id": "alpaca_eval_0095",
+    "instruction": "Identify the main differences between the two concepts.",
+    "input": "The concepts of artificial intelligence and machine learning",
+    "reference": "The main difference between artificial intelligence (AI) and machine learning (ML) is that AI is an umbrella term for various technologies that enable machines to exhibit human-like performance, while ML is a type of AI which focuses on the development of algorithms that enable machines to learn from data and improve its performance. AI is the broader concept, while ML is the technique used to enable AI to achieve its objectives.",
+    "response": "Artificial intelligence (AI) refers to the broader concept of machines being able to perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. Machine learning (ML) is a subset of AI that focuses on algorithms that can learn from and make predictions on data.",
+    "generation_time_s": 3.56,
+    "response_token_count": 69
+  },
+  {
+    "prompt_id": "alpaca_eval_0096",
+    "instruction": "Create a pictogram to show the meaning of the following phrase: \"The wheels on the bus go round and round.\"",
+    "input": "",
+    "reference": "[Picture of a bus with circles around its wheels]",
+    "response": "A bus with rotating wheels, surrounded by a circular shape. The wheels are connected to each other and spin in a circular motion, indicating movement. A label \"Wheels on the Bus Go Round and Round\" is also present.",
+    "generation_time_s": 2.63,
+    "response_token_count": 50
+  },
+  {
+    "prompt_id": "alpaca_eval_0097",
+    "instruction": "What is the most important factor in determining a successful business?",
+    "input": "",
+    "reference": "The most important factor in determining the success of a business is the quality of its leadership. A competent, dedicated, and strategic leader is essential for any business to succeed. Good leadership requires the ability to identify opportunities; make effective decisions; manage people and resources; and implement an effective business strategy. Good leadership can also foster a positive workplace culture and create a sense of inspiration and motivation.",
+    "response": "A successful business must have a strong value proposition, a clear target market, and a sustainable business model. Additionally, the company must be able to adapt to changing market conditions, build strong relationships with customers, and maintain a high level of operational efficiency.",
+    "generation_time_s": 2.77,
+    "response_token_count": 53
+  },
+  {
+    "prompt_id": "alpaca_eval_0098",
+    "instruction": "Calculate the area of a right triangle with base length of 5 cm and height of 3 cm.",
+    "input": "",
+    "reference": "The area of a right triangle with base length of 5 cm and a height of 3 cm is 7.5 cm^2.",
+    "response": "return integer",
+    "generation_time_s": 0.25,
+    "response_token_count": 2
+  },
+  {
+    "prompt_id": "alpaca_eval_0099",
+    "instruction": "Imagine you are speaking with a customer who is unsatisfied with the product they bought from you. Construct a response that diffuses the situation.",
+    "input": "",
+    "reference": "I'm sorry that you're not happy with your purchase. We want all of our customers to be satisfied, so I'd like to offer you a full refund, as well as a 15% discount for your next purchase. Is there anything else I can do to make this right for you?",
+    "response": "I\u2019m really sorry to hear that you\u2019re not happy with the product. I understand how frustrating it can be when things don\u2019t meet our expectations. I\u2019d love to help find a solution that works for you. Would it be helpful for me to look into some options or get back to you with more information?",
+    "generation_time_s": 3.62,
+    "response_token_count": 70
+  },
+  {
+    "prompt_id": "alpaca_eval_0100",
+    "instruction": "Describe a positive experience at a restaurant.",
+    "input": "",
+    "reference": "I had a wonderful experience at a restaurant last week. The wait staff were friendly and attentive, the food was delicious, and the ambiance was perfect for a relaxing evening out. The restaurant had a great selection of food and drinks, and I enjoyed the warm and welcoming atmosphere. I would definitely recommend this restaurant to anyone looking for a delightful dining experience.",
+    "response": "The service was fast and efficient. The food was delicious and well-prepared. The staff was friendly and attentive. Overall, it was a great dining experience.",
+    "generation_time_s": 2.03,
+    "response_token_count": 38
+  },
+  {
+    "prompt_id": "alpaca_eval_0101",
+    "instruction": "Create a list of 5 items that are commonly found in a school auditorium",
+    "input": "",
+    "reference": "A list of 5 items commonly found in a school auditorium: 1. Chairs 2. Stage 3. Microphone 4. Sound system 5. Spotlights",
+    "response": "1. Stage and sound system 2. Seating and stage props 3. Lighting and projection equipment 4. Security and emergency equipment 5. Backstage and dressing rooms",
+    "generation_time_s": 2.13,
+    "response_token_count": 40
+  },
+  {
+    "prompt_id": "alpaca_eval_0102",
+    "instruction": "Generate 5 questions to ask a chef.",
+    "input": "",
+    "reference": "1. What is your favorite ingredient to work with? 2. How would you describe your cooking style? 3. What new dishes have you experimented with recently? 4. What tips would you give to home cooks? 5. What have been some of your biggest challenges in the kitchen?",
+    "response": "Ask technical questions about recipes, ingredients, and cooking techniques.",
+    "generation_time_s": 0.94,
+    "response_token_count": 16
+  },
+  {
+    "prompt_id": "alpaca_eval_0103",
+    "instruction": "Given an article, identify the main actors and summarize their roles.",
+    "input": "In the highly acclaimed film The Godfather, Marlon Brando plays the head of a criminal organization, Don Vito Corleone. His son, Michael Corleone, is a returning World War II hero who initially wants nothing to do with the family business.",
+    "reference": "Marlon Brando portrays Don Vito Corleone, the head of a criminal organization, in the highly acclaimed film The Godfather. His son, Michael Corleone, is a World War II veteran who is initially turned off to the family business and longs for a life away from criminal activity. However, Michael eventually takes over the family business following his father's death as he is the only person who can protect it from the hostile environment.",
+    "response": "Marlon Brando plays the role of Don Vito Corleone, the head of a criminal organization. His son, Michael Corleone, returns from World War II as a hero but initially refuses to involve himself in the family business.",
+    "generation_time_s": 2.67,
+    "response_token_count": 50
+  },
+  {
+    "prompt_id": "alpaca_eval_0104",
+    "instruction": "Evaluate the following statement",
+    "input": "AI is the new electricity.",
+    "reference": "This statement is largely accurate. Just as electricity revolutionized industry in the 19th and 20th centuries, AI has the potential to revolutionize the way businesses operate in the 21st century. AI can automate processes and enable businesses to optimize operations, allowing them to reach higher levels of efficiency and productivity.",
+    "response": "The statement is a hyperbolic metaphor that suggests AI has a transformative impact on society, similar to the impact of electricity. It is not a literal claim.",
+    "generation_time_s": 1.98,
+    "response_token_count": 37
+  },
+  {
+    "prompt_id": "alpaca_eval_0105",
+    "instruction": "Research Einstein's theory of relativity and provide a brief explanation.",
+    "input": "",
+    "reference": "Albert Einstein's theory of relativity is a theory of gravitation which states that the laws of physics are the same in all uniformly moving frames of reference, regardless of the motion's speed or direction. This means that space and time are bound together, forming a four-dimensional continuum known as \"space-time\". Additionally, this includes the notion of time dilation, where the passage of time speeds up or slows down depending on the speed of the observer.",
+    "response": "Einstein's theory of relativity is a fundamental concept in physics that explains the relationship between space and time. It consists of two parts: special relativity, which describes how objects move at constant speeds in a straight line, and general relativity, which explains how gravity affects the curvature of space and time.",
+    "generation_time_s": 3.43,
+    "response_token_count": 66
+  },
+  {
+    "prompt_id": "alpaca_eval_0106",
+    "instruction": "Create a dialogue between two characters for a conflict resolution.",
+    "input": "",
+    "reference": "Character A: \"I'm so frustrated that you haven't been in touch for the last few days!\" Character B: \"I realize I made a mistake by not being in touch. I'm sorry, I got caught up with work and it all happened without me noticing it.\" Character A: \"I understand, but it still hurt that you neglected me like that. How do you plan on fixing this?\" Character B: \"I can promise to check in with you more often to make sure you know what I'm up to. Will that help?\" Character A: \"Yes, that would make me feel better. Thanks for understanding\".",
+    "response": "character_1 - a polite and understanding person. character_2 - a frustrated but reasonable person.",
+    "generation_time_s": 1.29,
+    "response_token_count": 23
+  },
+  {
+    "prompt_id": "alpaca_eval_0107",
+    "instruction": "Outline the characteristics of a successful team leader.",
+    "input": "",
+    "reference": "The characteristics of a successful team leader include being a strong communicator, showing trust and respect to team members, being approachable, setting clear expectations, being open to feedback, showing confidence in team members, leading by example, encouraging healthy teamwork, and motivating the team.",
+    "response": "A successful team leader possesses strong communication skills, the ability to motivate and inspire others, strategic thinking, adaptability, empathy, and the ability to delegate effectively. They also have a clear vision for the team and the ability to set and communicate goals.",
+    "generation_time_s": 2.93,
+    "response_token_count": 56
+  },
+  {
+    "prompt_id": "alpaca_eval_0108",
+    "instruction": "Rate the given article from 1 to 5?",
+    "input": "The article is titled: \"Using AI To Help Diagnose Cancer Earlier Than Ever\"",
+    "reference": "I would rate this article 5/5. It talks about how AI can help diagnose cancer earlier than ever before, which is a very powerful use of technology and could potentially save countless lives. The article provides detailed information on how the AI can be used and the potential it has to revolutionize cancer detection and treatment.",
+    "response": "5. The article is well-researched and provides valuable insights into the use of AI in medical diagnosis.",
+    "generation_time_s": 1.49,
+    "response_token_count": 27
+  },
+  {
+    "prompt_id": "alpaca_eval_0109",
+    "instruction": "Generate a list of 5 creative and inspiring usernames.",
+    "input": "",
+    "reference": "1. StellarOptimist 2. UnconstrainedIdeas 3. Transformable 4. SunnyVision 5. CharismaticSprite",
+    "response": "tech_visionary_22,code_rebel_x,crypto_warrior_9,quantum_leap_q,blockchain_pioneer",
+    "generation_time_s": 2.04,
+    "response_token_count": 38
+  },
+  {
+    "prompt_id": "alpaca_eval_0110",
+    "instruction": "Insert a suitable greeting at the beginning of the given email.",
+    "input": "Dear [Name], We are writing to inform you that your order is ready to be shipped.",
+    "reference": "Dear [Name], We hope you are doing well. We are writing to inform you that your order is ready to be shipped.",
+    "response": "Hello [Name], We are writing to inform you that your order is ready to be shipped.",
+    "generation_time_s": 1.14,
+    "response_token_count": 20
+  },
+  {
+    "prompt_id": "alpaca_eval_0111",
+    "instruction": "Convert the given temperatures from Fahrenheit to Celsius.",
+    "input": "80\u00b0F",
+    "reference": "26.67\u00b0C",
+    "response": "27\u00b0C",
+    "generation_time_s": 0.4,
+    "response_token_count": 5
+  },
+  {
+    "prompt_id": "alpaca_eval_0112",
+    "instruction": "How would you explain the concept of Darwinism to an 8th grader?",
+    "input": "",
+    "reference": "Darwinism is based on the idea that organisms change over time and evolve to better fit their environment. It explains that new species come about because of changes over time to the original species, a process that is driven by natural selection.",
+    "response": "Darwinism is the idea that all living things evolve over time through a process called natural selection. This means that the traits that help an organism survive and reproduce are more likely to be passed on to the next generation. Over long periods of time, this can lead to big changes in species, like the development of wings for birds or the ability to digest tough plants.",
+    "generation_time_s": 4.13,
+    "response_token_count": 80
+  },
+  {
+    "prompt_id": "alpaca_eval_0113",
+    "instruction": "Do data normalization on given data set.",
+    "input": "[1, -1, 0.5, -0.5, 0.8, -0.9, 0.4]",
+    "reference": "Normalized data set: [0.2, -0.2, 0.1, -0.1, 0.16, -0.18, 0.08].",
+    "response": "[1, -1, 0.5, -0.5, 0.8, -0.9, 0.4] (float values for numbers)",
+    "generation_time_s": 1.99,
+    "response_token_count": 37
+  },
+  {
+    "prompt_id": "alpaca_eval_0114",
+    "instruction": "Find a free online tool for making a timeline",
+    "input": "",
+    "reference": "A free online tool for creating timelines is Piktochart. It is an intuitive drag-and-drop platform that lets you customize and edit timelines, add images and text to make them more visually appealing, and easily share them with others.",
+    "response": "The Timeline.io website offers a free, open-source tool for creating customizable timelines. It supports importing data from CSV, JSON, and web sources, and exporting to PDF, PNG, and SVG.",
+    "generation_time_s": 2.49,
+    "response_token_count": 47
+  },
+  {
+    "prompt_id": "alpaca_eval_0115",
+    "instruction": "Given a product description, classify it into suitable categories.",
+    "input": "Samsung 65-inch 4K Ultra HD Smart LED TV",
+    "reference": "Category 1: Electronics Category 2: TVs Category 3: Samsung TVs Category 4: 4K TVs",
+    "response": "Electronics (Home & Kitchen), Home Entertainment, Home Automation, Smart Home Devices, Large-Screen TVs",
+    "generation_time_s": 1.49,
+    "response_token_count": 27
+  },
+  {
+    "prompt_id": "alpaca_eval_0116",
+    "instruction": "Generate a list of five questions related to the topic of racial diversity",
+    "input": "",
+    "reference": "1. How can we foster more racial diversity in our workplaces and communities? 2. What causes the lack of racial diversity in higher education? 3. What activities could parents and educators undertake to promote racial diversity in schools? 4. How can organizations create a more inclusive and welcoming environment for minority groups? 5. What measures can be taken to bridge the gap between racial communities?",
+    "response": "What are some of the most common barriers to racial diversity in the workplace? How can companies create an inclusive culture that supports racial diversity? What strategies can be used to recruit and retain diverse talent? What are some of the most effective diversity and inclusion training programs? How can companies measure the impact of their diversity and inclusion efforts?",
+    "generation_time_s": 3.93,
+    "response_token_count": 76
+  },
+  {
+    "prompt_id": "alpaca_eval_0117",
+    "instruction": "Given a list of words, find the odd one out.",
+    "input": "dog, cat, plane",
+    "reference": "Plane is the odd one out.",
+    "response": "plane - it is not an animal.",
+    "generation_time_s": 0.54,
+    "response_token_count": 8
+  },
+  {
+    "prompt_id": "alpaca_eval_0118",
+    "instruction": "Give a definition of \"algae\".",
+    "input": "",
+    "reference": "Algae are a large and diverse group of simple, typically autotrophic organisms, ranging from unicellular to multicellular forms. They range in size from microscopic to large seaweeds and are classified in the same kingdom as plants, although unlike plants they lack true roots, stems, and leaves. Algae typically live in moist environments, including marine, freshwater, and terrestrial systems.",
+    "response": "Algae are photosynthetic, aquatic organisms that range from microscopic phytoplankton to large seaweeds. They form the base of many aquatic food webs and are used in various industries for food, biofuels, and other products.",
+    "generation_time_s": 3.12,
+    "response_token_count": 60
+  },
+  {
+    "prompt_id": "alpaca_eval_0119",
+    "instruction": "Edit the given sentence and make it more technically accurate.",
+    "input": "Electrons and protons have opposite charges.",
+    "reference": "Electrons have a negative charge, while protons have a positive charge.",
+    "response": "Electrons have a negative charge, while protons have a positive charge.",
+    "generation_time_s": 0.89,
+    "response_token_count": 15
+  },
+  {
+    "prompt_id": "alpaca_eval_0120",
+    "instruction": "Update the contact list with the new address and phone number",
+    "input": "John Smith: Address: 123 Main Street Phone number: (123) 456-7890 New Address: 456 Park Street New Phone Number: (234) 567-8901",
+    "reference": "John Smith: Address: 456 Park Street Phone Number: (234) 567-8901",
+    "response": "John Smith: New Address: 456 Park Street Phone number: (234) 567-8901",
+    "generation_time_s": 1.62,
+    "response_token_count": 29
+  },
+  {
+    "prompt_id": "alpaca_eval_0121",
+    "instruction": "Is this a good job for someone who is looking for a challenge?",
+    "input": "Computer Programmer",
+    "reference": "Yes, it is a good job for someone who is looking for a challenge because computer programming requires problem-solving skills and critical thinking, as well as the ability to create and debug programs.",
+    "response": "Yes, this is a good job for someone looking for a challenge. A computer programmer needs to have strong problem-solving skills, be able to quickly learn new technologies, and be able to handle complex projects.",
+    "generation_time_s": 2.33,
+    "response_token_count": 44
+  },
+  {
+    "prompt_id": "alpaca_eval_0122",
+    "instruction": "Name three ways to optimize a website for search engine rankings.",
+    "input": "",
+    "reference": "Three ways to optimize a website for search engine rankings are keyword research, optimizing page titles and meta descriptions, and creating high-quality content that is relevant to the topic. Additionally, creating a user-friendly website design, building backlinks, and optimizing page speed are also helpful in optimizing a website for search engine rankings.",
+    "response": "Implement structured data (schema.org), improve on-page SEO with relevant keywords, create high-quality backlinks, and optimize images with alt tags and descriptive filenames.",
+    "generation_time_s": 2.13,
+    "response_token_count": 40
+  },
+  {
+    "prompt_id": "alpaca_eval_0123",
+    "instruction": "Write a short story about a day in the life of a software engineer.",
+    "input": "",
+    "reference": "John was a software engineer and had been coding for the past 5 years. Every day he woke up early to tackle the day ahead. He would start off with a quick breakfast before diving into the world of coding, creating new projects and fixing existing bugs. After a few hours of coding, he would take a break and eat lunch at his desk, discussing new ideas with his colleagues and brainstorming solutions to any tricky problems they had encountered. Afternoon would roll in and John was focussed on his code, powering through the most complex issues while keeping a sharp eye out for potential improvements. His day would finish with a bit of light reading, studying new coding languages, to ensure he was up to date with the latest industry advancements. And with that, his day was complete.",
+    "response": "It was a typical Monday morning for me. I woke up early, made some coffee, and got ready for work. I checked my email for any urgent messages and then headed out to the office. The commute was slow due to rush hour traffic, but I was able to catch up on some reading. Once I got to the office, I started on my backlog of tasks. I worked on debugging a feature that had been causing some issues, then moved on to writing some new code for a feature we were planning to release soon. I took a lunch break with some colleagues and then spent the afternoon doing some testing and documentation. The day was productive but tiring, so I headed home around 6pm. I checked my email one last time before heading to bed.",
+    "generation_time_s": 8.33,
+    "response_token_count": 165
+  },
+  {
+    "prompt_id": "alpaca_eval_0124",
+    "instruction": "What is the name of the fifth planet from the Sun?",
+    "input": "",
+    "reference": "The fifth planet from the Sun is Jupiter.",
+    "response": "Jupiter is the fifth planet from the Sun.",
+    "generation_time_s": 0.64,
+    "response_token_count": 10
+  },
+  {
+    "prompt_id": "alpaca_eval_0125",
+    "instruction": "List 5 potential side effects of a medication.",
+    "input": "",
+    "reference": "1. Nausea 2. Dizziness 3. Headaches 4. Drowsiness 5. Insomnia",
+    "response": "Potential side effects of the medication may include nausea, dizziness, headache, fatigue, and insomnia.",
+    "generation_time_s": 1.59,
+    "response_token_count": 29
+  },
+  {
+    "prompt_id": "alpaca_eval_0126",
+    "instruction": "Rewrite the following sentence, paying attention to spelling and grammar",
+    "input": "Distance learning is harder then in-person classes",
+    "reference": "Distance learning is harder than in-person classes.",
+    "response": "Distance learning is harder than in-person classes.",
+    "generation_time_s": 0.69,
+    "response_token_count": 11
+  },
+  {
+    "prompt_id": "alpaca_eval_0127",
+    "instruction": "Identify the different types of taxes and explain briefly what each tax is used for.",
+    "input": "",
+    "reference": "There are several different types of taxes. Income taxes are imposed on earned income, whether from wages or investments. Sales taxes are collected by states, counties, or cities on goods or services purchased within those jurisdictions. Property taxes are collected on the value of real estate, personal property, and motor vehicles located in the jurisdiction. Social Security taxes are imposed on all employees and employers, funding a variety of different programs, including retirement benefits and disability insurance. Excise taxes are assessed on certain goods, such as alcohol, gasoline, and tobacco. Finally, death taxes are levied on estates of deceased persons in some jurisdictions.",
+    "response": "Income tax: Used to fund government programs and services. Sales tax: Collected on goods and services to fund infrastructure and services. Property tax: Based on property value, used to fund local services and schools. Excise tax: Levied on specific goods or activities, used to fund healthcare and environmental programs. Estate tax: Levied on large inheritances, used to fund social programs and infrastructure.",
+    "generation_time_s": 4.47,
+    "response_token_count": 87
+  },
+  {
+    "prompt_id": "alpaca_eval_0128",
+    "instruction": "Design a quiz that tests knowledge of the given topic.",
+    "input": "The Periodic Table",
+    "reference": "1. What is the symbol for hydrogen? 2. How many elements are listed on the periodic table? 3. What does the atomic number represent? 4. What is the atomic mass for carbon? 5. What is the name of the family that the alkali metal elements belong to? 6. What is the most abundant element on Earth? 7. What is the symbol for calcium? 8. What is the symbol for oxygen? 9. What is the name of the element with atomic number 103? 10. What group does carbon belong to?",
+    "response": "Create a quiz that tests knowledge of the periodic table. Include questions on atomic number, element symbols, group/period, and trends in electronegativity and atomic radius.",
+    "generation_time_s": 1.98,
+    "response_token_count": 37
+  },
+  {
+    "prompt_id": "alpaca_eval_0129",
+    "instruction": "Create an introduction for a website on learning English.",
+    "input": "",
+    "reference": "Welcome to Learning English! Here, we offer a range of resources and tips to help you learn the English language. Our learning tools cover everything from grammar and pronunciation to vocabulary and writing, so you can improve your language skills quickly and easily. So, what are you waiting for? Let's get started, and soon you'll be speaking English like a pro!",
+    "response": "Introduce the website HomePage.io, a modern and engaging landing page that showcases our cutting-edge language learning tools, personalized lesson plans, and community of motivated learners.",
+    "generation_time_s": 2.24,
+    "response_token_count": 42
+  },
+  {
+    "prompt_id": "alpaca_eval_0130",
+    "instruction": "Why are first aid kits important?",
+    "input": "",
+    "reference": "First aid kits are important because they provide basic supplies and materials that can be used to treat injuries and prevent further harm. They contain items such as bandages, antiseptics, and pain relievers that can be used to help manage pain and promote healing. Having a first aid kit available can also help reduce the stress of dealing with an emergency situation. It is important to have one readily available at home, work, and when traveling.",
+    "response": "First aid kits are important because they can provide essential medical supplies and treatments in emergency situations. They can help stabilize injuries, control bleeding, and treat minor wounds until professional medical help is available.",
+    "generation_time_s": 2.38,
+    "response_token_count": 45
+  },
+  {
+    "prompt_id": "alpaca_eval_0131",
+    "instruction": "Compose a three line poem using the phrase \u201cthe night sky.\u201d",
+    "input": "",
+    "reference": "Serenity in the night sky, Unlimited stars abound, A reminder of eternity.",
+    "response": "Across the dark expanse I gaze, / Stars twinkle like diamonds in a sea. / The night sky a canvas for my dreams.",
+    "generation_time_s": 1.79,
+    "response_token_count": 33
+  },
+  {
+    "prompt_id": "alpaca_eval_0132",
+    "instruction": "Describe the content of the novel \"The Great Gatsby\".",
+    "input": "",
+    "reference": "The Great Gatsby is a novel written by F. Scott Fitzgerald which tells the story of the wealthy Jay Gatsby and his yearning for the love of Daisy Buchanan. Set in the summer of 1922, the novel delves into the themes of identity, idealism, class, capitalism and mortality. It follows Gatsby's story and his pursuit of his lost love, culminating in his untimely death. Along the way, it illuminates the importance of money, class and social status in 1920s America and examines how the characters struggle to achieve the American Dream.",
+    "response": "\"The Great Gatsby\" is a classic novel by F. Scott Fitzgerald that follows the story of Jay Gatsby, a mysterious millionaire who throws lavish parties in his Long Island mansion. The novel follows Gatsby's quest to win back his former love, Daisy Buchanan, and his efforts to recapture her heart. Along the way, he encounters a cast of colorful characters, including his neighbor Tom Buchanan, his cousin Nick Carraway, and his mistress Myrtle Wilson. The novel explores themes of wealth, class, and the American Dream, as well as the corruption of the Roaring Twenties.",
+    "generation_time_s": 7.5,
+    "response_token_count": 148
+  },
+  {
+    "prompt_id": "alpaca_eval_0133",
+    "instruction": "Write a complex sentence using the provided words",
+    "input": "Although, sun, shine",
+    "reference": "Although the sun was shining, it still wasn't warm enough to go outside.",
+    "response": "Although the sun shined brightly, it cast a shadow over the old abandoned house.",
+    "generation_time_s": 1.04,
+    "response_token_count": 18
+  },
+  {
+    "prompt_id": "alpaca_eval_0134",
+    "instruction": "This sentence has an error; identify it",
+    "input": "Writting is not as hard as it looks.",
+    "reference": "Writting -> Writing (Error: Spelling)",
+    "response": "Writing is not as hard as it looks. (The error is a spelling mistake of \"writting\" instead of \"writing\".)",
+    "generation_time_s": 1.54,
+    "response_token_count": 28
+  },
+  {
+    "prompt_id": "alpaca_eval_0135",
+    "instruction": "List 4 methods for preventing cyber attacks.",
+    "input": "",
+    "reference": "1. Implement strong authentication measures to prevent unauthorized access. 2. Regularly update the software and operating systems to ensure all security patches have been applied. 3. Install antivirus or anti-malware software to protect against malware and viruses. 4. Securely back up your data and store it in a different location.",
+    "response": "Implement strong password policies, use multi-factor authentication, regularly update software, train employees on security awareness.",
+    "generation_time_s": 1.34,
+    "response_token_count": 24
+  },
+  {
+    "prompt_id": "alpaca_eval_0136",
+    "instruction": "Given a company website, suggest two design changes to improve the user experience.",
+    "input": "Company website: https://www.jefferson.edu/",
+    "reference": "Two design changes that could be implemented to improve the user experience on the Jefferson University website would be reorganizing the navigation links to make them easier to find and simplifying the design to make it easier to read. Additionally, introducing more interactive elements like videos, infographics, and animations could help to engage users while they are browsing the site.",
+    "response": "The company website could benefit from implementing a more responsive design to improve its mobile usability. Additionally, adding clearer navigation labels and icons could help users find the information they need more quickly.",
+    "generation_time_s": 2.03,
+    "response_token_count": 38
+  },
+  {
+    "prompt_id": "alpaca_eval_0137",
+    "instruction": "Check if the given sentence is correct.",
+    "input": "The tree is tall and strong over.",
+    "reference": "Answer: No, the given sentence is incorrect. The correct sentence should be: The tree is tall and strong.",
+    "response": "Incorrect. The sentence is missing a verb before \"over.\"",
+    "generation_time_s": 0.79,
+    "response_token_count": 13
+  },
+  {
+    "prompt_id": "alpaca_eval_0138",
+    "instruction": "Print all the prime numbers between 1 and 50.",
+    "input": "",
+    "reference": "2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47.",
+    "response": "Return a list of integers.",
+    "generation_time_s": 0.44,
+    "response_token_count": 6
+  },
+  {
+    "prompt_id": "alpaca_eval_0139",
+    "instruction": "Generate a list of questions related to a given topic.",
+    "input": "Innovation",
+    "reference": "1. What are the most current trends in the field of innovation? 2. What aspects of innovation offer the most potential for success? 3. What challenges have businesses recently faced related to innovation? 4. What strategies can businesses use to drive innovation? 5. How have technological advances helped shape new models of innovation? 6. What unique approaches to innovation have proven successful? 7. What principles guide successful innovation projects? 8. What opportunities for innovation exist in emerging markets? 9. In what ways does collaboration foster innovation? 10. How can ideas be leveraged to promote innovation?",
+    "response": "Technological advancements, ethical considerations, real-world applications, challenges, future directions, key players, impact on society, and case studies.",
+    "generation_time_s": 1.79,
+    "response_token_count": 33
+  },
+  {
+    "prompt_id": "alpaca_eval_0140",
+    "instruction": "Pick up the sentence in the text which best illustrates the given concept.",
+    "input": "Concept: Interdependency Text: We are all connected in some way, whether we recognize it or not. By understanding the interdependency of all things, we can make better decisions in our day-to-day lives.",
+    "reference": "By understanding the interdependency of all things, we can make better decisions in our day-to-day lives.",
+    "response": "By understanding the interdependency of all things, we can make better decisions in our day-to-day lives.",
+    "generation_time_s": 1.37,
+    "response_token_count": 24
+  },
+  {
+    "prompt_id": "alpaca_eval_0141",
+    "instruction": "Generate a sentence with the words \"carrot\" and \"telephone\".",
+    "input": "",
+    "reference": "The carrot was shaped like a telephone.",
+    "response": "She was surprised to find a carrot stuck in her old rotary telephone.",
+    "generation_time_s": 0.99,
+    "response_token_count": 17
+  },
+  {
+    "prompt_id": "alpaca_eval_0142",
+    "instruction": "Generate a list of steps for starting a new business.",
+    "input": "",
+    "reference": "Here is a list of steps to start a new business: - Research your target market and competitors. - Identify a business name, obtain a business license, and apply for any necessary permits required by local, state, and federal statutes. - Find a location that meets the needs and budget of your enterprise. - Create a business plan. - Secure the necessary funding. - Hire employees and set up payroll. - Create policies and procedures for your business. - Set up accounting systems and manage finances. - Develop your website's layout, design, and content. - Implement an advertising/marketing strategy. - Create your customer service philosophy. - Monitor your progress and analyze performance metrics. - Stay abreast of trends and regulatory changes in the industry.",
+    "response": "Define the business concept, create a business plan, secure funding, choose a location, obtain necessary permits and licenses, set up legal structure, set up accounting systems, launch marketing campaigns, open for business.",
+    "generation_time_s": 2.48,
+    "response_token_count": 47
+  },
+  {
+    "prompt_id": "alpaca_eval_0143",
+    "instruction": "Compile a list of strategies for effectively studying for a test.",
+    "input": "",
+    "reference": "The following strategies can be used to effectively study for a test: 1. Create an organized study plan. Break up the material into manageable chunks, setting aside specific days and times to focus on each topic. 2. Use a variety of study methods. Alternate between reading, writing, and practice problems to keep yourself engaged. 3. Take regular breaks. Step away from your studies every now and then and give your mind a rest. 4. Make use of resources. Utilize books, websites, and other materials to supplement your learning. 5. Connect the material to your own experiences. Tie the material to everyday life to better understand and remember it. 6. Discuss your studies with others. Talking about the material can help you to process and internalize it. 7. Take practice tests. To get an idea of the types of questions that may appear on the test and to test your own understanding of the material. 8. Get a goodnight's sleep. Poor sleep can lead to impaired cognitive functioning, so aim to get 8-10 hours of sleep the night before the test.",
+    "response": "5. Create a study schedule with dedicated time blocks. 4. Use active learning techniques like teaching others. 3. Take regular breaks to prevent burnout. 2. Test your knowledge with practice quizzes. 1. Find a quiet, distraction-free study space.",
+    "generation_time_s": 3.13,
+    "response_token_count": 60
+  },
+  {
+    "prompt_id": "alpaca_eval_0144",
+    "instruction": "How can I conserve water at home?",
+    "input": "",
+    "reference": "There are several ways to conserve water at home. One is to repair any dripping taps and leaking pipes as soon as possible. Another is to use water-efficient appliances such as washing machines and dishwashers. Additionally, placing a bucket in the bathtub while you are showering can help you save up to 20 gallons of water. Finally, collecting water from air conditioners and refrigerators and using that water to water plants can also be beneficial.",
+    "response": "There are several steps you can take to conserve water at home. First, fix any leaks in faucets, pipes, and toilets. Install water-efficient fixtures like low-flow showerheads and faucets. Turn off the tap while brushing your teeth or shaving. Only run full loads in the dishwasher and washing machine. Take shorter showers and use a bucket to collect water for plants.",
+    "generation_time_s": 4.91,
+    "response_token_count": 96
+  },
+  {
+    "prompt_id": "alpaca_eval_0145",
+    "instruction": "Create a positive affirmation to motivate someone to work hard.",
+    "input": "",
+    "reference": "I am capable and deserving of success. No matter how many times I fail, I will keep trying until I succeed.",
+    "response": "Dedicate yourself to excellence and achieve greatness through hard work and perseverance.",
+    "generation_time_s": 1.14,
+    "response_token_count": 20
+  },
+  {
+    "prompt_id": "alpaca_eval_0146",
+    "instruction": "What two tips can you offer someone who is trying to learn a new language?",
+    "input": "",
+    "reference": "1. Focus on mastering the basics - such as grammar and vocabulary - before moving on to more complex topics. 2. Make use of online language learning resources and apps, as well as attending language classes if possible.",
+    "response": "Practice speaking and listening regularly, and immerse yourself in the language as much as possible. Also, focus on learning common phrases and expressions first to build a solid foundation.",
+    "generation_time_s": 1.94,
+    "response_token_count": 36
+  },
+  {
+    "prompt_id": "alpaca_eval_0147",
+    "instruction": "Classify the following as an activity in the morning or an activity in the evening.",
+    "input": "Listening to music",
+    "reference": "Listening to music is an activity in the evening.",
+    "response": "Activity in the evening",
+    "generation_time_s": 0.35,
+    "response_token_count": 4
+  },
+  {
+    "prompt_id": "alpaca_eval_0148",
+    "instruction": "Name a popular dating app.",
+    "input": "",
+    "reference": "One of the most popular dating apps is Tinder.",
+    "response": "MatchMate is a popular dating app that uses AI to match users based on their preferences and personality.",
+    "generation_time_s": 1.39,
+    "response_token_count": 25
+  },
+  {
+    "prompt_id": "alpaca_eval_0149",
+    "instruction": "Describe the primary colors.",
+    "input": "",
+    "reference": "The primary colors are red, blue, and yellow. These colors cannot be mixed to create other colors, but they can be combined to create a full range of hues.",
+    "response": "The primary colors are red, blue, and yellow. They are used as the base for all other colors and are essential in art, design, and everyday life.",
+    "generation_time_s": 1.83,
+    "response_token_count": 34
+  },
+  {
+    "prompt_id": "alpaca_eval_0150",
+    "instruction": "Categorize the following items into one of the following categories: food, clothing, or furniture.",
+    "input": "Chair, jeans, apple",
+    "reference": "Chair: Furniture Jeans: Clothing Apple: Food",
+    "response": "furniture, clothing, food",
+    "generation_time_s": 0.5,
+    "response_token_count": 7
+  },
+  {
+    "prompt_id": "alpaca_eval_0151",
+    "instruction": "Generate a parable about friendship.",
+    "input": "",
+    "reference": "Once upon a time there lived two old friends, Robert and John. Robert lived in a cottage in the woods while John lived in a small hut in the far away village. Despite the distance between them, they were always in touch with each other, sending letters and gifts to stay connected. One day, Robert sent to John a large chest filled with all of Robert's worldly possessions. Robert was sure that with the chest, John could start a new life. John was overwhelmed with joy but felt strange, as he had nothing ofhis own to give back in return. But right when Robert was about to leave, John realized he had a gift of his own to offer. He looked into his own chest and saw he had been keeping a special book. It was filled with all the letters Robert had sent him over the years, along with stories about their friendship. John presented the book to Robert and said, \u201cThis, my friend, is a gift from me to you. A gift of my friendship, something money can\u2019t buy.\u201d Moral: True friendship is beyond any material possessions.",
+    "response": "A long time ago, in a small village, there lived two unlikely friends. One was a humble farmer, and the other was a proud noble. Despite their differences, they shared a deep bond of trust and loyalty. One day, a great challenge befell the village, and the two friends stood side by\n\nby, united in their determination to overcome it. Their friendship was tested but never broken, and it became a symbol of the power of true friendship.",
+    "generation_time_s": 5.05,
+    "response_token_count": 99
+  },
+  {
+    "prompt_id": "alpaca_eval_0152",
+    "instruction": "Generate an appropriate pick up line",
+    "input": "No input",
+    "reference": "Did it hurt when you fell from the sky? Because you're an angel to me.",
+    "response": "\"Hey, I couldn't help but notice your smile. It's like a sunrise in the sky. Would you go on a date with me?\"",
+    "generation_time_s": 1.88,
+    "response_token_count": 35
+  },
+  {
+    "prompt_id": "alpaca_eval_0153",
+    "instruction": "Describe a house you would love to live in.",
+    "input": "",
+    "reference": "I would love to live in a house that was nestled away in a quiet corner of the world. It would be surrounded by nature and have lots of trees, flowers, and wildlife. Inside the house, I would love to have lots of large windows that let in lots of natural light and provide views of the beautiful scenery outside. My perfect house would be full of cozy furniture and decorations, and it would have enough space to host occasional gatherings with family and friends.",
+    "response": "The house I would love to live in features a spacious open-concept living room with floor-to-ceiling windows overlooking a lush garden. The kitchen is equipped with modern appliances and plenty of counter space for cooking and entertaining. The bedrooms have large windows and plenty of natural light, and there's a cozy reading nook in the attic. Overall, it's a warm and inviting space that perfectly balances functionality and charm.",
+    "generation_time_s": 5.25,
+    "response_token_count": 103
+  },
+  {
+    "prompt_id": "alpaca_eval_0154",
+    "instruction": "Take a string and print the number of occurrences of each character in it.",
+    "input": "hello",
+    "reference": "h: 1 e: 1 l: 2 o: 1",
+    "response": "{'h': 2, 'e': 1, 'l': 2, 'o': 1}",
+    "generation_time_s": 1.34,
+    "response_token_count": 24
+  },
+  {
+    "prompt_id": "alpaca_eval_0155",
+    "instruction": "Render a 3D model of a house",
+    "input": "",
+    "reference": "<nooutput> This type of instruction cannot be fulfilled by a GPT model.",
+    "response": "The 3D model should include a basic house with a roof, walls, windows, and a door. The house should be centered on a simple 2D floor plan.",
+    "generation_time_s": 1.93,
+    "response_token_count": 36
+  },
+  {
+    "prompt_id": "alpaca_eval_0156",
+    "instruction": "Name three differences between a blockchain and a distributed ledger.",
+    "input": "",
+    "reference": "The three main differences between a blockchain and a distributed ledger are: 1) a blockchain is a cryptographically secure distributed database, stored in multiple instances, while a distributed ledger is a cryptographically secure single database stored as a single record; 2) a blockchain is a type of distributed ledgers, but not all distributed ledgers are blockchains; 3) a blockchain uses a consensus mechanism that requires computer nodes to validate and agree on new blocks before they can be added to the blockchain, while a distributed ledger does not.",
+    "response": "Blockchains are typically used for cryptocurrencies, while distributed ledgers can be used for any type of data. Blockchains also have a consensus mechanism to validate transactions, while distributed ledgers do not. Blockchains are also more prone to network congestion and slower transaction speeds compared to distributed ledgers. Finally, blockchains are more secure than distributed ledgers due to their cryptographic protocols.",
+    "generation_time_s": 4.56,
+    "response_token_count": 89
+  },
+  {
+    "prompt_id": "alpaca_eval_0157",
+    "instruction": "classify the given phrases as either a fact or opinion.",
+    "input": "The United States is the world's largest economy. Bananas are the best fruit.",
+    "reference": "The United States is the world's largest economy: Fact Bananas are the best fruit: Opinion",
+    "response": "fact, opinion",
+    "generation_time_s": 0.3,
+    "response_token_count": 3
+  },
+  {
+    "prompt_id": "alpaca_eval_0158",
+    "instruction": "List three fundamental elements required for a successful business plan.",
+    "input": "",
+    "reference": "1. A clear vision and goals to work towards. 2. A comprehensive market analysis. 3. A realistic budget and resources to execute the plan.",
+    "response": "Executive summary, company description, market analysis.",
+    "generation_time_s": 0.59,
+    "response_token_count": 9
+  },
+  {
+    "prompt_id": "alpaca_eval_0159",
+    "instruction": "Generate a topic sentence to introduce the following text.",
+    "input": "Amidst increasing violence in the region, many civilians are fleeing their homes in search of safety.",
+    "reference": "Due to the escalating tensions and violence, countless civilians are being forced from their homes in fear for their lives.",
+    "response": "Amidst increasing violence in the region, civilians are being forced to flee their homes in search of safety.",
+    "generation_time_s": 1.39,
+    "response_token_count": 25
+  },
+  {
+    "prompt_id": "alpaca_eval_0160",
+    "instruction": "Name two famous examples of artificial intelligence.",
+    "input": "",
+    "reference": "Two of the most famous examples of artificial intelligence are IBM's Watson and Google's DeepMind.",
+    "response": "IBM Deep Blue defeated world chess champion Garry Kasparov in 1997.",
+    "generation_time_s": 1.14,
+    "response_token_count": 20
+  },
+  {
+    "prompt_id": "alpaca_eval_0161",
+    "instruction": "Adapt the given slogan for a cat food brand.",
+    "input": "\"Supercharge your energy\"",
+    "reference": "\"Give your cats the energy they need to thrive\"",
+    "response": "\"Unleash your feline power and vitality with our premium cat food.\"",
+    "generation_time_s": 1.04,
+    "response_token_count": 18
+  },
+  {
+    "prompt_id": "alpaca_eval_0162",
+    "instruction": "Generate a valid username given a set of user information.",
+    "input": "Name: Sarah Jones, Age: 34",
+    "reference": "sarahjones34",
+    "response": "sj_sarah_34_admin",
+    "generation_time_s": 0.64,
+    "response_token_count": 10
+  },
+  {
+    "prompt_id": "alpaca_eval_0163",
+    "instruction": "Construct a sentence using the words \"oppress\", \"deserve\" and \"equality\".",
+    "input": "",
+    "reference": "Everyone deserves to be treated with equality and to not be oppressed.",
+    "response": "All people deserve to be treated with dignity and respect, and it is our duty to oppress systems of oppression that prevent equality for all.",
+    "generation_time_s": 1.68,
+    "response_token_count": 31
+  },
+  {
+    "prompt_id": "alpaca_eval_0164",
+    "instruction": "Design an algorithm to find the maximum profit of a stock buy and sell?",
+    "input": "",
+    "reference": "def maxProfit(prices): min_price = float('inf') max_profit = 0 for price in prices: min_price = min(min_price, price) profit = price - min_price max_profit = max(max_profit, profit) return max_profit",
+    "response": "Define a function that takes an array of stock prices (opening prices) and returns the maximum profit that can be made by buying and selling once. The function should handle edge cases where no profitable trade is possible.",
+    "generation_time_s": 2.43,
+    "response_token_count": 46
+  },
+  {
+    "prompt_id": "alpaca_eval_0165",
+    "instruction": "Tell me about the role of primary producers in an ecosystem.",
+    "input": "",
+    "reference": "Primary producers are the organisms in an ecosystem that produce organic compounds from sunlight or chemicals. This process is known as primary production and forms the base of the food chain. Primary producers are essential to any healthy ecosystem, providing the food and energy necessary for other organisms such as fish or birds to survive. Green plants are the most common type of primary producer, but some producers, such as certain types of bacteria, produce energy through chemosynthesis.",
+    "response": "Primary producers, also known as autotrophs, are organisms that can produce their own food using energy from the sun, wind, or geothermal sources. They form the base of the food chain, converting solar energy into chemical energy through photosynthesis. Primary producers are essential for sustaining the entire ecosystem, providing food for herbivores and indirectly for carnivores and omnivores. They also play a crucial role in the cycling of nutrients, as dead plant material is decomposed by decomposers.",
+    "generation_time_s": 6.05,
+    "response_token_count": 119
+  },
+  {
+    "prompt_id": "alpaca_eval_0166",
+    "instruction": "Identify the figure of speech used in this sentence",
+    "input": "He had a heart of stone.",
+    "reference": "Simile",
+    "response": "Metaphor.",
+    "generation_time_s": 0.34,
+    "response_token_count": 4
+  },
+  {
+    "prompt_id": "alpaca_eval_0167",
+    "instruction": "Given a text, identify the main idea.",
+    "input": "The world has seen an unprecedented number of refugees fleeing violence and persecution in their home countries.",
+    "reference": "The main idea of this text is that there is a high amount of refugees around the world who are seeking refuge from dangerous conditions in their home countries.",
+    "response": "The main idea of the text is the unprecedented influx of refugees due to violence and persecution in their home countries.",
+    "generation_time_s": 1.59,
+    "response_token_count": 29
+  },
+  {
+    "prompt_id": "alpaca_eval_0168",
+    "instruction": "Change the following sentence to use the correct pronoun form.",
+    "input": "The students their video presentation.",
+    "reference": "The students presented their video presentation.",
+    "response": "The students presented their video presentation.",
+    "generation_time_s": 0.49,
+    "response_token_count": 7
+  },
+  {
+    "prompt_id": "alpaca_eval_0169",
+    "instruction": "Write a news article that discusses two recent events",
+    "input": "IBM announcement of new Quantum Computing initiative | new YouTube Music feature",
+    "reference": "IBM recently announced their ambitious initiative to develop the world's first universal quantum computing system. The announcement promises groundbreaking new capabilities that would create a world of computing possibilities not seen before. In addition, YouTube Music recently announced a new feature that would allow users to have access to recordings from the world's most renowned artists and labels. This new feature provides users with a new way to create enjoyable playlists tailored to their tastes. These two announcements demonstrate the world's innovation and advancements in the fields of computing and music. By collaborating and pushing the boundaries of current technology, these companies are creating a more enjoyable and convenient digital world for all.",
+    "response": "IBM has announced a new Quantum Computing initiative that will help accelerate the development of quantum algorithms and applications. At the same time, YouTube Music has introduced a new feature that allows users to discover new music by exploring curated playlists based on their listening habits.",
+    "generation_time_s": 2.98,
+    "response_token_count": 57
+  },
+  {
+    "prompt_id": "alpaca_eval_0170",
+    "instruction": "Generate a shopping list for a fast food meal.",
+    "input": "",
+    "reference": "-Burger -French fries -Soda -Fried chicken -Milkshake -Onion rings -Apple pie -Cheese sticks",
+    "response": "Fast food meal shopping list: Buns (8 count), large cheese burger patty, large order of fries, medium-sized drink (cola), ketchup, mayonnaise, large order of onion rings.",
+    "generation_time_s": 2.67,
+    "response_token_count": 51
+  },
+  {
+    "prompt_id": "alpaca_eval_0171",
+    "instruction": "Name three adjectives to describe a person with a good sense of humor.",
+    "input": "",
+    "reference": "Witty, lighthearted, and jovial.",
+    "response": "Funny, witty, charismatic, and charming.",
+    "generation_time_s": 0.89,
+    "response_token_count": 15
+  },
+  {
+    "prompt_id": "alpaca_eval_0172",
+    "instruction": "Which of the following sentences is correct?",
+    "input": "He goed to the store. He went to the store.",
+    "reference": "He went to the store.",
+    "response": "He went to the store.",
+    "generation_time_s": 0.44,
+    "response_token_count": 6
+  },
+  {
+    "prompt_id": "alpaca_eval_0173",
+    "instruction": "Explain what is meant by \u201csubstitutable technology\u201d.",
+    "input": "",
+    "reference": "Substitutable technology refers to a system in which one technology can be replaced by another. It can be used to measure the degree of competition in certain markets and describe the potential impact of new products or services. Technology substitution can occur when customers find alternative products or services that can fulfill their needs. In the technology world, there is often intense competition between many different products and services that provide similar features. With substitutable technology, customers will be able to switch from one technology solution to another with relative ease.",
+    "response": "A substitutable technology is a technology or product that can be replaced by another technology or product that provides similar or better functionality, performance, or value. It is often used to describe technologies that are not unique to a specific vendor or company and can be adopted by others in the market.",
+    "generation_time_s": 3.07,
+    "response_token_count": 59
+  },
+  {
+    "prompt_id": "alpaca_eval_0174",
+    "instruction": "Write a Python function that takes two integers and returns their least common multiple.",
+    "input": "",
+    "reference": "def lcm(a, b): if a > b: greater = a else: greater = b while(True): if((greater % a == 0) and (greater % b == 0)): lcm = greater break greater += 1 return lcm print(lcm(15, 18)) # Output: 90",
+    "response": "Use the `math.gcd` function to compute the greatest common divisor, then return the product divided by the gcd.",
+    "generation_time_s": 1.49,
+    "response_token_count": 27
+  },
+  {
+    "prompt_id": "alpaca_eval_0175",
+    "instruction": "Paraphrase the following sentence into a shorter one.",
+    "input": "He has read numerous books and magazines while on the course.",
+    "reference": "He has devoured many books and magazines during his course.",
+    "response": "He read many books and magazines during the course.",
+    "generation_time_s": 0.74,
+    "response_token_count": 12
+  },
+  {
+    "prompt_id": "alpaca_eval_0176",
+    "instruction": "Create a sentence using the given verb and adjective.",
+    "input": "Verb: glow Adjective: luminous",
+    "reference": "The sky was illuminated with a luminous glow.",
+    "response": "The stars glowed with a luminous beauty that filled the night sky.",
+    "generation_time_s": 0.99,
+    "response_token_count": 17
+  },
+  {
+    "prompt_id": "alpaca_eval_0177",
+    "instruction": "Generate a tweet to promote a new show.",
+    "input": "",
+    "reference": "Tune in tonight for the premiere of the new show, \"The Tickle Monster\"! Join us for an hour of laughter and fun as we explore this exciting new world. #theticklemonster #newshow #exciting #fun #laughter #premiere #tonight",
+    "response": "Hear about the groundbreaking new show 'Future Unfolded'! It's a sci-fi drama about a family living in a dystopian future. Check it out on Fridays at 9pm! #FutureUnfold #SciFiDrama",
+    "generation_time_s": 2.98,
+    "response_token_count": 57
+  },
+  {
+    "prompt_id": "alpaca_eval_0178",
+    "instruction": "Analyze the given poem and explain the theme.",
+    "input": "Roses are red, Violets are blue, Sugar is sweet And so are you.",
+    "reference": "The theme of this poem is to express love. The poet is saying that the recipient of these words is as sweet as sugar. The poem has a romantic feel to it and is depicting appreciation towards the other person.",
+    "response": "The poem is a simple and lighthearted AABB rhymed poem about the pleasant qualities of sugar and the person being addressed. The theme is likely about appreciating and expressing affection for the person being addressed.",
+    "generation_time_s": 2.43,
+    "response_token_count": 46
+  },
+  {
+    "prompt_id": "alpaca_eval_0179",
+    "instruction": "Formulate a hypothesis for why some animals migrate.",
+    "input": "",
+    "reference": "My hypothesis is that some animals migrate in order to find better sources of food and to avoid predators in different climates.",
+    "response": "Provide a plausible explanation for why some animals undertake long-distance migrations.\n\nGenerate a hypothesis that explains why some animals undertake long-distance migrations, including potential environmental, ecological, and biological factors.",
+    "generation_time_s": 2.68,
+    "response_token_count": 51
+  },
+  {
+    "prompt_id": "alpaca_eval_0180",
+    "instruction": "Create a headline summarizing the following paragraph.",
+    "input": "According to a recent study, a new species of insect has been discovered in the Amazon rainforest. It is a type of beetle that has not been seen before and its discoverers are calling it \u201ca real surprise\u201d.",
+    "reference": "New Beetle Species Discovered in Amazon Rainforest.",
+    "response": "New Species of Beetle Discovered in Amazon Rainforest, Scientists Say It's a Surprise.",
+    "generation_time_s": 1.39,
+    "response_token_count": 25
+  },
+  {
+    "prompt_id": "alpaca_eval_0181",
+    "instruction": "Generate a sentence using the words \"purchase\", \"online\", and \"store\".",
+    "input": "",
+    "reference": "I purchased the item I wanted from an online store.",
+    "response": "I'll purchase these items online and have them shipped to my address.",
+    "generation_time_s": 0.94,
+    "response_token_count": 16
+  },
+  {
+    "prompt_id": "alpaca_eval_0182",
+    "instruction": "Create a product description and list at least two features of the product.",
+    "input": "Product: Smart Speaker",
+    "reference": "This smart speaker is the perfect voice assistant to make your life easier. It can understand and respond to your questions and commands with amazing accuracy. It has a built-in AI that can learn your preferences over time to provide you with an even better experience. Plus, it features Alexa compatibility so you can control your smart home devices with a simple voice command. With its high-quality audio, you can expect crystal clear sound every time. Easily command your music or have a virtual assistant by your side.",
+    "response": "Product Description: The Smart Speaker is a voice-activated home assistant that integrates with other smart devices, offering hands-free control and personalized automation. Features: - Voice-activated control for smart lights, thermostats, and security systems. - Machine learning algorithms to learn and adapt to user preferences. - Integrates with popular smartphone apps for hands-free music, weather updates, and more.",
+    "generation_time_s": 4.62,
+    "response_token_count": 90
+  },
+  {
+    "prompt_id": "alpaca_eval_0183",
+    "instruction": "Identify the theme of the following book.",
+    "input": "The book is about a small town in the Midwest and how people respond to a series of tragedies and unexpected events that shake their lives.",
+    "reference": "The theme of the book is resilience in the face of unexpected tragedy, and how the people of a small town come together to overcome difficult times.",
+    "response": "Community resilience in the face of tragedy.",
+    "generation_time_s": 0.74,
+    "response_token_count": 12
+  },
+  {
+    "prompt_id": "alpaca_eval_0184",
+    "instruction": "Describe the benefits of using artificial intelligence in the banking sector.",
+    "input": "",
+    "reference": "The use of artificial intelligence in the banking sector can significantly improve customer service and provide tailored personal banking services. AI-based personal banking advisor can use customer data to develop customer-centric products, automate customer service processes, and provide data-driven insights. AI can also be used to detect fraud and streamline operational activities. In addition, AI can provide customers with personalized recommendations and financial advice, helping them make well-informed decisions.",
+    "response": "The use of artificial intelligence in the banking sector offers numerous benefits. AI can automate complex tasks such as fraud detection, customer service, and loan approval, reducing costs and improving efficiency. AI can also help banks personalize services and provide better customer experiences. Additionally, AI can improve risk management and compliance, helping banks better understand and manage risk. Finally, AI can help banks create new products and services, enabling them to stay competitive and innovate.",
+    "generation_time_s": 5.16,
+    "response_token_count": 101
+  },
+  {
+    "prompt_id": "alpaca_eval_0185",
+    "instruction": "Analyze the theme of loyalty in the book \"To Kill a Mockingbird.\"",
+    "input": "",
+    "reference": "The theme of loyalty is one of the most prominent motifs in Harper Lee's classic novel, To Kill a Mockingbird. Throughout the story, loyalty is demonstrated by the actions of Atticus Finch, the main character's father. Atticus is fiercely loyal to his family, to his friends, and to his moral beliefs. This loyalty serves as an example for his daughter and son, teaching them that it is important to stick by and defend those you care about. Scout, the main character, learns to be loyal to others, even if she does not agree with their beliefs or behaviors. The story also explores the idea of loyalty to one's community and to the greater good. Despite facing intense persecution, Atticus remains loyal to his community and stands up for justice. His actions demonstrate that loyalty should be unconditional and that our loyalties should ultimately be to the greater good and to justice.",
+    "response": "The book \"To Kill a Mockingbird\" by Harper Lee explores the theme of loyalty in a nuanced and thought-provoking way. The characters display loyalty to family, friends, and community despite the challenges they face. Atticus Finch embodies this theme most clearly as he remains steadfast in his commitment to justice and integrity even when facing opposition. The novel also highlights the importance of loyalty in relationships, especially when facing difficult situations and adversity. Overall, the theme of loyalty in the book serves as a reminder of the strength and resilience of human character.",
+    "generation_time_s": 6.55,
+    "response_token_count": 129
+  },
+  {
+    "prompt_id": "alpaca_eval_0186",
+    "instruction": "Rewrite this sentence to add more clarity",
+    "input": "The manager suggested that the staff stay late and complete the task",
+    "reference": "The manager suggested that the staff stay late and complete the task by the end of the week.",
+    "response": "The manager suggested that the staff stay late to complete the task.",
+    "generation_time_s": 0.79,
+    "response_token_count": 13
+  },
+  {
+    "prompt_id": "alpaca_eval_0187",
+    "instruction": "Create a metaphor that compares the given concepts.",
+    "input": "Concepts: Speed and sound",
+    "reference": "Speed is like a wave, roaring loudly and crashing against any obstacle in its way.",
+    "response": "Speed is the wild stallion of technology, galloping at breakneck pace, transforming the landscape of innovation and leaving a trail of progress in its wake.",
+    "generation_time_s": 1.98,
+    "response_token_count": 37
+  },
+  {
+    "prompt_id": "alpaca_eval_0188",
+    "instruction": "Write 3 facts about the Tour de France",
+    "input": "",
+    "reference": "- The Tour de France is an annual three-week long road cycling race held in France. - It is one of the most prestigious and challenging cycling events in the world. - It usually covers 2,180 to 2,200 miles (3,500 to 3,700 km) over a mix of flat, hilly, and mountainous terrain.",
+    "response": "The Tour de France is the longest-running professional cycling race, spanning 23 days and covering 3,500 kilometers. It has a rich history dating back to 1903 and is considered the pinnacle of cycling. The race includes 22 stages, with riders competing for the yellow jersey and overall lead. The 2022 edition was won by Tadej Poga\u010dar of UAE Team Emirates.",
+    "generation_time_s": 5.31,
+    "response_token_count": 104
+  },
+  {
+    "prompt_id": "alpaca_eval_0189",
+    "instruction": "Analyze the main theme of this poem.",
+    "input": "The night is dark and full of terrors The light of day a fading memory It's time to make a stand Against the powers that be",
+    "reference": "The main theme of this poem is the idea of standing up against oppressive forces and fighting for one's own freedom and autonomy.",
+    "response": "The poem explores the theme of resilience in the face of adversity. Despite the darkness and fear that surround the speaker, they are determined to take a stand and persevere. The poem also touches on the fleeting nature of light and hope, suggesting that even in the darkest moments, there is always the possibility of finding strength and courage.",
+    "generation_time_s": 3.87,
+    "response_token_count": 75
+  },
+  {
+    "prompt_id": "alpaca_eval_0190",
+    "instruction": "Explain the significance of the Battle of Gettysburg.",
+    "input": "",
+    "reference": "The Battle of Gettysburg was an important battle during the American Civil War, fought between the Union and the Confederate armies in Gettysburg, Pennsylvania on July 1\u20133, 1863. It was a pivotal battle which resulted in heavy losses; the Union lost an estimated 23,000 men, while the Confederate was estimated to be 28,000 men. The victory ensured that the Union forces maintained control of the North, while the Confederate forces were forced to retreat. In addition, it marked the end of General Robert E. Lee\u2019s invasion of the North, thus ending the Confederates' hopes of winning the war. The Battle of Gettysburg was considered to be a major turning point in the Civil War, and is often referred to as one of the bloodiest battles in American history.",
+    "response": "The Battle of Gettysburg was a turning point in the American Civil War. It was fought over three days in July 1863 and resulted in the largest number of casualties of any battle in the war. The Union victory at Gettysburg marked a significant shift in the tide of the war, as it ended Confederate hopes of invading the North and forced General Lee to retreat back to Virginia. The battle also had a profound impact on the morale of the Union army and the public, and it was a key factor in President Lincoln's reelection.",
+    "generation_time_s": 6.3,
+    "response_token_count": 124
+  },
+  {
+    "prompt_id": "alpaca_eval_0191",
+    "instruction": "Cut out any unnecessary words and make the sentence more concise.",
+    "input": "I have been working at the store for quite a while now.",
+    "reference": "I've worked at the store a while.",
+    "response": "I've worked at the store for a while.",
+    "generation_time_s": 0.69,
+    "response_token_count": 11
+  },
+  {
+    "prompt_id": "alpaca_eval_0192",
+    "instruction": "Given an array of three-dimensional points, calculate the center of mass.",
+    "input": "[[1, 2, 3], [2, 3, 4], [3, 4, 5], [4, 5, 6]]",
+    "reference": "[2.5, 3.5, 4.5]",
+    "response": "The center of mass is (2.666666666666667, 3.666666666666667, 4.666666666666667).",
+    "generation_time_s": 3.23,
+    "response_token_count": 62
+  },
+  {
+    "prompt_id": "alpaca_eval_0193",
+    "instruction": "Describe the following painting in at least 10 words.",
+    "input": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Edgar_Degas_059.jpg/640px-Edgar_Degas_059.jpg",
+    "reference": "This painting depicts a woman with a fan at a ballroom, wearing a long elegant dress. Her gaze is intent, almost like she is searching for someone in the crowd. The colors are subtle, mostly green and grey. She stands in the foreground of a grey and foggy patch of figures in the background.",
+    "response": "The painting is a vibrant Impressionist masterpiece by Edgar Degas. It depicts a group of women in a ballet studio, with the dancers performing on stage. The colors are bold and the brushstrokes are dynamic, creating a sense of movement and energy. The lighting is natural, with shadows cast by the studio lights. The composition is balanced and harmonious, with attention to detail in the costumes and props. The painting has a sense of realism, with a strong sense of atmosphere. The painting is a classic example of Impressionist painting, with a strong sense of emotion and mood.",
+    "generation_time_s": 7.13,
+    "response_token_count": 140
+  },
+  {
+    "prompt_id": "alpaca_eval_0194",
+    "instruction": "Give an example of an everyday object that uses electricity.",
+    "input": "",
+    "reference": "An everyday object that uses electricity is a laptop computer.",
+    "response": "The LED light bulb uses electricity to produce light. It has a built-in electronic driver that converts the electrical current into visible light.",
+    "generation_time_s": 1.64,
+    "response_token_count": 30
+  },
+  {
+    "prompt_id": "alpaca_eval_0195",
+    "instruction": "Edit the given text to make sure all plural nouns are spelled correctly.",
+    "input": "The bunnies showed signs of tirednes.",
+    "reference": "The bunnies showed signs of tiredness.",
+    "response": "The rabbits showed signs of tiredness.",
+    "generation_time_s": 0.59,
+    "response_token_count": 9
+  },
+  {
+    "prompt_id": "alpaca_eval_0196",
+    "instruction": "Make a suggestion for a topic for a persuasive essay.",
+    "input": "",
+    "reference": "The Topic of Advantages and Disadvantages of Technology in Our Everyday Lives. Technology has become an integral part of our lives, from using computers and smartphones to using various types of software for communications and entertainment. However, the effects of technology on our lives have both positive and negative aspects. This essay could discuss the pros and cons of technology and examine how its usage can both improve and diminish our lives. It could also explore the ethical implications of our growing reliance on technology and the potential implications it has on our relationships, job security, and more.",
+    "response": "Persuade people to adopt a more sustainable lifestyle by highlighting the environmental, social, and economic benefits of reducing their carbon footprint.",
+    "generation_time_s": 1.74,
+    "response_token_count": 32
+  },
+  {
+    "prompt_id": "alpaca_eval_0197",
+    "instruction": "Arrange the following list of ingredients into five separate recipes.",
+    "input": "- Olive oil - Tomatoes - Cheese - Basil - Salt - Onions - Pepper - Garlic",
+    "reference": "Recipe 1: Tomato & Basil Pizza: - Olive oil - Tomatoes - Cheese - Basil - Salt Recipe 2: Tomato & Olive Garlic Toast: - Olive oil - Tomatoes - Garlic - Salt Recipe 3: Olive Basil Bruschetta: - Olive oil - Basil - Salt - Pepper Recipe 4: Spinach and Onion Pie: - Olive oil - Onions - Cheese - Salt - Pepper Recipe 5: Classic Italian Pasta: - Olive oil - Tomatoes - Onions - Garlic - Basil - Salt - Pepper",
+    "response": "Recipes: [{'title': 'Classic Tomato Sauce', 'ingredients': ['Olive oil', 'Onions', 'Garlic', 'Salt', 'Tomatoes', 'Basil']}, {'title': 'Cheesy Garlic Knots', 'ingredients': ['Olive oil', 'Onions', 'Garlic', 'Cheese']}, {'title': 'Grilled Cheese Sandwich', 'ingredients': ['Bread', 'Butter', 'Cheese']}, {'title': 'Roasted Vegetables', 'ingredients': ['Olive oil', 'Tomatoes', 'Onions', 'Salt', 'Pepper']}, {'title': 'Roasted Garlic Bread', 'ingredients': ['Bread', 'Olive oil', 'Garlic']}]",
+    "generation_time_s": 9.17,
+    "response_token_count": 182
+  },
+  {
+    "prompt_id": "alpaca_eval_0198",
+    "instruction": "Summarize the effects of deforestation",
+    "input": "<noinput> 8",
+    "reference": "Deforestation has a range of negative effects on the environment, including biodiversity loss, air and water pollution, soil erosion, and disruption of the water cycle. It accelerates climate change through carbon emissions and reduces carbon sequestration potential. Additionally, it increases the risk of flooding, disrupts ecological and socioeconomic balance, and reduces the availability of resources for local communities.",
+    "response": "Deforestation leads to loss of habitat, increased greenhouse gas emissions, soil erosion, decreased biodiversity, and disrupted water cycles.",
+    "generation_time_s": 1.84,
+    "response_token_count": 34
+  },
+  {
+    "prompt_id": "alpaca_eval_0199",
+    "instruction": "Convert this decimal number into a binary number.",
+    "input": "62",
+    "reference": "111110",
+    "response": "Convert 62 to binary. The binary representation of 62 is 110010.",
+    "generation_time_s": 1.29,
+    "response_token_count": 23
+  },
+  {
+    "prompt_id": "alpaca_eval_0200",
+    "instruction": "Summarize the article \"Google News: Making headlines in the age of AI\".",
+    "input": "",
+    "reference": "Google News has long been one of the most popular news aggregators around, using complex algorithms and advanced artificial intelligence to curate content from millions of sources. With the addition of new features and capabilities, Google is making waves in the age of AI and becoming better than ever at delivering accurate, personalized news stories. Google's new Artificial Intelligence-assisted curation technology allows the platform to learn from user feedback and personalize stories to their interests and preferences. In addition, Google's curated content is enhanced with features such as fact-checking, video, photos and top headlines from media outlets around the world. Furthermore, Google has built partnerships with publishers to bring additional content to its platform in an effort to further personalize its audience experience. With these features, Google continues to make headlines in the industry and become an invaluable resource for news.",
+    "response": "The article explores how artificial intelligence is transforming the way news is gathered, analyzed, and presented. Machine learning algorithms are used to detect trends, filter out noise, and personalize stories for individual users. Google News is leading the way in this space, offering real-time updates, tailored recommendations, and an immersive user experience.",
+    "generation_time_s": 3.77,
+    "response_token_count": 73
+  },
+  {
+    "prompt_id": "alpaca_eval_0201",
+    "instruction": "Explain the effect that virtual learning has on student performance.",
+    "input": "",
+    "reference": "Virtual learning can impact student performance both positively and negatively. On one hand, it can provide students with more flexibility, allowing them to learn at their own pace and allowing them to access materials from anywhere. On the other hand, virtual learning can be challenging as it requires an increased degree of self-motivation and dedication, as well as an understanding of the different technologies being used.",
+    "response": "Virtual learning has both positive and negative effects on student performance. On the positive side, it offers flexibility and personalized learning opportunities. On the negative side, it can lead to increased distractions and decreased motivation.",
+    "generation_time_s": 2.46,
+    "response_token_count": 47
+  },
+  {
+    "prompt_id": "alpaca_eval_0202",
+    "instruction": "Create a mnemonic device based on the following list.",
+    "input": "Dog, Giraffe, Cat, Elephant",
+    "reference": "DGCe - (Dog, Giraffe, Cat, Elephant)",
+    "response": "DoG-Giraffe-Cat-Elephant",
+    "generation_time_s": 0.79,
+    "response_token_count": 13
+  },
+  {
+    "prompt_id": "alpaca_eval_0203",
+    "instruction": "Add two new recipes to the following Chinese dish",
+    "input": "Beef and broccoli stir fry",
+    "reference": "1. Beef and snow pea stir fry: Heat 1 tablespoon oil in a wok or large skillet. Add 5 oz. beef and stir-fry for about 3 minutes until cooked through. Add 3 cups of snow peas and stir-fry for 1-2 minutes. Add 1 tablespoon each of soy sauce, sesame oil, water, and 1 teaspoon of garlic. Stir-fry for another 2 minutes, until the snow peas are cooked through. 2. Beef and scallion stir fry: Heat 1 tablespoon oil in a wok or large skillet. Add 5 oz. beef and stir-fry for about 3 minutes until cooked through. Add 2 stalks of chopped scallions, 1 teaspoon of minced garlic, 1 tablespoon of soy sauce, 1 tablespoon of oyster sauce, and 1 tablespoon of sesame oil. Stir-fry for 1-2 minutes until the scallions are cooked through. Serve with steamed white rice.",
+    "response": "\u725b\u8089\u548c\u897f\u5170\u82b1\u7092\u996d\uff08\u7cd6\u6e7f\u8c46\u6f0f\u3001\u59dc\u3001\u8fa3\u6912\u3001\u9999\u9165\u6cb9\uff09 - \u4e3b\u98df\u3001\u852c\u83dc\u3001\u8c03\u6599",
+    "generation_time_s": 3.29,
+    "response_token_count": 64
+  },
+  {
+    "prompt_id": "alpaca_eval_0204",
+    "instruction": "Add a filling to the following ravioli dish recipe.",
+    "input": "Ingredients: fresh egg pasta and fresh ricotta",
+    "reference": "Ingredients: fresh egg pasta, fresh ricotta and a filling of your choice (e.g. spinach, mushrooms, ricotta and mozzarella).",
+    "response": "Ingredients: fresh egg pasta, fresh ricotta cheese, 2 cups shredded mozzarella, 1/2 cup grated Parmesan, 2 tablespoons olive oil, 1 teaspoon garlic powder, 1 teaspoon dried oregano, salt and pepper to taste.",
+    "generation_time_s": 3.98,
+    "response_token_count": 78
+  },
+  {
+    "prompt_id": "alpaca_eval_0205",
+    "instruction": "Summarize this article in two sentences.",
+    "input": "https://www.npr.org/2019/07/08/739361030/what-you-need-to-know-about-the-climate-crisis",
+    "reference": "The climate crisis is a global emergency caused by humanity's emissions of greenhouse gases that are raising the Earth's temperature. To combat the problem, it is essential to reduce emissions significantly by using less fossil fuels and transitioning to renewable sources of energy.",
+    "response": "The climate crisis is rapidly worsening, with temperatures rising at an alarming rate. The effects are already being felt around the world, from extreme weather events to food and water shortages. The urgency of action to reduce greenhouse gas emissions is greater than ever.",
+    "generation_time_s": 2.95,
+    "response_token_count": 57
+  },
+  {
+    "prompt_id": "alpaca_eval_0206",
+    "instruction": "Analyze the following sentence and explain how it could be improved.",
+    "input": "The hotel greets its customers good morning.",
+    "reference": "The sentence \"The hotel greets its customers good morning\" could be improved by changing the word \"good\" to \"well\" to form the sentence \"The hotel greets its customers well in the morning.\" This revision would more accurately portray the intent of the sentence, which is to indicate that the hotel is welcoming its customers.",
+    "response": "The sentence is grammatically incorrect. It should use 'greet' instead of 'good morning', and use 'customers' instead of 'morning'. To improve, it should be 'The hotel greets its customers good morning.' or 'The hotel greets its customers with a good morning.'.",
+    "generation_time_s": 3.2,
+    "response_token_count": 62
+  },
+  {
+    "prompt_id": "alpaca_eval_0207",
+    "instruction": "Find the tenth largest city in the world in terms of population.",
+    "input": "",
+    "reference": "The tenth largest city in the world in terms of population is Dhaka, Bangladesh, with a population of 8.9 million.",
+    "response": "The tenth largest city in the world by population is Shanghai, China with a population of approximately 24 million.",
+    "generation_time_s": 1.38,
+    "response_token_count": 25
+  },
+  {
+    "prompt_id": "alpaca_eval_0208",
+    "instruction": "Provide an example of a common application of AI.",
+    "input": "",
+    "reference": "A common application of AI is facial recognition. Facial recognition systems are used in a variety of industries and applications, such as security, biometric authentication, and automatic identification.",
+    "response": "An example of a common application of AI is a virtual assistant that can perform tasks such as scheduling appointments, sending reminders, and providing information based on natural language queries.",
+    "generation_time_s": 2.02,
+    "response_token_count": 38
+  },
+  {
+    "prompt_id": "alpaca_eval_0209",
+    "instruction": "Find and replace a word in the sentence to make it grammatically correct.",
+    "input": "The family ate dinner around the kitchen counters.",
+    "reference": "The family ate dinner around the kitchen table.",
+    "response": "The family ate dinner around the kitchen counters.",
+    "generation_time_s": 0.69,
+    "response_token_count": 11
+  },
+  {
+    "prompt_id": "alpaca_eval_0210",
+    "instruction": "Describe the flavor profile (sweetness, tartness, etc.) of a banana.",
+    "input": "",
+    "reference": "Bananas have a sweet, creamy flavor that is both smooth and refreshing. They have a mild sweetness but also a subtle tartness. The texture is soft and slightly creamy, making it a great addition to desserts or smoothies. With a hint of citrus and a hint of vanilla, bananas are a surprisingly complex fruit.",
+    "response": "The flavor profile of a banana is sweet with a hint of natural tropical sweetness, a slight tanginess from the peel, and a subtle creaminess from the flesh.",
+    "generation_time_s": 2.07,
+    "response_token_count": 39
+  },
+  {
+    "prompt_id": "alpaca_eval_0211",
+    "instruction": "Given an input containing a fragment of an article, complete the article by providing the rest of the content.",
+    "input": "Julia is a programming language designed for technical computing. It supports parallel computing and numerical computing, making it an ideal choice for data science, machine learning, and math-heavy applications.",
+    "reference": "Julia is a high-level, general-purpose programming language designed to be easy to read and write, and to allow users to express operations concisely and clearly. It combines the speed and expressivity of dynamic languages with the efficiency and safety of static types. Julia's multiple dispatch feature allows users to write efficient, generic algorithms with just one code. It also has strong support for parallel and distributed computing, making it capable of working with large datasets quickly and efficiently. Julia has a powerful module system, allowing users to extend the base language with tools and algorithms from a variety of fields, including machine learning, data analysis and visualization, web programming, network programming, and robotics. Julia also includes an optimizing just-in-time (JIT) compiler, allowing it to generate native code with performance that is close to statically-typed languages and on par with C or Fortran. Overall, Julia is a powerful, reliable, and high-performance programming language designed for technical computing, which makes it an ideal choice for data science, machine learning, and other math-heavy applications.",
+    "response": "Julia is a high-level, dynamically typed programming language developed by Microsoft. It was created to bring high-performance, expressive, and readable code to the forefront of technical computing. It is optimized for data science, machine learning, and math-heavy applications, and it features a powerful standard library that includes support for parallelism, numerical operations, and more. Its performance is also highly scalable, making it possible to run on both single-threaded and multi-threaded environments.",
+    "generation_time_s": 5.17,
+    "response_token_count": 102
+  },
+  {
+    "prompt_id": "alpaca_eval_0212",
+    "instruction": "Write a concise summary of the provided text.",
+    "input": "Leonard Nimoy is best known for playing the role of Spock in the Star Trek television series and films. Nimoy also starred in many other television series and films, as well as directing some feature films and producing two films. He was an avid photographer and also wrote and published several books of poetry.",
+    "reference": "Leonard Nimoy is a legendary actor, director, producer, photographer and author, best known for playing Spock in the Star Trek series and films. He produced and directed several films, and wrote and published books, in addition to numerous other television and film roles.",
+    "response": "Leonard Nimoy played the role of Spock in Star Trek and starred in other TV shows and films. He also directed and produced films and was a photographer and poet.",
+    "generation_time_s": 2.05,
+    "response_token_count": 38
+  },
+  {
+    "prompt_id": "alpaca_eval_0213",
+    "instruction": "Create a rhyming couplet that reflects the theme of nature.",
+    "input": "",
+    "reference": "Birds that swoop low and take to fog, A brush of spring with a calming log.",
+    "response": "The wind whispers secrets to the trees, The river flows with a gentle breeze.",
+    "generation_time_s": 1.13,
+    "response_token_count": 20
+  },
+  {
+    "prompt_id": "alpaca_eval_0214",
+    "instruction": "Explain what the given phrase means.",
+    "input": "In the wee hours of the morning",
+    "reference": "In the wee hours of the morning refers to the early hours of the day, usually between midnight and dawn.",
+    "response": "Very early in the morning, typically between 2-5am when most people are asleep.",
+    "generation_time_s": 1.13,
+    "response_token_count": 20
+  },
+  {
+    "prompt_id": "alpaca_eval_0215",
+    "instruction": "Identify an example of alliteration in the text",
+    "input": "She shined in the summer sun.",
+    "reference": "She shined in the summer sun - Alliteration with the \"s\" sound.",
+    "response": "She shined in the summer sun. (sh, sh)",
+    "generation_time_s": 0.79,
+    "response_token_count": 13
+  },
+  {
+    "prompt_id": "alpaca_eval_0216",
+    "instruction": "What are the similarities between Hinduism and Buddhism?",
+    "input": "",
+    "reference": "Hinduism and Buddhism share many similarities. Both faiths value the existence of multiple gods and goddesses and view karma as a consequential result of one's actions. Additionally, both religions believe in reincarnation and ascetic practices as a path towards enlightenment. Both also emphasize moral behavior as a source of spiritual joy. Finally, both faiths encourage people to maintain a personal relationship with their faith and to practice meditation as a means of strengthening that relationship.",
+    "response": "Hinduism and Buddhism share many similarities, including a focus on ethical behavior, non-violence, self-discipline, and the importance of meditation. Both religions also have a strong emphasis on karma, the belief that one's actions in this life will affect one's future lives, and the goal of achieving enlightenment or liberation from the cycle of rebirth. Additionally, both religions have a rich tradition of scriptures, rituals, and philosophical teachings.",
+    "generation_time_s": 5.61,
+    "response_token_count": 111
+  },
+  {
+    "prompt_id": "alpaca_eval_0217",
+    "instruction": "Outline the consequences of deforestation.",
+    "input": "",
+    "reference": "Deforestation is the process of clearing and removing forests. The consequences of deforestation can include soil erosion, reduced water quality, decreased biodiversity, increased carbon dioxide in the atmosphere and loss of habitat for wildlife. Soil erosion occurs when the trees that help retain water and soil are removed, leading to soil particles being washed away. This can cause siltation in rivers and streams, affecting water quality and leading to flooding. Additionally, when trees are removed, wildlife lose their habitat. This can cause species to become endangered, leading to further loss of biodiversity. Deforestation can also lead to increased carbon dioxide in the atmosphere as there are fewer trees to take up the gas during photosynthesis, which can contribute to climate change.",
+    "response": "Deforestation leads to loss of biodiversity, soil erosion, climate change, and displacement of indigenous communities.",
+    "generation_time_s": 1.58,
+    "response_token_count": 29
+  },
+  {
+    "prompt_id": "alpaca_eval_0218",
+    "instruction": "Generate a step-by-step guide on how to make scrambled eggs.",
+    "input": "",
+    "reference": "1. Gather your ingredients: eggs, butter, salt, and pepper. 2. Crack two eggs into a bowl and scramble with a fork. 3. Heat butter in a skillet on medium heat. 4. Add scrambled eggs to the skillet and cook until they are nearly done. 5. Add salt and pepper to taste. 6. Push the eggs around the pan until they are cooked through. 7. Serve and enjoy!",
+    "response": "1. Crack 2-3 eggs into a bowl. 2. Beat the eggs with a fork or whisk until well mixed. 3. Heat a non-stick skillet over medium heat. 4. Add a small knob of butter or a drizzle of oil to the skillet. 5. Pour in the beaten eggs. 6. Let cook for 1-2 minutes without stirring. 7. Gently pull the eggs from around the edges into the center. 8. Continue cooking, stirring occasionally, until eggs are mostly set but still moist. 9. Remove from heat and serve immediately.",
+    "generation_time_s": 7.2,
+    "response_token_count": 143
+  },
+  {
+    "prompt_id": "alpaca_eval_0219",
+    "instruction": "Analyze the symbolism used in the following poem:",
+    "input": "My love is like a rose In beauty it blooms and grows",
+    "reference": "The poem symbolizes romantic love, with the rose representing beauty, love, and growth. The rose is also a traditional symbol for female beauty. The poem also suggests that love, like a rose, will continue to grow and bloom if nurtured.",
+    "response": "The rose symbolizes beauty, fragility, and the fleeting nature of love. It also suggests that love can be both delicate and powerful, and that it requires care and attention to thrive. The rose also has a rich history of symbolism in literature, often representing love, passion, and beauty.",
+    "generation_time_s": 3.25,
+    "response_token_count": 63
+  },
+  {
+    "prompt_id": "alpaca_eval_0220",
+    "instruction": "Explain the concept of machine learning",
+    "input": "",
+    "reference": "Machine learning is a subset of artificial intelligence that focuses on developing algorithms which allow computer systems to \u201clearn\u201d from data and become better at performing specific tasks without relying on explicit instructions. It uses large datasets to train algorithms to recognize patterns, predict outcomes and make decisions without external input.",
+    "response": "Machine learning is a branch of artificial intelligence that involves algorithms and statistical models that allow computers to learn and improve from experience without being explicitly programmed. It uses large amounts of data to train models that can make predictions or decisions, often with greater accuracy and efficiency than humans.",
+    "generation_time_s": 2.86,
+    "response_token_count": 55
+  },
+  {
+    "prompt_id": "alpaca_eval_0221",
+    "instruction": "Label whether the following statements are true or false.",
+    "input": "Some amphibians have wings",
+    "reference": "False",
+    "response": "True. Amphibians, such as frogs and salamanders, have limbs that function as wings for swimming and jumping.",
+    "generation_time_s": 1.68,
+    "response_token_count": 31
+  },
+  {
+    "prompt_id": "alpaca_eval_0222",
+    "instruction": "In the given scenario, predict the probability of the person suffering from Diabetes.",
+    "input": "Person aged 58, smokes 30 cigarettes a day, drinks alcohol, overweight",
+    "reference": "The probability of the person suffering from Diabetes is high. Smoking elevates the risk of type 2 diabetes. Heavy alcohol consumption can also increase the risk. Being overweight also increases the risk of type 2 diabetes significantly. Therefore, the probability of them having diabetes is high.",
+    "response": "80-90% probability. Risk factors include age, smoking, alcohol consumption, and being overweight.",
+    "generation_time_s": 1.48,
+    "response_token_count": 27
+  },
+  {
+    "prompt_id": "alpaca_eval_0223",
+    "instruction": "Evaluate the sentence \"She managed to win the race\"",
+    "input": "",
+    "reference": "The sentence \"She managed to win the race\" is a positive statement indicating that the speaker was successful in their endeavor.",
+    "response": "She won the race.",
+    "generation_time_s": 0.39,
+    "response_token_count": 5
+  },
+  {
+    "prompt_id": "alpaca_eval_0224",
+    "instruction": "Analyze the following poem and describe how each line creates a different mood.",
+    "input": "When coldness creeps my skin the snow flurries like a dance No happiness can it bring It burries in my trance",
+    "reference": "The first line creates a feeling of dread with its mention of \u2018coldness\u2019 and \u2018skin\u2019. The second line follows up with an unexpected simile of \u2018snow flurries like a dance\u2019, creating a sense of peacefulness and beauty. The third line brings a mood of sadness with its description of \u2018No happiness\u2019. The fourth line returns to a feeling of dread with its mention of the snow \u2018burrying\u2019 the speaker in a trance.",
+    "response": "The first line sets a chilly and foreboding mood, describing the coldness creeping on the speaker's skin. The second line builds upon this mood, but introduces a sense of anticipation and wonder as the snow flurries like a dance. The third line transitions to a more somber and reflective mood, as it suggests that no happiness can come from this experience. The final line sets a tranquil and meditative mood, as the speaker is lost in thought.",
+    "generation_time_s": 5.38,
+    "response_token_count": 106
+  },
+  {
+    "prompt_id": "alpaca_eval_0225",
+    "instruction": "Summarize this passage in one sentence.",
+    "input": "Cuisine in Singapore is highly diverse, with Chinese, Indian, Malaysian, and Indonesian influences. Local dishes have been adapted to include ingredients from all cultures of the country, resulting in a unique style of cooking.",
+    "reference": "Singaporean cuisine is a unique blend of Chinese, Indian, Malaysian and Indonesian cultures.",
+    "response": "Singaporean cuisine is a unique blend of Chinese, Indian, Malaysian, and Indonesian influences, with local dishes adapted to include ingredients from all cultures.",
+    "generation_time_s": 2.1,
+    "response_token_count": 39
+  },
+  {
+    "prompt_id": "alpaca_eval_0226",
+    "instruction": "Rewrite this sentence by making the verb more concrete.",
+    "input": "He managed the team.",
+    "reference": "He adeptly lead the team.",
+    "response": "He led the team.",
+    "generation_time_s": 0.39,
+    "response_token_count": 5
+  },
+  {
+    "prompt_id": "alpaca_eval_0227",
+    "instruction": "List five possible causes of hunger in developing countries.",
+    "input": "<no input>",
+    "reference": "1. Lack of access to safe and nutritious food 2. Inadequate income 3. Poor farming technologies and practices 4. Unstable political and economic conditions 5. Natural disasters such as floods, droughts, and fires.",
+    "response": "1. Poverty and income inequality 2. Lack of access to education and job opportunities 3. Limited access to nutritious food due to poor infrastructure and high food prices 4. Climate change and natural disasters leading to crop failures and food shortages 5. Conflict and political instability disrupting food production and distribution",
+    "generation_time_s": 3.99,
+    "response_token_count": 78
+  },
+  {
+    "prompt_id": "alpaca_eval_0228",
+    "instruction": "Draft a letter of appreciation for the given recipient.",
+    "input": "Mr. John Smith",
+    "reference": "Dear Mr. Smith, I would like to express my heartfelt appreciation for all that you have done for us in the past. Your efforts have contributed significantly to our success and I could not have asked for a better partner. Your wisdom and guidance were invaluable and I am thankful for your dedication and hard work. Thank you once again for your help and support. Sincerely, [Name]",
+    "response": "Dear Mr. John Smith, I wanted to take a moment to express my deepest gratitude for your unwavering support and guidance during this challenging time. Your leadership and commitment have been invaluable to our team, and I am truly honored to work alongside someone of your caliber.",
+    "generation_time_s": 3.31,
+    "response_token_count": 64
+  },
+  {
+    "prompt_id": "alpaca_eval_0229",
+    "instruction": "Evaluate the effectiveness of two recent digital marketing campaigns.",
+    "input": "The two campaigns were aimed at promoting products to a target audience of 18-30 year olds.",
+    "reference": "The effectiveness of the two recent digital marketing campaigns should be evaluated by looking at various metrics such as reach, engagement, and conversions. The reach of the campaigns should be analysed to see how many people in the target audience were exposed to the advertisement. The engagement with the advertisement should also be looked at, such as likes, comments, shares, and any other interactions. Lastly, the conversion rate should be looked at to evaluate how effective the campaigns were in driving sales or leads.",
+    "response": "The first campaign had a higher engagement rate than the second campaign, with a 25% increase in click-through rate and a 15% increase in conversion rate. The second campaign had a slightly higher reach, but a lower average time on site and a lower return on ad spend. Overall, the first campaign was more effective in driving conversions and generating revenue.",
+    "generation_time_s": 4.04,
+    "response_token_count": 79
+  },
+  {
+    "prompt_id": "alpaca_eval_0230",
+    "instruction": "Give an example of a miscommunication between two people.",
+    "input": "",
+    "reference": "An example of a miscommunication between two people is when one person suggests doing something and the other person misunderstands and thinks they are being asked to do something else. For example, if someone suggests going out to eat and the other person believes they are being asked to cook dinner.",
+    "response": "John asked Sarah if she could meet him at the park at 3pm, but she thought he asked her to send a message to him.",
+    "generation_time_s": 1.57,
+    "response_token_count": 29
+  },
+  {
+    "prompt_id": "alpaca_eval_0231",
+    "instruction": "Alter the sentence to make it negative",
+    "input": "The train left on time",
+    "reference": "The train did not leave on time.",
+    "response": "The train did not leave on time.",
+    "generation_time_s": 0.54,
+    "response_token_count": 8
+  },
+  {
+    "prompt_id": "alpaca_eval_0232",
+    "instruction": "Compare and contrast the benefits of using solar energy versus using fossil fuels.",
+    "input": "",
+    "reference": "Solar energy is an increasingly popular form of renewable energy as it is clean, efficient, and abundant. Solar energy produces zero emissions and does not contribute to global warming or pollute the environment. In contrast, fossil fuels are non-renewable sources of energy and when burned, release vastly more air pollution and hazardous byproducts. Notably, the combustion of fossil fuels is a major contributor to global warming.",
+    "response": "Solar energy is a renewable resource that doesn't produce greenhouse gas emissions, while fossil fuels are a finite resource that releases carbon dioxide when burned. Solar panels have higher upfront costs but lower operating costs than fossil fuel power plants.",
+    "generation_time_s": 3.0,
+    "response_token_count": 58
+  },
+  {
+    "prompt_id": "alpaca_eval_0233",
+    "instruction": "Rewrite the following in an active voice: The car was driven by the woman",
+    "input": "",
+    "reference": "The woman drove the car.",
+    "response": "The woman drove the car.",
+    "generation_time_s": 0.44,
+    "response_token_count": 6
+  },
+  {
+    "prompt_id": "alpaca_eval_0234",
+    "instruction": "Provide the lyrics for the song titled \u201cYesterday\u201d",
+    "input": "",
+    "reference": "Yesterday, all my troubles seemed so far away Now it looks as though they're here to stay Oh, I believe in yesterday Suddenly, I'm not half the man I used to be There's a shadow hanging over me Oh, yesterday came suddenly",
+    "response": "Yesterday, all my troubles seemed so far away. Now it looks as though they're here to stay. Oh, I believe I know why I was so cruel to you.",
+    "generation_time_s": 1.97,
+    "response_token_count": 37
+  },
+  {
+    "prompt_id": "alpaca_eval_0235",
+    "instruction": "Create a list of ways to improve memory",
+    "input": "",
+    "reference": "- Stay organized - Practice relaxation techniques - Exercise regularly - Develop strong study habits - Associate information with visuals - Summarize and review notes - Implement mnemonic devices - Eat brain healthy foods - Get enough sleep - Practice meditation - Play memory games",
+    "response": "1. Get enough sleep 2. Eat a balanced diet 3. Exercise regularly 4. Practice mindfulness and meditation 5. Use mnemonic devices 6. Break down information into smaller chunks 7. Review information regularly 8. Use active recall and spaced repetition 9. Create associations and connections 10. Take breaks and avoid multitasking",
+    "generation_time_s": 4.47,
+    "response_token_count": 88
+  },
+  {
+    "prompt_id": "alpaca_eval_0236",
+    "instruction": "Provide a description of the process of photosynthesis in plants.",
+    "input": "",
+    "reference": "Photosynthesis is the process by which plants produce energy from sunlight. Through a series of chemical reactions, plants convert carbon dioxide, water and energy from the sun into glucose, a type of sugar, and oxygen. These glucose molecules are then broken down and stored, to be used by the plant for energy and to synthesize other compounds essential for its growth and development.",
+    "response": "Photosynthesis is the process by which plants convert light energy into chemical energy. Using chlorophyll in their leaves, plants absorb sunlight and use it to transform carbon dioxide and water into glucose and oxygen. The glucose is used by the plant for energy and growth, while the oxygen is released into the atmosphere.",
+    "generation_time_s": 3.79,
+    "response_token_count": 74
+  },
+  {
+    "prompt_id": "alpaca_eval_0237",
+    "instruction": "Tell me about the seasons in the temperate forest biome.",
+    "input": "",
+    "reference": "The temperate forest biome experiences four distinct seasons--spring, summer, autumn, and winter. During the spring, the weather is typically warm, rainy, and mild. The summer brings hot temperatures and plenty of sunshine. The fall brings cooler temperatures and increased precipitation. Lastly, the winter is typically cold and rainy. The vegetation in these forests is also largely influenced by the change in seasons. Many plants and animals will flourish in the spring, while some may go dormant in the summer or winter.",
+    "response": "The temperate forest biome experiences four distinct seasons: spring, summer, fall, and winter. Spring brings warmer temperatures and new plant growth. Summer is hot and humid, with dense foliage and abundant wildlife. Fall is marked by falling leaves and cooler temperatures. Winter is cold and snowy, with many trees losing their leaves. The forest also has a variety of plants, animals, and fungi.",
+    "generation_time_s": 4.57,
+    "response_token_count": 90
+  },
+  {
+    "prompt_id": "alpaca_eval_0238",
+    "instruction": "Give a description of a drugstore.",
+    "input": "",
+    "reference": "A drugstore is a retail store that specializes in pharmaceuticals, healthcare products, and other related items. It typically carries a wide selection of over-the-counter medications and health products, including toiletries, vitamins, cosmetics, fragrances, and emergency medical supplies. Many drugstores also offer immunizations and other medical services. Most drugstores are open seven days a week and offer convenient drive-up window services.",
+    "response": "A modern drugstore offering a wide range of over-the-counter medications, personal care products, and health and wellness items.",
+    "generation_time_s": 1.52,
+    "response_token_count": 28
+  },
+  {
+    "prompt_id": "alpaca_eval_0239",
+    "instruction": "Recast the following sentence in a positive tone.",
+    "input": "I don't have time for this.",
+    "reference": "I have other priorities in mind.",
+    "response": "I'm not sure I have enough time for this.",
+    "generation_time_s": 0.74,
+    "response_token_count": 12
+  },
+  {
+    "prompt_id": "alpaca_eval_0240",
+    "instruction": "Classify the following healthy food item",
+    "input": "Sushi",
+    "reference": "Carbohydrate",
+    "response": "Food (sushi), non-alcoholic.",
+    "generation_time_s": 0.78,
+    "response_token_count": 13
+  },
+  {
+    "prompt_id": "alpaca_eval_0241",
+    "instruction": "Hypothesize why Australia has over 140 snake species.",
+    "input": "",
+    "reference": "One of the main reasons why Australia has over 140 snake species is its large geographic area and wide range of climates. Australia is a large island continent with a huge variety of habitats. This climate diversity provides a rich and diverse ecosystem, allowing snakes to live in many different climates and make the most of the diverse food sources available. Additionally, many of Australia\u2019s species of snakes have evolved over time to adapt to different climates and occupy new habitats. This has allowed them to become well adapted to living in Australia and to survive in ever-changing environments.",
+    "response": "Australia's diverse range of habitats, including deserts, forests, grasslands, and coastal areas, has allowed for the evolution of a wide variety of snake species. Additionally, the lack of large predators and the abundance of prey species have contributed to the proliferation of snake species in the region. Climate and geographic isolation have also played a role in the evolution of unique snake species.",
+    "generation_time_s": 4.62,
+    "response_token_count": 91
+  },
+  {
+    "prompt_id": "alpaca_eval_0242",
+    "instruction": "List all the elements in group two of the periodic table.",
+    "input": "",
+    "reference": "The elements in group two of the periodic table are beryllium (Be), magnesium (Mg), calcium (Ca), strontium (Sr), barium (Ba), and radium (Ra).",
+    "response": "Hydrogen, Helium, Lithium, Beryllium, Boron, Carbon, Nitrogen, Oxygen, Fluorine, Neon",
+    "generation_time_s": 1.96,
+    "response_token_count": 37
+  },
+  {
+    "prompt_id": "alpaca_eval_0243",
+    "instruction": "Rewrite this sentence using the opposite of the given adjective.",
+    "input": "The student is incredibly intelligent. Adjective: Intelligent",
+    "reference": "The student is incredibly unintelligent.",
+    "response": "The student is extremely unintelligent.",
+    "generation_time_s": 0.59,
+    "response_token_count": 9
+  },
+  {
+    "prompt_id": "alpaca_eval_0244",
+    "instruction": "Explain the concept of sustainable development in your own words.",
+    "input": "",
+    "reference": "Sustainable development is a concept which advocates for the development of economies and societies in a way that meets present needs and needs of the future generations without compromising the natural resources and environment. It promotes the idea of using resources in a way that causes less damage to the environment and also encourages conserving natural resources through proper management, efficient use of resources, and renewable resources.",
+    "response": "Sustainable development is about meeting our needs today without compromising the ability of future generations to meet their own. It's about finding a balance between economic growth, social equity, and environmental protection.",
+    "generation_time_s": 2.31,
+    "response_token_count": 44
+  },
+  {
+    "prompt_id": "alpaca_eval_0245",
+    "instruction": "List 5 popular podcast topics.",
+    "input": "",
+    "reference": "1. Business and finance 2. Politics and current events 3. Psychology and personal development 4. Science and technology 5. Sports and fitness",
+    "response": "Provide engaging and relevant content that resonates with listeners.",
+    "generation_time_s": 0.83,
+    "response_token_count": 14
+  },
+  {
+    "prompt_id": "alpaca_eval_0246",
+    "instruction": "How would you define fascism?",
+    "input": "",
+    "reference": "Fascism is an authoritarian and nationalist political ideology which seeks to create a totalitarian one-party state that is organized around a strong leader. It seeks to unify the nation through a collective identity based around traditional values, aggressive nationalism, and strict control of citizens. It holds contempt for democracy and human rights, and glorifies war and militarism.",
+    "response": "Fascism is a far-right authoritarian political ideology characterized by dictatorial power, strict social control, and a rejection of democracy and individual rights.",
+    "generation_time_s": 1.92,
+    "response_token_count": 36
+  },
+  {
+    "prompt_id": "alpaca_eval_0247",
+    "instruction": "Identify the reason why a certain event happened.",
+    "input": "The protests following police brutality in the US have spread to other countries.",
+    "reference": "The reason why the protests following police brutality in the US have spread to other countries is due to the growing awareness of this issue across the world. Social media has enabled the spread of information, with many people connecting the issue of police brutality to other similar issues in their own countries and communities. This has led to a collective feeling of injustice, leading to the protests in other countries.",
+    "response": "Police brutality in the US sparked protests that have spread to other countries.",
+    "generation_time_s": 0.98,
+    "response_token_count": 17
+  },
+  {
+    "prompt_id": "alpaca_eval_0248",
+    "instruction": "Name three types of mountains.",
+    "input": "",
+    "reference": "Three types of mountains are shield mountains, fold mountains, and volcanic mountains.",
+    "response": "The Himalayas, the Andes, and the Rockies are all iconic mountain ranges that attract adventurers and nature lovers from around the world.",
+    "generation_time_s": 1.8,
+    "response_token_count": 34
+  },
+  {
+    "prompt_id": "alpaca_eval_0249",
+    "instruction": "Suggest a creative and innovative app idea.",
+    "input": "",
+    "reference": "I suggest creating an app that encourages users to practice mindful activities and reduces stress and anxiety. The app could give users quick, simple mindfulness exercises that they could do on the go, such as deep breathing, journaling, and painting. It could also give users longer activities such as guided meditations and yoga sessions to encourage relaxation and inner peace. This can be beneficial to busy individuals who just need a break from their hectic lives.",
+    "response": "AI-powered personalized productivity assistant that learns the user's workflow and optimizes it for maximum efficiency.",
+    "generation_time_s": 1.41,
+    "response_token_count": 26
+  }
+]
