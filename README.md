@@ -4,12 +4,12 @@ Sequential QLoRA fine-tuning of **Phi-3.5 Mini Instruct** in two stages, with a 
 
 ---
 
-## Overview
+## Quick Overview
 
 | Stage | Data | Script |
 |-------|------|--------|
 | 0 — Baseline | — (untuned base model) | `inference.py` |
-| 1 — General instruction following | Alpaca (`tatsu-lab/alpaca`, 5 k samples) | `fine-tuning-pipeline.py --stage 1` |
+| 1 — General instruction following | Alpaca (`tatsu-lab/alpaca`, 5,000 samples) | `fine-tuning-pipeline.py --stage 1` |
 | 2 — JSON instruction following | Teacher-generated data via Llama 3.1 8B | `fine-tuning-pipeline.py --stage 2` |
 
 Outputs at each checkpoint are compared pairwise with a judge LLM across six quality dimensions.
@@ -21,7 +21,6 @@ Outputs at each checkpoint are compared pairwise with a judge LLM across six qua
 ```
 modular-code/
   alpaca-data-prep.py        # download & format Alpaca data
-  alpaca-instruct-data.py    # alternate Alpaca formatter
   json-instruct-dataset.py   # load/inspect teacher-generated dataset
   teacher-gen-data.py        # generate JSON training data via teacher model
   fine-tuning-pipeline.py    # QLoRA training (Stage 1 & 2)
