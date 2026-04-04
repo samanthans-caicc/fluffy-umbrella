@@ -1,29 +1,57 @@
-# Methodology
+# Sequential Instruction Tuning of a Small Large Language Model with Strong-Model Judge Evaluation
+
+## 1. Methodology
+<details>
+  
+### 1.1 Student Model
+
+As per recommended default model justified by its strong small-model benchmark performance, native support for the Phi-3 chat template, and practical sustainability for QLoRA-based post-training on a single 32GB V100, I decided to go ahead with the [**`Phi-3.5 Mini Instruct`**](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) model for my student model.
+
+### 1.2 Stage 1: Alpaca Data
+
+The first stage of training uses `tatsu-lab/alpaca` from Starnford Alpaca that contains 52,000 examples. Out of the 52K examples, a sample size of 5,000 was drawn at random to account for HPC job time limits. Taking all 52K examples for training would take approximately 57 hours whereas 5K only took 2 hours.
+
+### 1.3 Stage 2: Teacher-Generated JSON Instruct Data
+
+
+
+
+
+</details>
+
+## 2. Experiments
+<details>
+
+### 2.1 The Three-Checkpoint Comparison
+
+| Checkpoint | Alpaca Judge Win Rate vs. Ckpt 0 | JSON Judge Win Rate vs. Ckpt 0 |
+|---|---|---|
+| Checkpoint 0: Untuned base | — | — |
+| Checkpoint 1: After Stage 1 (Alpaca) | 3W–0T–2L / 5 (60%†) | 2W–2T–1L / 5 (67%†) |
+| Checkpoint 2: After Stage 2 (JSON) | 2W–0T–3L / 5 (40%†) | 2W–1T–2L / 5 (50%†) |
+
+
+
+
+</details>
+
+## 3. Analysis
 <details>
   
 </details>
 
-# Experiments
+## 4. Prompt Engineering
 <details>
   
 </details>
 
-# Analysis
+## Appendix
+<details>
+
+### Teacher model JSON generation:
 <details>
   
-</details>
-
-# Prompt Engineering
-<details>
-  
-</details>
-
-# Appendix
-<details>
-
-## Teacher model JSON generation:
-### /home/sqmi/Sequential Instruction Fine-Tuning/fluffy-umbrella/prompts/teacher_gen_prompts.json
-<details>
+```
 [
   {
     "task_type": "json_extraction",
@@ -400,6 +428,98 @@
     "input": "Track a 'checkout_completed' event for user usr_2294 who purchased $89.99 on iOS."
   }
 ]
+```
+</details>
+
+### Judge System
+<details>
+  
+```
+  You are a rigorous and impartial evaluator of language model outputs. Your task is to compare two responses (Response A and Response B) to the same instruction and score each one across multiple quality dimensions.
+
+Rules you must follow without exception:
+1. Your entire response must be valid JSON parseable by json.loads() in Python.
+2. Do not include markdown code fences, explanations, or any text outside the JSON.
+3. Score each dimension as an integer from 1 (very poor) to 5 (excellent).
+4. For "hallucination_risk", score 5 = very low risk (trustworthy), 1 = very high risk (fabricated).
+5. Declare a winner: "A", "B", or "Tie".
+6. Be consistent and objective — do not favor one response based on position.
+
+Respond only with the JSON object. Nothing else.
+```
+</details>
+
+### Judge User Template
+<details>
+
+```
+You are evaluating two model responses to the instruction below.
+Task type: {eval_type}
+
+## Instruction
+{instruction}
+
+## Input (if any)
+{input}
+
+## Response A
+{response_a}
+
+## Response B
+{response_b}
+
+Score each response on each dimension (1–5 integer):
+- instruction_following: Did the model follow the instruction correctly?
+- correctness: Is the content factually or logically correct?
+- clarity: Is the response clear and well-written?
+- completeness: Does the response fully address the instruction?
+- structured_output_validity: Is the output correctly formatted (valid JSON for structured tasks; coherent format for general tasks)?
+- hallucination_risk: How trustworthy is the response? (5 = highly trustworthy, 1 = likely fabricated)
+
+Then declare a winner (A, B, or Tie) and provide a one-sentence justification.
+
+Return exactly this JSON and nothing else:
+{{
+  "response_a_scores": {{
+    "instruction_following": <int>,
+    "correctness": <int>,
+    "clarity": <int>,
+    "completeness": <int>,
+    "structured_output_validity": <int>,
+    "hallucination_risk": <int>
+  }},
+  "response_b_scores": {{
+    "instruction_following": <int>,
+    "correctness": <int>,
+    "clarity": <int>,
+    "completeness": <int>,
+    "structured_output_validity": <int>,
+    "hallucination_risk": <int>
+  }},
+  "winner": "<A|B|Tie>",
+  "justification": "<one sentence>"
+}}
+```
+</details>
+
+### Teacher Generation System
+<details>
+
+```
+You are a precise, expert JSON generation assistant. Your task is to respond to structured-output instructions with valid, well-formatted JSON only.
+
+Rules you must follow without exception:
+1. Your entire response must be parseable as valid JSON using json.loads() in Python.
+2. Do not include markdown code fences (```json or ```), explanations, or any text outside the JSON.
+3. Do not add comments inside the JSON.
+4. Use double quotes for all strings and keys — never single quotes.
+5. Ensure all brackets, braces, and commas are correctly placed with no trailing commas.
+6. If the instruction specifies a schema or required fields, follow it exactly.
+7. If the instruction specifies allowed label values, use only those exact values.
+8. Your response must start with either { or [ and end with the matching } or ].
+
+Respond only with the JSON. Nothing else.
+```
 
 </details>
 </details>
