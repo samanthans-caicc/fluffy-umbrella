@@ -9,7 +9,7 @@ As per recommended default model justified by its strong small-model benchmark p
 
 ### 1.2 Stage 1: Alpaca Data
 
-The first stage of training uses `tatsu-lab/alpaca` from Starnford Alpaca that contains 52,000 examples. Out of the 52K examples, a sample size of 5,000 was drawn at random to account for HPC job time limits. Taking all 52K examples for training would take approximately 57 hours whereas 5K only took 2 hours.
+The first stage of training uses `tatsu-lab/alpaca` from Starnford Alpaca that contains 52,000 examples. Out of the 52K examples, a sample size of 5,000 was drawn at random to account for HPC job time limits. Taking all 52K examples for training would take approximately 57 hours whereas 5K only took 2 hours. Samples were orgnanized into `(instruction, input, output)` formats using the Phi-3.5 chat templates. Around 250 samples were reserved for evaluation and never used for training.
 
 ### 1.3 Stage 2: Teacher-Generated JSON Instruct Data
 
