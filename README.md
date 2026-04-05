@@ -16,7 +16,8 @@ Outputs at each checkpoint are compared pairwise with a judge LLM across six qua
 
 ---
 
-## Repository layout
+## Overview of the Repository Layout
+#### This is a quick rundown of the contents in and out of the folders. It is organized by folder through `folder-name/` with some exceptions of standalone files.
 
 ```
 modular-code/
@@ -66,7 +67,7 @@ pip install -r requirements.txt
 
 ### HuggingFace access
 
-Both `microsoft/Phi-3.5-mini-instruct` and `meta-llama/Llama-3.1-8B-Instruct` are gated. Accept the terms on HuggingFace and authenticate:
+Both `microsoft/Phi-3.5-mini-instruct` and `meta-llama/Llama-3.1-8B-Instruct` are gated. Accept the terms on HuggingFace and authenticate. You may need to input information to get access to these models, but will usually be accepted within a few minutes:
 
 ```bash
 huggingface-cli login
