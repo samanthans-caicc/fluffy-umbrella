@@ -2,35 +2,51 @@
 
 ## 1. Methodology
 <details>
-  
-### 1.1 Student Model
 
-As per recommended default model justified by its strong small-model benchmark performance, native support for the Phi-3 chat template, and practical sustainability for QLoRA-based post-training on a single 32GB V100, I decided to go ahead with the [**`Phi-3.5 Mini Instruct`**](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) model for my student model.
+<ins>**Student Model**:</ins> As per recommended default model justified by its strong small-model benchmark performance, native support for the Phi-3 chat template, and practical sustainability for QLoRA-based post-training on a single 32GB V100, I decided to go ahead with the [**`Phi-3.5 Mini Instruct`**](https://huggingface.co/microsoft/Phi-3.5-mini-instruct) model for my student model.
 
-### 1.2 Stage 1: Alpaca Data
+<ins>**Stage 1 - Alpaca Data:**</ins> The first stage of training uses `tatsu-lab/alpaca` from Starnford Alpaca that contains 52,000 examples. Out of the 52K examples, a sample size of 5,000 was drawn at random to account for HPC job time limits. Taking all 52K examples for training would take approximately 57 hours whereas 5K only took 2 hours. Samples were orgnanized into `(instruction, input, output)` formats using the Phi-3.5 chat templates. Around 250 samples were reserved for evaluation and never used for training for standard machine learning practices. These 250 samples were used to measure whether the model learned the *pattern* (followed instructions well) vs. just memorizing the training examples.
 
-The first stage of training uses `tatsu-lab/alpaca` from Starnford Alpaca that contains 52,000 examples. Out of the 52K examples, a sample size of 5,000 was drawn at random to account for HPC job time limits. Taking all 52K examples for training would take approximately 57 hours whereas 5K only took 2 hours. Samples were orgnanized into `(instruction, input, output)` formats using the Phi-3.5 chat templates. Around 250 samples were reserved for evaluation and never used for training.
+<ins>**Stage 2 - Teacher-Generated JSON:**</ins> created with imitatuion learning via Llama 3.1 8B Instruct. 70B was considered, but had to be dropped due to the 32GB VRAM limit. The pipeline consisted of:
+1. five task prompt types
+2. batch through teacher on Arc (UTSA)
+3. validate via `json.loads` where it discarded invalids and checkpoints after every 50 for safety measures
+4. store as `(instruction, input, output)`
 
-### 1.3 Stage 2: Teacher-Generated JSON Instruct Data
+| Task Type | n |
+|---|---|
+| exact_label_classification | 1,016 |
+| json_extraction | 981 |
+| json_repair | 974 |
+| schema_constrained_generation | 942 |
+| tool_call_argument_generation | 1,013 |
 
+<ins>**Hyperparameters**</ins>
 
+| | Stage 1 | Stage 2 |
+|---|---|---|
+| Base | Phi-3.5 Mini Instruct | Stage 1 checkpoint |
+| LoRA r / α / dropout | 16 / 32 / 0.05 | 16 / 32 / 0.05 |
+| LR / scheduler | 2e-5 / cosine | 2e-5 / cosine |
+| Epochs | 3 | 5 |
+| Effective batch | 16 | 16 |
+| Max seq length | 1024 | 2048 |
+| Precision | fp16 | fp16 |
 
+<ins>**UTSA HPC Setup:**</ins> Both stages runs on Arc `gpu4v100` (Tesla V100-32GB) via `sbatch`. Jobs were checkpointed for safety measures just in case a job could not be done at a certain point, or when the time limit (6 hours) was up. Dependenices were installed via `pip install -r requirements.txt` whereas PyTorch was separately pinned to 2.5.1+cu121 to match the CUDA 12.3 driver on V100 nodes. H100 and A100 were considered, but had to be dropped due to restrictive access and node limitations, respectively.
 
+<ins>**Judge:**</ins> Llama 3.1 8B Instruct; same VRAM constraint as teacher where the 70B was not feasible for either case.
 
+<ins>**Evalutation:**</ins> Three checkpoints were compared on basis of Alpaca judge win rate, Rouge-L BERTScore, JSON Validity, Scheme Compliance, and Exact Match:
+1. Checkpoint 0 (base)
+2. Checkpoint 1 (post stage 1)
+3. Checkpoint 2 (post stage 2)
+
+This data can be found under [Experiments](#2.-Experiments).
 </details>
 
 ## 2. Experiments
 <details>
-
-### 2.1 The Three-Checkpoint Comparison
-
-| Checkpoint | Alpaca Judge Win Rate vs. Ckpt 0 | JSON Judge Win Rate vs. Ckpt 0 |
-|---|---|---|
-| Checkpoint 0: Untuned base | — | — |
-| Checkpoint 1: After Stage 1 (Alpaca) | 3W–0T–2L / 5 (60%†) | 2W–2T–1L / 5 (67%†) |
-| Checkpoint 2: After Stage 2 (JSON) | 2W–0T–3L / 5 (40%†) | 2W–1T–2L / 5 (50%†) |
-
-
 
 
 </details>
@@ -42,7 +58,11 @@ The first stage of training uses `tatsu-lab/alpaca` from Starnford Alpaca that c
 
 ## 4. Prompt Engineering
 <details>
-  
+
+### 4.1 Teacher-Model Prompts (Imitation Learning)
+
+### 4.2 Judge Prompts
+
 </details>
 
 ## Appendix
