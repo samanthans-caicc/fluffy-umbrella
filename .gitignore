@@ -6,3 +6,7 @@ CONTEXT_TRANSFER.md
 PLAN.md
 DEBUGGING_LOG.md
 REPORT_DRAFT.md
+
+# Ignore compute metrics python files
+compute_metrics.py
+outputs/eval_results/auto_metrics.json
