@@ -44,14 +44,20 @@
 2. Checkpoint 1 (post stage 1)
 3. Checkpoint 2 (post stage 2)
 
-This data can be found under [Experiments](#2.-Experiments).
+This data can be found under [Experiments](#2-experiments).
 </details>
 
 ## 2. Experiments
+
+> [!NOTE]
+> All analysis can be read in the [Analysis](#3-analysis) subsection.
+
 <details>
 
+
 ### 2.1 The Three Checkpoint Comparison
-#####
+<details>
+
 | Checkpoint | Alpaca Judge Win Rate | ROUGE-L / BERTScore F1 | JSON Validity | Schema Compliance | Exact Match |
 |---|---|---|---|---|---|
 | Ckpt 0: Untuned base | — (n=5†) | 0.158† / 0.752† | 80.0%† | 80.0%† | 0.0%† |
@@ -59,9 +65,12 @@ This data can be found under [Experiments](#2.-Experiments).
 | Ckpt 2: After Stage 2 (JSON) | 40%† vs Ckpt 0 | 0.337 / 0.825 | 90.0% | 63.0% | 33.0% |
 > †n=5; interpret with caution. Ckpt 0 JSON metrics unreliable at this sample size.
 ##### Table 3: The three checkpoint comparison
-___
+
+</details>
 
 ### 2.2 Alpaca Evaluation Results
+
+<details>
 
 #### **2.2.1 Pairwise win rates (judge: Llama 3.1 8B Instruct):**
 
@@ -96,14 +105,83 @@ ___
 | BERTScore F1 | 0.752 | 0.853 | 0.825 |
 | Avg response tokens | 220.4 | 63.0 | 46.8 |
 > †n=5 only.
-##### Table 6: Metrics (computed via `compute_metrics.py`
+##### Table 6: Metrics (computed via `compute_metrics.py`)
 
+</details>
+
+### 2.3 JSON Structured Output Evaluation
+<details>
+
+#### **2.3.1 Automatic metrics (JSON held-out set, n=100):**
+
+| Metric | Ckpt 0† | Ckpt 1 | Ckpt 2 |
+|---|---|---|---|
+| JSON Validity | 80.0% | 93.0% | 90.0% |
+| Schema Compliance | 80.0% | 65.0% | 63.0% |
+| Exact Match | 0.0% | 38.0% | 33.0% |
+> †n=5 only. Judge pairwise scores on the JSON held-out set are reported below.
+##### Table 7:
+___
+
+#### **2.3.2 Pairwise win rates — JSON eval (judge: Llama 3.1 8B Instruct):**
+
+| Comparison | Win | Tie | Loss | n |
+|---|---|---|---|---|
+| Checkpoint 1 vs Checkpoint 0 | 2 | 2 | 1 | 5† |
+| Checkpoint 2 vs Checkpoint 0 | 2 | 1 | 2 | 5† |
+| Checkpoint 2 vs Checkpoint 1 | 30 | 41 | 29 | 100 |
+> †n=5 due to early termination of Checkpoint 0 inference job.
+##### Table 8:
+___
+
+#### **2.3.3 Average judge scores per dimension — JSON eval (Ckpt 1 vs Ckpt 2, n=100):**
+
+| Dimension | Ckpt 1 | Ckpt 2 | Delta |
+|---|---|---|---|
+| Instruction Following | 4.69 | 4.69 | 0.00 |
+| Correctness | 4.79 | 4.81 | +0.02 |
+| Clarity | 4.67 | 4.71 | +0.04 |
+| Completeness | 4.70 | 4.71 | +0.01 |
+| Structured Output Validity | 4.66 | 4.69 | +0.03 |
+| Hallucination Risk | 4.77 | 4.76 | −0.01 |
+##### Table 9:
+
+</details>
+
+### 2.4 Forgetting Analysis
+
+<details>
+
+| Metric | Ckpt 1 | Ckpt 2 | Delta |
+|---|---|---|---|
+| Alpaca judge win rate vs opponent (decisive only) | 88/169 = 52.1% | 81/169 = 47.9% | −4.2 pp |
+| JSON judge win rate vs opponent (decisive only) | 29/59 = 49.2% | 30/59 = 50.8% | +1.7 pp |
+| Avg alpaca dimension score (mean of 6 dims) | 4.66 | 4.60 | −0.06 |
+| Avg JSON dimension score (mean of 6 dims) | 4.72 | 4.73 | +0.01 |
+
+</details>
 
 </details>
 
 ## 3. Analysis
+
+> [!NOTE]
+> All tables can be found in [Experiments](#2-experiments).
+
 <details>
-  
+
+### 3.1 Qualitative Comparison Across Checkpoints
+
+#### 3.1.1 Checkpoint 0 -> Checkpoint 1:
+This was the most drastic shift between stages. Before stage 1, the model generates vague and run-on responses (average 220 tokens). After stage 1, responses are much tighter, more concise, and directly on-task (average 63 tokens). JSON validity also jumped from ~80% to ~93% shown by Tables 6 and 7.
+
+#### 3.1.2 Checkpoint 1 -> Checkpoint 2:
+Unlike Checkpoint 0 to Checkpoint 1, the shift between checkpoints 1 and 2 was much more subtle than the former shift. Responses shorten further from 63 to 47 tokens on average as the model internalized the compact structure of JSON outputs.
+
+### 3.2 Forgetting vs. Retention
+
+### 3.3 Implications for Sequential Fine-Tuning
+
 </details>
 
 ## 4. Prompt Engineering
@@ -111,7 +189,25 @@ ___
 
 ### 4.1 Teacher-Model Prompts (Imitation Learning)
 
+<ins>**Initial Design:**</ins> The initial design for the teacher model consisted of 8 rules it had to follow for the expected outputs:
+```
+1. Your entire response must be parseable as valid JSON using json.loads() in Python.
+2. Do not include markdown code fences (```json or ```), explanations, or any text outside the JSON.
+3. Do not add comments inside the JSON.
+4. Use double quotes for all strings and keys — never single quotes.
+5. Ensure all brackets, braces, and commas are correctly placed with no trailing commas.
+6. If the instruction specifies a schema or required fields, follow it exactly.
+7. If the instruction specifies allowed label values, use only those exact values.
+8. Your response must start with either { or [ and end with the matching } or ].
+```
+As shown, the initial design was strictly to enforce clean JSON outputs.
+
+<ins>**Failures After Iteration:**</ins> Several rules were violated in early outputs. Raw failure logs were not preserved, but the patterns are evident from the pipeline code. The teacher would wrap responses in ` ```json ``` ` fences, use single quotes, include trailing commas, or prepend prose like "Here is your JSON:" before the object. Each violation drove a corresponding rule addition to the system prompt. Since the system prompt alone was insufficient, a 3-layer JSON extraction fallback was added to the pipeline (direct parse → strip fences → greedy `{...}`/`[...]` extraction), along with up to 3 retries per prompt. The combined result was a 98.5% validity rate (4,926/5,000 examples).
+
 ### 4.2 Judge Prompts
+<ins>**Initial Design:**</ins> The judge uses the same JSON-only constraint structure as the teacher, since it faces identical formatting failure modes. The user template injects `{eval_type}` so the judge knows whether it is scoring a general or JSON task. The `hallucination_risk` scoring direction is explicitly stated (5 = trustworthy, 1 = fabricated) to prevent the judge from inverting the scale intuitively. A one-sentence justification is required to reduce arbitrary tie-breaking.
+
+<ins>**Failures After Iteration:**</ins> Because the judge prompt was designed after teacher failures were already identified and addressed, no additional iterations were needed.
 
 </details>
 
