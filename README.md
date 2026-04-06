@@ -157,7 +157,7 @@ sbatch slurm/judge_eval.sbatch
 
 > Update the project path in each `.sbatch` file from `/home/xso947/Sequential-Instruction-Fine-Tuning-of-a-Small-LLM` to your own home directory before submitting.
 
-Logs are written to `logs/<jobname>_<jobid>.out` / `.err`.
+Logs can be written to `logs/<jobname>_<jobid>.out` / `.err` in the HPC terminal if you want to track the progress. 
 
 ---
 
