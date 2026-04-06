@@ -48,9 +48,12 @@ data/
   json_eval.json             # JSON-task evaluation set
 
 config.py                    # all hyperparameters and model IDs
+compute_metrics.py           # computes ROUGE-L, BERTScore, and JSON metrics for all three checkpoints
 requirements.txt             # Python dependencies
 outputs/                     # inference outputs (created at runtime)
 checkpoints/                 # LoRA checkpoints (created at runtime)
+README.md                    # This file. Contains repository overview and setup.
+REPORT.md                    # Blog post write-up with methodology, experiments, analysis, and prompt engineering
 ```
 
 ---

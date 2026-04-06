@@ -1,12 +1,3 @@
-# Ignore PDF files
-Assignment3_LLM_Agentic_Systems_Finetuning.pdf
-
-# Ignore temporary .md files
-CONTEXT_TRANSFER.md
-PLAN.md
+# Ignore the debugging log as it was generated to keep track of what
+#  needed to be debugged.
 DEBUGGING_LOG.md
-REPORT_DRAFT.md
-
-# Ignore compute metrics python files
-compute_metrics.py
-outputs/eval_results/auto_metrics.json

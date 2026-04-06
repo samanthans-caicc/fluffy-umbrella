@@ -35,7 +35,7 @@
 | Precision | fp16 | fp16 |
 ##### Table 2: Hyperparameters for stages 1 and 2
 
-<ins>**UTSA HPC Setup:**</ins> Both stages runs on Arc `gpu4v100` (Tesla V100-32GB) via `sbatch`. Jobs were checkpointed for safety measures just in case a job could not be done at a certain point, or when the time limit (6 hours) was up. Dependencies were installed via `pip install -r requirements.txt` whereas PyTorch was separately pinned to 2.5.1+cu121 to match the CUDA 12.3 driver on V100 nodes. H100 and A100 were considered, but had to be dropped due to restrictive access and node limitations, respectively.
+<ins>**UTSA HPC Setup:**</ins> Both stages runs on Arc `gpu4v100` (Tesla V100-32GB) via `sbatch`. Jobs were checkpointed for safety measures just in case a job could not be done at a certain point, or when the time limit (6 hours) was up. Dependencies were installed via `pip install -r requirements.txt` whereas PyTorch was separately pinned to 2.5.1+cu121 to match the CUDA 12.3 driver on V100 nodes. <ins>H100 and A100 were considered, but had to be dropped due to restrictive access and node limitations, respectively.</ins>
 
 <ins>**Judge:**</ins> Llama 3.1 8B Instruct; same VRAM constraint as teacher where the 70B was not feasible for either case.
 
@@ -174,7 +174,7 @@ ___
 ### 3.1 Qualitative Comparison Across Checkpoints
 
 #### 3.1.1 Checkpoint 0 -> Checkpoint 1:
-This was the most drastic shift between stages. Before stage 1, the model generates vague and run-on responses (average 220 tokens). After stage 1, responses are much tighter, more concise, and directly on-task (average 63 tokens). JSON validity also jumped from ~80% to ~93% shown by Tables 6 and 7.
+This was the most drastic shift between stages which was expected due to checkpoint 0 being the original, untuned student model. Before stage 1, the model generates vague and run-on responses (average 220 tokens). After stage 1, responses are much tighter, more concise, and directly on-task (average 63 tokens). JSON validity also jumped from ~80% to ~93% shown by Tables 6 and 7.
 
 #### 3.1.2 Checkpoint 1 -> Checkpoint 2:
 Unlike Checkpoint 0 to Checkpoint 1, the shift between checkpoints 1 and 2 was much more subtle than the former. Responses shorten further from 63 to 47 tokens on average as the model internalized the compact structure of JSON outputs.
@@ -183,11 +183,17 @@ Things to note are JSON metrics at Checkpoint 2 dropped *slightly* compared to C
 
 ### 3.2 Forgetting vs. Retention
 
-This is where things really become interesting. Using the data from Table 5 of the Checkpoint 2 vs. Checkpoint 1 evaluations calculated (Table 4 shows the win-lose-tie rates), 
+This is where things really become interesting. Using the data from Table 5 of the Checkpoint 2 vs. Checkpoint 1 evaluations calculated (Table 4 shows the win-lose-tie rates), the forgetting analysis numbers were able to be computed (full table shown in Table 10). For decisive-only comparisons, the Alpaca win rate shifted only -4.2 percentage points (pp for short) from Checkpoint 1 to Checkpoint 2. In addition, shown in Table 5, the Completeness dimension shifted a mere -0.12 points between the two checkpoints. This indicates ***minimal catastrophic forgetting*** *after* Stage 2 supporting the idea that the model largely retained its general instruction-following capabilities while comprehending JSON-specific behaviors for outputs.
+
+On other note, Correctness and Hallucination Risk dimensions essentially remained unchanged across Checkpoints 1 and Checkpoint 2 having delta change of 0.00 and 0.03, respectively. This suggests that factual reliability remained consistent by Stage 2. The only "worry" were the Clarity and Completeness dimensions having a slight dip in the outputs, but in actuality, the model was learning to produce shorter, more constrained outputs only really affecting the presentation qualities.
+
+The hypothesis of this experiment held: a conservative learning rate (2e-5), same LoRA rank across both stages, and strong domain separation between Alpaca prose and JSON data all contributed to keeping forgetting minimal. However, while the two domains are different *enough* that Stage 2 did not fully overwrite Stage 1's weights, rather, they coexist in the LoRA adapters.
 
 ### 3.3 Implications for Sequential Fine-Tuning
 
-This experiment provides empirical evidence that a conservative two-stage sequential fine-tuning strategy largely avoids catastrophic forgetting under realistic HPC constraints.
+This experiment provides empirical evidence that a conservative two-stage sequential fine-tuning strategy largely avoids catastrophic forgetting under realistic HPC constraints. Because the experimental model was conducted via two sequential stages, first on general instructions and then on specialized tasks, there was enough distinct data between stages 1 and 2 that the two didn't interfere with each other. This is proven by the -4.2 pp trade-off in the general task performance through Alpaca.
+
+That said, the results show that if a model is already yielding good results at a certain stage, the next stage of training likely will not improve much. Granted, this experiment only consisted of two stages, but this outcome may happen for experiments with more than said two stages. The Phi-3.5-Mini model already handled structured outputs after stage 1, so in the end, stage 2 really only acted as the "room for improvement" stage. This implies that sequential fine-tuning would work best when a stage teaches a new skill the model never had or learned from previous stages.
 
 </details>
 
